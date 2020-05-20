@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false,
     },
     month: {
-      type: DataTypes.STRING(1),
+      type: DataTypes.STRING(2),
       allowNull: false
     },
     stateAbbrev: {

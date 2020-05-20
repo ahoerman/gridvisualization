@@ -1,11 +1,36 @@
-//seeder file written by Letty Bedard
-//expects data to be in single .tsv file
+// sort by energy Source
+
+// result =
+// [
+//   [all rows with energy source 1 (ie total)]
+//   [all rows with energy source 2]
+//   [etc]
+// ]
+
+// Loop through array 
+// for each type in array 
+// insert all items in inner array with energySource type
+
+// using quicksort or mergesort?
+
+// each row (obj with col&val pairs)
+//   check each result[i] {
+//     if row.energySource = result[i][0].energySource
+//       then result[i].push(row)
+//   }
+//   else result.push([row])
+
+// dump result into db
+// result.foreach((engSrcGrp) => {
+//   insert engSrcGrp[O].energySource into energySource table, grab id for fk
+//   engSrcGrp.foreach((row) => {
+//     insert into table with energySource fk 
+//   });
+// });
 
 require("dotenv").config({ path: __dirname + "/../"});
 
 process.env.NODE_ENV = "development";
-
-const fileLocation = "/../data/test_generation_2019.tsv";
 
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
@@ -13,9 +38,11 @@ const db = require("../models");
 
 let results = []; //will be array of arrays of objects
 
-let data = []; //will be parsed data from file 
+//read in the file
+let data = [
+]; 
 
-fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
+fs.readFile(__dirname + "/../data/test_generation_2019.tsv", "utf8", (err, input) => {
   if (err) {
     console.error(err);
     return;
