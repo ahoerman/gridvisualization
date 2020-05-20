@@ -58,3 +58,15 @@ var stateIDcode = states[inputState];
 
 console.log('Clicked on state ' + inputState);
 console.log('tanias stateID for ' + inputState + ' = ' + stateIDcode);
+
+var popLinkStart = 'https://api.census.gov/data/2019/pep/charagegroups?get=POP&for=state:'
+var popLinkEnd = '&key=e4b43bc429a5c0ef1ae5cd388b9e6873e488e775'
+var popLinkMiddle = stateIDcode
+var popLink = popLinkStart + popLinkMiddle + popLinkEnd
+
+var obj;
+
+fetch(popLink)
+    .then(res => res.json())
+    .then(data => obj = data)
+    .then(() => console.log(obj))
