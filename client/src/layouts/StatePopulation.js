@@ -1,72 +1,87 @@
-var inputState = 'AL';
-
-var states = {
+let states = {
     'AL': '01',
     'AK': '02',
-    'AZ': '03',
-    'AR': '04',
-    'CA': '05',
-    'CO': '06',
-    'CT': '07',
-    'DE': '08',
-    'DC': '09',
-    'FL': '10',
-    'GA': '11',
-    'HI': '12',
-    'ID': '13',
-    'IL': '14',
-    'IN': '15',
-    'IA': '16',
-    'KS': '17',
-    'KY': '18',
-    'LA': '19',
-    'ME': '20',
-    'MD': '21',
-    'MA': '22',
-    'MI': '23',
-    'MN': '24',
-    'MS': '25',
-    'MO': '26',
-    'MT': '27',
-    'NE': '28'
-    'NV': '29',
-    'NH': '30',
-    'NJ': '31',
-    'NM': '32',
-    'NY': '33',
-    'NC': '34',
-    'ND': '35',
-    'OH': '36',
-    'OK': '37',
-    'OR': '38',
-    'PA': '39',
-    'RI': '40',
-    'SC': '41',
-    'SD': '42',
-    'TN': '43',
-    'TX': '44',
-    'UT': '45',
-    'VT': '46',
-    'VA': '47',
-    'WA': '48',
-    'WV': '49',
-    'WI': '50',
-    'WY': '51'
+    'AZ': '04',
+    'AR': '05',
+    'CA': '06',
+    'CO': '08',
+    'CT': '09',
+    'DE': '10',
+    'DC': '11',
+    'FL': '12',
+    'GA': '13',
+    'HI': '15',
+    'ID': '16',
+    'IL': '17',
+    'IN': '18',
+    'IA': '19',
+    'KS': '20',
+    'KY': '21',
+    'LA': '22',
+    'ME': '23',
+    'MD': '24',
+    'MA': '25',
+    'MI': '26',
+    'MN': '27',
+    'MS': '28',
+    'MO': '29',
+    'MT': '30',
+    'NE': '31',
+    'NV': '32',
+    'NH': '33',
+    'NJ': '34',
+    'NM': '35',
+    'NY': '36',
+    'NC': '37',
+    'ND': '38',
+    'OH': '39',
+    'OK': '40',
+    'OR': '41',
+    'PA': '42',
+    'RI': '44',
+    'SC': '45',
+    'SD': '46',
+    'TN': '47',
+    'TX': '48',
+    'UT': '49',
+    'VT': '50',
+    'VA': '51',
+    'WA': '53',
+    'WV': '54',
+    'WI': '55',
+    'WY': '56'
 }
 
-var stateIDcode = states[inputState];
+// TUrn this into a function, that accepts the selected state as an argument
 
-console.log('Clicked on state ' + inputState);
-console.log('tanias stateID for ' + inputState + ' = ' + stateIDcode);
+const handleDataFetch = async (state) => {
+    var stateIDcode = states[state];
 
-var popLinkStart = 'https://api.census.gov/data/2019/pep/charagegroups?get=POP&for=state:'
-var popLinkEnd = '&key=e4b43bc429a5c0ef1ae5cd388b9e6873e488e775'
-var popLinkMiddle = stateIDcode
-var popLink = popLinkStart + popLinkMiddle + popLinkEnd
+    // console.log('Clicked on state ' + state);
+    // console.log('tanias stateID for ' + state + ' = ' + stateIDcode);
 
-var obj;
+    var popLinkStart = 'https://api.census.gov/data/2019/pep/charagegroups?get=POP&for=state:'
+    var popLinkEnd = '&key=e4b43bc429a5c0ef1ae5cd388b9e6873e488e775'
+    var popLinkMiddle = stateIDcode
+    var popLink = popLinkStart + popLinkMiddle + popLinkEnd
 
-fetch(popLink)
-    .then(res => res.json())
-    .then(data => obj = data)
-    .then(() => console.log(obj))
+    var dataArray;
+    var population;
+
+    await fetch(popLink)
+        .then(res => res.json())
+        .then(data => {
+            dataArray = data;
+            population = dataArray[1][0];
+
+        })
+        .catch(err => console.log(err))
+
+    return population;
+}
+
+export default handleDataFetch;
+
+
+
+
