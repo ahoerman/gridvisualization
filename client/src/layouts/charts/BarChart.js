@@ -27,7 +27,7 @@ const state = {
     },
     {
         label: ['Other'],
-        backgroundColor: '#D138BF',
+        backgroundColor: '#6B1162',
         data: [44, 24]
     },
     {
