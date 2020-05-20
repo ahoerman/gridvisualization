@@ -1,6 +1,6 @@
 import stateArray from "./StateArray";
 
-const colorArray = ["#6C4385", "#807523", "#016C0B", "#2210D3", "#782b2b", "#822F2B", ];
+const colorArray = ["#858484", "#F2F2F2", "#BDC2CA", "#696E75", "#CFCFCB", "#787D83", ];
 
 
 // console.log(stateArray);
