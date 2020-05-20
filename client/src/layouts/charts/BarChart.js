@@ -7,32 +7,32 @@ const state = {
   datasets: [
     {
         label: ['Coal'],
-        backgroundColor: '#B21F00',
+        backgroundColor: '#E03440',
         data: [65, 32]
     },
     {
         label: ['Pumped Storage'],
-        backgroundColor: '#C9DE00',
+        backgroundColor: '#47A973',
         data: [59,44]
     },
     {
         label: ['Hyrdoelectric Conventional'],
-        backgroundColor: '#2FDE00',
-        data: [44, 39]
+        backgroundColor: '#3288B5',
+        data: [80, 81]
     },
     {
         label: ['Nuclear'],
-        backgroundColor: '#00A6B4',
+        backgroundColor: '#FCD471',
         data: [81, 56]
     },
     {
         label: ['Other'],
-        backgroundColor: '#6800B4',
-        data: [80, 81]
+        backgroundColor: '#D138BF',
+        data: [44, 24]
     },
     {
         label: ['Natural Gas'],
-        backgroundColor: '#D138BF',
+        backgroundColor: '#003049',
         data: [56, 44]
     },
     {
