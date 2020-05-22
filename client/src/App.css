@@ -1,13 +1,14 @@
   .App {
       background-color: #FFFFFF;
-      width: 100vmax;
   }
 
   .HeaderDiv {
     background-color: #FFFFFF;
+      color: #006837;
       text-align: center;
       padding: 0rem;
       margin: 0rem;
+      line-height: .5rem;
   }
 
   .headerLogo {
@@ -24,6 +25,29 @@
   .MapDiv {
     background-color: #F2F2F2;
       text-align: center;
+  }
+
+  .mainTitle {
+    color: #006837;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .buttonDiv {
+    float: right;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: #F2F2F2;
+  }
+
+  .button {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color: #F2F2F2;
+  }
+
+  .buttonTitle {
+    margin: 2rem;
   }
 
   path {
