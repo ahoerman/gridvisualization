@@ -27,7 +27,7 @@ function App() {
       <Header className="header" />
       <Container fluid>
         <Row className="MapDiv justify-content-center">
-          <Col xs={8} md={6}>
+          <Col xs={0} md={8}>
             <USAMap customize={InitialStates()} onClick={mapHandler} />
           </Col>
           <Col xs={2} md={2} className="float-content-right">
