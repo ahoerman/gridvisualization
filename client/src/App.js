@@ -11,8 +11,8 @@ function App() {
   
   const mapHandler = async (event) => {
     const targetState = event.target.dataset.name;
-    const population = await handleDataFetch(event.target.dataset.name);
-    console.log('You clicked on ' + targetState + ' and the population is: ' + population);
+    // const population = await handleDataFetch(event.target.dataset.name);
+    // console.log('You clicked on ' + targetState + ' and the population is: ' + population);
   };
 
   return (
