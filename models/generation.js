@@ -6,22 +6,26 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true,
       autoIncrement: true
     },
-    year: {
-      type: DataTypes.STRING(4),
-      allowNull: false,
-    },
-    month: {
-      type: DataTypes.STRING(1),
-      allowNull: false
-    },
+    // year: {
+    //   type: DataTypes.STRING(4),
+    //   allowNull: false,
+    // },
+    // month: {
+    //   type: DataTypes.STRING(2),
+    //   allowNull: false
+    // },
     stateAbbrev: {
       type: DataTypes.STRING(2),
       allowNull: false
     },
-    prodType: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
+    // prodType: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
+    // energySource: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false
+    // },
     amount: {
       type: DataTypes.INTEGER,
       allowNull: false

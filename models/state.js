@@ -8,7 +8,6 @@ module.exports = function(sequelize, DataTypes) {
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false,
       len: [1]
     },
     abbrev: {
@@ -16,8 +15,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false,
     },
     population: {
-      type: DataTypes.INTEGER,
-      allowNull: false
+      type: DataTypes.INTEGER
     }   
   });
 
