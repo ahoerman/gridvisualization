@@ -1,11 +1,17 @@
 //seeder file written by Letty Bedard
 //expects data to be in single .tsv file
 
+// Once file is read data is first sorted into and array of arrays of like state AND energy source. Then those arrays are reduced to an array of single objects with the total of that type of energy source per state. 
+
+//***FOR LATER***
+//Finally, that array of objects is sorted into an array of arrays of objects where the objects all have the same energy source (to save DB calls)
+
+
 require("dotenv").config({ path: __dirname + "/../"});
 
 process.env.NODE_ENV = "development";
 
-const fileLocation = "/../data/test_generation_2019.tsv";
+const fileLocation = "/../data/2019_generation_all.tsv";
 
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
@@ -29,13 +35,6 @@ fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
     delimiter: "\t"
   });
 
-  // const filteredData = data.filter((row) => {
-  //   return row["TYPE OF PRODUCER"] === "Total Electric Power Industry"
-  // });
-
-  // console.log("FILTERED FOR TOTAL");
-  // console.table(filteredData)
-
   data.filter((row) => {
     return row["TYPE OF PRODUCER"] === "Total Electric Power Industry" //we only want the total industry
   }).forEach((row) => {
@@ -53,8 +52,6 @@ fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
       results.push([row]);
     }
   });
-  // console.log("SORTED INTO ARRAY OF ARRAYS (LIKE STATE/SOURCE TOGETHER)");
-  // console.table(JSON.stringify(results));
   
   reducedResults = 
     results.map((stateSourceArray) => {
@@ -76,10 +73,6 @@ fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
       return singleSourceStateObj;
   });    
 });
-
-// console.log("SINGLE SOURCE PER STATE")
-// console.log(JSON.stringify(reducedResults));
-
 
 const seedMe = async () => {
   console.log(`\n reduced results in seedme \n`);
