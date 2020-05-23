@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Header() {
   return (
     <Container fluid>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" md={3} className="AppleseedLogoNavbar">
         <Navbar.Brand href="#home">
           <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo"  className="headerLogo d-inline-block align-top"/>
         </Navbar.Brand> 

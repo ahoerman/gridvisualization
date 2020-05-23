@@ -18,12 +18,12 @@
   }
 
   .FooterDiv {
-    background-color: #FFFFFF;
+    background-color: #f2f2f2;
       text-align: center;
   }
 
   .MapDiv {
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
       text-align: center;
   }
 
@@ -37,13 +37,13 @@
     float: right;
     margin-bottom: 1rem;
     font-size: 2rem;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
   }
 
   .button {
     margin-bottom: 1rem;
     font-size: 2rem;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
   }
 
   .button:hover {
@@ -63,4 +63,8 @@
   path:hover {
       opacity: 0.40;
       cursor: pointer;
+  }
+
+  .AppleseedLogoNavbar {
+    background-color: #F2F2F2;
   }
