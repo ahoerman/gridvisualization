@@ -204,3 +204,21 @@ const stateData = [
         "POPESTIMATE2019": 578759
     }
 ];
+
+const getPopData = (state) => {
+    const statePopObj = stateData.filter((item) => {
+        for (let key in item) {
+            const stateString = state.toString()
+            if (item[key] === stateString) {
+                return item[key]
+            }
+        }
+    });
+    
+    const popNumber = statePopObj[0].POPESTIMATE2019
+    console.log('getPopData: ', statePopObj[0].POPESTIMATE2019);
+    return popNumber;
+}
+
+export default getPopData;
+
