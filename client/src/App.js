@@ -5,9 +5,7 @@ import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import StateDoughnutChart from "./layouts/charts/DoughnutChart";
 import StateBarChart from "./layouts/charts/BarChart";
-import './App.css';
-import ClickHandler from './layouts/ClickHandler';
-
+import './App.css'
 // import ClickHandler from './layouts/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './layouts/TopTenButtons';
@@ -46,10 +44,6 @@ import API from "./util/API";
     <div className="App">
       <Header className="header" />
       <Container fluid>
-
-        <Row className="MapDiv d-flex d-sm-none justify-content-center">
-          <Col md={10} lg={8}>
-            <USAMap customize={InitialStates()} onClick={mapHandler} />
 
         <Row className="MapDiv justify-content-center">
           <Col xs={0} md={8}>
