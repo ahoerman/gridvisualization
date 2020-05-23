@@ -1,4 +1,5 @@
 import '../App.css';
+import getPopData from './StatePopulation'
 
 let pickedStates = [];
 
@@ -15,17 +16,17 @@ function MapClickHandler(currentState, state) {
     // this.setState(state, props) => {
     //     setState{currentState: fill: "#FFFF00"}
     // }
-
        
     if (pickedStates.includes(currentState)) {
         console.log ("already picked, so not added again");
     } else {
-        pickedStates.push(currentState);
-    }
+        const population = getPopData(currentState);
+        pickedStates.push({currentState, population});
+    };
 
     console.log("In clickhandler, this shows the array of clicked states")
     console.log(pickedStates);
-
+    
 
   return MapClickHandler;
 }
