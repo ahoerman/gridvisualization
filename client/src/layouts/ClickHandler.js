@@ -1,5 +1,6 @@
 import '../App.css';
 
+
 let pickedStates = [];
 
 
@@ -15,7 +16,7 @@ function MapClickHandler(currentState, state) {
     // this.setState(state, props) => {
     //     setState{currentState: fill: "#FFFF00"}
     // }
-
+    
        
     if (pickedStates.includes(currentState)) {
         console.log ("already picked, so not added again");
@@ -25,7 +26,7 @@ function MapClickHandler(currentState, state) {
 
     console.log("In clickhandler, this shows the array of clicked states")
     console.log(pickedStates);
-
+    
 
   return MapClickHandler;
 }
