@@ -46,6 +46,11 @@
     background-color: #F2F2F2;
   }
 
+  .button:hover {
+    color: #ffFF00;
+    opacity: 0.75;
+  }
+
   .buttonTitle {
     margin: 2rem;
   }

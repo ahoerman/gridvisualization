@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 import { Button, ButtonGroup } from 'react-bootstrap';
-import { Navbar, Container, Row, Col} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 
 // get fontawesome imports
 import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt } from "@fortawesome/free-solid-svg-icons";

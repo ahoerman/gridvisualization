@@ -7,7 +7,7 @@ import StateDoughnutChart from "./layouts/charts/DoughnutChart";
 import StateBarChart from "./layouts/charts/BarChart";
 import './App.css';
 import ClickHandler from './layouts/ClickHandler';
-import { Grid, Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './layouts/TopTenButtons';
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
     <div className="App">
       <Header className="header" />
       <Container fluid>
-        <Row className="MapDiv justify-content-center">
-          <Col xs={0} md={8}>
+        <Row className="MapDiv d-flex d-sm-none justify-content-center">
+          <Col md={10} lg={8}>
             <USAMap customize={InitialStates()} onClick={mapHandler} />
           </Col>
           <Col xs={2} md={2} className="float-content-right">
