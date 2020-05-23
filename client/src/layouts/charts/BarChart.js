@@ -2,6 +2,13 @@ import React from 'react';
 import {Bar} from 'react-chartjs-2';
 import "./chart.css";
 
+// const data = [{
+// id:
+// stateAbbrev:
+// foreign key
+
+// }]
+
 const state = {
     labels: ['Maine', 'New Hampshire'],
   datasets: [
