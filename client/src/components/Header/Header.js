@@ -1,6 +1,6 @@
 import React from "react";
-import '../App.css';
-import AppleseedInitiativeRingTextLogo2 from '../AppleseedInitiativeRingTextLogo2.png';
+import './header.css';
+import AppleseedInitiativeRingTextLogo2 from '../../AppleseedInitiativeRingTextLogo2.png';
 import { Navbar, Container, Row, Col} from 'react-bootstrap';
 
 // get fontawesome imports
