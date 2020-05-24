@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
-import AppleseedInitiativeRingTextLogo2 from '../../AppleseedInitiativeRingTextLogo2.png';
-import { Navbar, Container, Row, Col} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
+import NavbarTop from "./NavBarTop";
 
 // get fontawesome imports
 import { faCheckSquare, faBolt } from "@fortawesome/free-solid-svg-icons";
@@ -9,12 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Header() {
   return (
-    <Container fluid>
-      <Navbar bg="dark" variant="dark" md={3} className="AppleseedLogoNavbar">
-        <Navbar.Brand href="#home">
-          <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo"  className="headerLogo d-inline-block align-top"/>
-        </Navbar.Brand> 
-      </Navbar>
+    <>
+      <NavbarTop />
     <div className = "HeaderDiv">
         <Row>
           <Col>
@@ -27,7 +23,7 @@ function Header() {
           </Col>
         </Row>
     </div>
-    </Container>
+    </>
   );
 }
 

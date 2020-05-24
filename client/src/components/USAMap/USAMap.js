@@ -19,7 +19,7 @@ const USAMap = () => {
               .catch(err => console.log(err));
         };
     return (
-          <Col xs={0} md={8}>
+          <Col>
             <ReactMap customize={InitialStates()} onClick={handleStateClick} />
           </Col>
     )
