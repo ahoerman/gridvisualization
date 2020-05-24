@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
-import StateDoughnutChart from "./layouts/charts/DoughnutChart";
-import StateBarChart from "./layouts/charts/BarChart";
+import StateDoughnutChart from "./components/charts/DoughnutChart";
+import StateBarChart from "./components/charts/BarChart";
 import './App.css';
 // import ClickHandler from './layouts/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';
@@ -11,9 +11,6 @@ import ChartContextProvider from "./components/contextProviders/ChartContextProv
 import USAMap from './components/USAMap';
 
   function App() {
-
-    // const [chosenStates, setChosenStates] = useState([]);
-    // const [stateInfoSearch, setStateSearch] = useState("");
 
   console.log("render app")
   return (
@@ -36,8 +33,6 @@ import USAMap from './components/USAMap';
         </Row>
         </>
         </ChartContextProvider>
-
-
       </Container>
       <Footer />
     </div>
