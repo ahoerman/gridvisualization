@@ -11,19 +11,26 @@ require("dotenv").config({ path: __dirname + "/../"});
 
 process.env.NODE_ENV = "development";
 
-const fileLocation = "/../data/2019_generation_all.tsv";
+const fileLocation = "/../data/";
+const year = "2017";
 
 const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
 const db = require("../models");
 
-let results = []; //will be array of arrays of objects
-
-let reducedResults = []; //will be array of objects
-
 let data = []; //will be parsed data from file 
 
-fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
+let results = []; //will be array of arrays of objects (from group sorting)
+
+let reducedResults = []; //will be array of objects from generation data
+
+// let stateInfo = new Map(); //will be array of objects from state data
+let stateData = []; //will be array of objects from state data
+
+let stateInfo = {}; //will be obj with abbrev:id pairs
+
+//read and parse generation
+fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (err, input) => {
   if (err) {
     console.error(err);
     return;
@@ -74,24 +81,56 @@ fs.readFile(__dirname + fileLocation, "utf8", (err, input) => {
   });    
 });
 
+//read and parse state data
+fs.readFile(__dirname + fileLocation + year + "_state_pop.tsv", "utf8", (err, input) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  stateData = parse(input, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: "\t"
+  });
+});
+
+let errors = [];
+
 const seedMe = async () => {
-  console.log(`\n reduced results in seedme \n`);
-  console.log(reducedResults);
+  //fill state table first, for linking to others
+  for (const { State, Abbrev, Population } of stateData) {
+    await db.State.create({
+      fullName: State,
+      abbrev: Abbrev,
+      population: Population
+    }).then((dbState) => {
+      // console.log(JSON.stringify(dbState));
+      // console.log(`id: ${dbState.id}`);
+      // console.log(`abbrev: ${dbState.abbrev}`);
+
+      stateInfo[dbState.abbrev] = dbState.id;
+
+      // stateInfo.set(dbState.abbrev, dbState.id);
+    });
+  };
+
+  // console.table(stateInfo);
+
   for (const element of reducedResults) {
     //console.log(result);
     await db.EnergySource.findOrCreate({
       where: {
         typeName: element["ENERGY SOURCE"]
       }
-    }).then(async (gotIt) => {
-      console.log("result of findOrCreate: ");
-      console.log(JSON.stringify(gotIt));
-      console.log(`grab the fk: ${gotIt[0]["id"]}`);
-      await db.Generation.create({
-        stateAbbrev: element["STATE"],
-        EnergySourceId: gotIt[0]["id"],
-        amount: element["GENERATION (Megawatthours)"]
-      });
+    }).then(async (engId) => {
+      if (stateInfo[element["STATE"]]) {
+        await db.Generation.create({
+          StateId: stateInfo[element["STATE"]],
+          EnergySourceId: engId[0]["id"],
+          amount: element["GENERATION (Megawatthours)"]
+        });
+      }
     });
   }
 };
