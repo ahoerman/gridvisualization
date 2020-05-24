@@ -46,7 +46,7 @@ import API from "./util/API";
       <Container fluid>
 
         <Row className="MapDiv justify-content-center">
-          <Col xs={0} md={8}>
+          <Col xs={0} md={10}>
             <USAMap customize={InitialStates()} onClick={handleStateClick} />
           </Col>
           <Col xs={2} md={2} className="float-content-right">
