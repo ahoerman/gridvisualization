@@ -18,6 +18,7 @@ module.exports = function(sequelize, DataTypes) {
 
   EnergySource.associate = function(models){
     EnergySource.hasMany(models.Generation);
+    EnergySource.hasMany(models.Co2Emissions);
   };
 
   return EnergySource;
