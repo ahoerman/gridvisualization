@@ -6,26 +6,6 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true,
       autoIncrement: true
     },
-    // year: {
-    //   type: DataTypes.STRING(4),
-    //   allowNull: false,
-    // },
-    // month: {
-    //   type: DataTypes.STRING(2),
-    //   allowNull: false
-    // },
-    stateAbbrev: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    // prodType: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false
-    // },
-    // energySource: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false
-    // },
     amount: {
       type: DataTypes.INTEGER,
       allowNull: false
@@ -33,17 +13,11 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   Generation.associate = function(models){
-    // Generation.belongsTo(models.State, {
-    //   foreignKey: {
-    //     allowNull: false
-    //   }
-    // });
-
-    // Generation.belongsTo(models.ProdType, {
-    //   foreignKey: {
-    //     allowNull: false
-    //   }
-    // });
+    Generation.belongsTo(models.State, {
+      foreignKey: {
+        // allowNull: false
+      }
+    });
 
     Generation.belongsTo(models.EnergySource, {
       foreignKey: {
