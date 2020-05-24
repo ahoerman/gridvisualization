@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from "./layouts/Header";
-import Footer from "./layouts/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import StateDoughnutChart from "./components/charts/DoughnutChart";
 import StateBarChart from "./components/charts/BarChart";
 import './App.css';
 // import ClickHandler from './layouts/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';
-import TopTenButtons from './layouts/TopTenButtons';
+import TopTenButtons from './components/TopTenButtons/TopTenButtons';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
 import USAMap from './components/USAMap';
 
