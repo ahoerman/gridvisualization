@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
-import StateDoughnutChart from "./layouts/charts/DoughnutChart";
-import StateBarChart from "./layouts/charts/BarChart";
+import StateDoughnutChart from "./components/charts/DoughnutChart";
+import StateBarChart from "./components/charts/BarChart";
 import './App.css';
 // import ClickHandler from './layouts/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';

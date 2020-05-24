@@ -15,7 +15,7 @@ const USAMap = () => {
               // Update the appropriate state
             const value = event.target.dataset.name;
             API.getStateInfo(value)
-              .then(res => setChosenStates(res.data))
+              .then(res => console.log(res.data))
               .catch(err => console.log(err));
         };
     return (
