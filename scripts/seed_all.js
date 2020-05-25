@@ -18,19 +18,29 @@ const fs = require("fs");
 const parse = require("csv-parse/lib/sync");
 const db = require("../models");
 
+let errors = []; 
+
 let data = []; //will be parsed data from file 
 
 let results = []; //will be array of arrays of objects (from group sorting)
 
 let reducedResults = []; //will be array of objects from generation data
 
-// let stateInfo = new Map(); //will be array of objects from state data
+let co2Data = []; //will be array of ojbects from co2 data
+
 let stateData = []; //will be array of objects from state data
 
-let stateInfo = {}; //will be obj with abbrev:id pairs
+let stateInfo = {}; //will be obj with abbrev:id and fullName:id pairs
+// let stateInfo = new Map(); //will be array of objects from state data
+
+let nrgSrcObj = {}; //for storing source:id
+
+let nrgId; //where we will store energy id, new or not
+
+
 
 //read and parse generation
-fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (err, input) => {
+fs.readFile(__dirname + fileLocation + "test_generation.tsv", "utf8", (err, input) => {
   if (err) {
     console.error(err);
     return;
@@ -95,42 +105,72 @@ fs.readFile(__dirname + fileLocation + year + "_state_pop.tsv", "utf8", (err, in
   });
 });
 
-let errors = [];
+//read and parse co2 data
+fs.readFile(__dirname + fileLocation + year + "_co2_state.tsv", "utf8", (err, input) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  co2Data = parse(input, {
+    columns: true,
+    skip_empty_lines: true,
+    delimiter: "\t"
+  });
+});
+
+
 
 const seedMe = async () => {
-  //fill state table first, for linking to others
+  //fill state table first, for linking to others use stateInfo
   for (const { State, Abbrev, Population } of stateData) {
     await db.State.create({
       fullName: State,
       abbrev: Abbrev,
       population: Population
-    }).then((dbState) => {
-      // console.log(JSON.stringify(dbState));
-      // console.log(`id: ${dbState.id}`);
-      // console.log(`abbrev: ${dbState.abbrev}`);
-
-      stateInfo[dbState.abbrev] = dbState.id;
-
+    }).then(({ fullName, abbrev, id }) => {
+      stateInfo[abbrev] = id;
+      stateInfo[fullName] = id;
       // stateInfo.set(dbState.abbrev, dbState.id);
     });
   };
 
-  // console.table(stateInfo);
-
   for (const element of reducedResults) {
-    //console.log(result);
-    await db.EnergySource.findOrCreate({
-      where: {
+    if (!nrgSrcObj[element["ENERGY SOURCE"]]) {
+      await db.EnergySource.create({
         typeName: element["ENERGY SOURCE"]
-      }
-    }).then(async (engId) => {
-      if (stateInfo[element["STATE"]]) {
-        await db.Generation.create({
-          StateId: stateInfo[element["STATE"]],
-          EnergySourceId: engId[0]["id"],
-          amount: element["GENERATION (Megawatthours)"]
-        });
-      }
+      }).then(({ id, typeName }) => {
+        nrgSrcObj[typeName] = id;
+        nrgId = id;
+      });
+    }
+    else {
+      nrgId = nrgSrcObj[element["ENERGY SOURCE"]];
+    }
+
+    await db.Generation.create({
+      StateId: stateInfo[element["STATE"]],
+      EnergySourceId: nrgId,
+      amount: element["GENERATION (Megawatthours)"]
+    });  
+  }
+
+  for (const row of co2Data) {
+    console.log(JSON.stringify(row));
+    await db.Co2Emissions.create({
+      StateId: stateInfo[row.State],
+      EnergySourceId: nrgSrcObj["Coal"],
+      amount: row["Coal"]
+    });
+    await db.Co2Emissions.create({
+      StateId: stateInfo[row.State],
+      EnergySourceId: nrgSrcObj["Petroleum"],
+      amount: row["Petroleum"]
+    });
+    await db.Co2Emissions.create({
+      StateId: stateInfo[row.State],
+      EnergySourceId: nrgSrcObj["Natural Gas"],
+      amount: row["Natural Gas"]
     });
   }
 };
