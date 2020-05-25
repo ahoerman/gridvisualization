@@ -4,9 +4,9 @@ import Footer from "./components/Footer/Footer";
 import StateDoughnutChart from "./components/charts/DoughnutChart";
 import StateBarChart from "./components/charts/BarChart";
 import './App.css';
-import ClickHandler from './util/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './components/TopTenButtons/TopTenButtons';
+import MobileInputStateDropdown from './components/MobileInput/MobileInputStateDropdown';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
 import USAMap from './components/USAMap';
 import useWindowSize from "./hooks/useWindowSize";
@@ -20,6 +20,7 @@ import useWindowSize from "./hooks/useWindowSize";
       <Container fluid>
         <ChartContextProvider>
         <>
+
         { width > 900 ? 
         <Row>
           <Col md={10}>
@@ -30,9 +31,10 @@ import useWindowSize from "./hooks/useWindowSize";
           </Col>
         </Row>
         : <Row>
-          <h1 className = "text-center">This will be the Mobile Application</h1>
+          < MobileInputStateDropdown />
         </Row>
         } 
+
         <Row>
           <StateDoughnutChart/>
         </Row>
@@ -40,6 +42,7 @@ import useWindowSize from "./hooks/useWindowSize";
           <StateBarChart />
         </Row>
         </>
+        
         </ChartContextProvider>
       </Container>
       <Footer />
