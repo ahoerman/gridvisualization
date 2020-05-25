@@ -1,7 +1,7 @@
 import React from 'react';
 import {Doughnut} from 'react-chartjs-2';
 import "./chart.css";
-import ChartContext from "../../util/ChartContext";
+import ChartContext from "../../Context/ChartContext";
 
 
 export default class StateDoughnutChart extends React.Component {

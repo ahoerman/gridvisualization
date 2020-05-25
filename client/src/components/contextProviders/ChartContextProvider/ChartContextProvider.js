@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ChartContext from "../../../util/ChartContext";
+import ChartContext from "../../../Context/ChartContext";
 
 const ChartContextProvider = ({ children }) => {
     const [chosenStates, setChosenStates] = useState([]);

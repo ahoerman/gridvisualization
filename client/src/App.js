@@ -4,27 +4,37 @@ import Footer from "./components/Footer/Footer";
 import StateDoughnutChart from "./components/charts/DoughnutChart";
 import StateBarChart from "./components/charts/BarChart";
 import './App.css';
-// import ClickHandler from './layouts/ClickHandler';
 import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './components/TopTenButtons/TopTenButtons';
+import MobileInputStateDropdown from './components/MobileInput/MobileInputStateDropdown';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
 import USAMap from './components/USAMap';
+import useWindowSize from "./hooks/useWindowSize";
 
   function App() {
-
+  const { width} = useWindowSize();
   console.log("render app")
   return (
     <div className="App">
-      <Header className="header" />
+      <Header/>
       <Container fluid>
         <ChartContextProvider>
         <>
-        <Row className="MapDiv justify-content-center">
-        <USAMap/>
-          <Col xs={2} md={2} className="float-content-right">
+
+        { width > 900 ? 
+        <Row>
+          <Col md={10}>
+            <USAMap/>
+          </Col>
+          <Col md={2}>
             <TopTenButtons />
           </Col>
         </Row>
+        : <Row>
+          < MobileInputStateDropdown />
+        </Row>
+        } 
+
         <Row>
           <StateDoughnutChart/>
         </Row>
@@ -32,6 +42,7 @@ import USAMap from './components/USAMap';
           <StateBarChart />
         </Row>
         </>
+        
         </ChartContextProvider>
       </Container>
       <Footer />
