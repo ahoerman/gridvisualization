@@ -40,7 +40,7 @@ let nrgId; //where we will store energy id, new or not
 
 
 //read and parse generation
-fs.readFile(__dirname + fileLocation + year + "2017_generation_all.tsv", "utf8", (err, input) => {
+fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (err, input) => {
   if (err) {
     console.error(err);
     return;
