@@ -8,17 +8,29 @@ const HydroModel = require("../models/hydro");
 const CoalModel = require("../models/coal");
 const PetroleumModel = require("../models/petroleum")
 
-router.get("/state", (req, res) => {
-  db.Generation.findAll({
+router.get("/state", async (req, res) => {
+  await db.State.findOne({
     where: {
-    stateAbbrev: (req.query.state),
-  },
-  include: [{
-    model: db.EnergySource
-  }]
-})
-    .then(currentPicked => res.json(currentPicked))
-    .catch(err => res.status(422).end());
+      abbrev: (req.query.state),
+    },
+  }).then(async (dbState) => {
+    console.log(`dbState: ${JSON.stringify(dbState)}`);
+    console.log(`dbState["id"]: ${dbState["id"]}`);
+    await db.Generation.findAll({
+      where: {
+        StateId: dbState["id"]
+      },
+      include: [
+        {all: true}
+      ]
+    }).then((fullJoinedResult) => {
+      console.log(`fullJoinedResult: ${JSON.stringify(fullJoinedResult)}`);
+      return res.json(fullJoinedResult);
+    }).catch((err) => {
+      console.log(`error: ${err}`);
+      res.status(422).end()
+    });
+  })
 });
 
 module.exports = router;
