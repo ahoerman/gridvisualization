@@ -12,7 +12,7 @@ export default class StateBarChart extends React.Component {
         { value.chosenStates.length &&
         <Bar
           data={{
-            labels: [value.chosenStates[0].stateAbbrev],
+            labels: [value.chosenStates[0].State.fullName],
           datasets: [
             {
                 label: [value.chosenStates[1].EnergySource.typeName],
@@ -54,7 +54,7 @@ export default class StateBarChart extends React.Component {
           options={{
             title:{
               display:true,
-              text:`Types of Energy Generation: ${value.chosenStates[0].stateAbbrev}`,
+              text:`Types of Energy Generation: ${value.chosenStates[0].State.fullName}`,
               fontSize:24
             },
             scales: {
