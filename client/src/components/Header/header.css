@@ -2,7 +2,7 @@
     background-color: #FFFFFF;
       color: #006837;
       text-align: center;
-      padding: 1rem;
+      padding: 0rem;
       margin: 1rem;
       height: auto;
   }
@@ -13,7 +13,7 @@
     margin-left: 4rem;
   }
 
-.AppleseedLogoNavbar {
+.NavBarDiv {
     background-color: #F2F2F2;
   }
 

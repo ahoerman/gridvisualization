@@ -9,22 +9,30 @@ import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './components/TopTenButtons/TopTenButtons';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
 import USAMap from './components/USAMap';
+import useWindowSize from "./hooks/useWindowSize";
 
   function App() {
-
+  const { width} = useWindowSize();
   console.log("render app")
   return (
     <div className="App">
-      <Header className="header" />
+      <Header/>
       <Container fluid>
         <ChartContextProvider>
         <>
-        <Row className="MapDiv justify-content-center">
-        <USAMap/>
-          <Col xs={2} md={2} className="float-content-right">
+        { width > 900 ? 
+        <Row>
+          <Col md={10}>
+            <USAMap/>
+          </Col>
+          <Col md={2}>
             <TopTenButtons />
           </Col>
         </Row>
+        : <Row>
+          <h1 className = "text-center">This will be the Mobile Application</h1>
+        </Row>
+        } 
         <Row>
           <StateDoughnutChart/>
         </Row>

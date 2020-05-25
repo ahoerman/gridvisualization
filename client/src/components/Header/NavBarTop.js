@@ -5,7 +5,7 @@ import './header.css';
 
 function NavbarTop() {
   return (
-    <>
+    <div className="NavBarDiv">
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand href="#home"><img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo"  className="headerLogo"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,7 +27,7 @@ function NavbarTop() {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-    </>
+    </div>
   );
 }
 

@@ -13,28 +13,6 @@
     padding: 1rem;
   }
 
-  .buttonDiv {
-    float: right;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    background-color: #FFFFFF;
-  }
-
-  .button {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    background-color: #FFFFFF;
-  }
-
-  .button:hover {
-    color: #ffFF00;
-    opacity: 0.75;
-  }
-
-  .buttonTitle {
-    margin: 2rem;
-  }
-
   path {
       opacity: 0.75;
       pointer-events: all;

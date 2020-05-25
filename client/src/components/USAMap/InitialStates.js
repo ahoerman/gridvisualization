@@ -306,5 +306,4 @@ function InitialStates () {
 
     return StatesObj
   };
-    console.log("in intialStates");
   export default InitialStates;
