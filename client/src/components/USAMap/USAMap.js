@@ -5,6 +5,7 @@ import ChartContext from '../../Context/ChartContext';
 import API from "../../util/API";
 import InitialStates from "./InitialStates";
 
+let pickedStates = [];
 
 const USAMap = () => {
 
@@ -25,6 +26,13 @@ const USAMap = () => {
                 clicked: isSelected
               }
             })
+            if (pickedStates.includes(value)) {
+              pickedStates = pickedStates.filter(item=> item !== value)
+          } else {
+              pickedStates.push(value);
+          };
+          console.log(pickedStates);
+
             console.log(value);
             API.getStateInfo(value)
               .then(res => console.log(res.data))

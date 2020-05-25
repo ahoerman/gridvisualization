@@ -1,4 +1,4 @@
-.buttonDiv {
+.ButtonDiv {
     float: right;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -12,7 +12,7 @@
   }
 
   .button:hover {
-    color: #ffFF00;
+    color: #FFFF00;
     opacity: 0.75;
   }
 
