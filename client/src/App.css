@@ -2,26 +2,6 @@
       background-color: #FFFFFF;
   }
 
-  .HeaderDiv {
-    background-color: #FFFFFF;
-      color: #006837;
-      text-align: center;
-      padding: 0rem;
-      margin: 0rem;
-      line-height: .5rem;
-  }
-
-  .headerLogo {
-    max-width: 400px;
-    margin: 1rem;
-    margin-left: 4rem;
-  }
-
-  .FooterDiv {
-    background-color: #f2f2f2;
-      text-align: center;
-  }
-
   .MapDiv {
     background-color: #FFFFFF;
       text-align: center;
@@ -33,23 +13,6 @@
     padding: 1rem;
   }
 
-  .buttonDiv {
-    float: right;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    background-color: #FFFFFF;
-  }
-
-  .button {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    background-color: #FFFFFF;
-  }
-
-  .buttonTitle {
-    margin: 2rem;
-  }
-
   path {
       opacity: 0.75;
       pointer-events: all;
@@ -58,8 +21,4 @@
   path:hover {
       opacity: 0.40;
       cursor: pointer;
-  }
-
-  .AppleseedLogoNavbar {
-    background-color: #F2F2F2;
   }

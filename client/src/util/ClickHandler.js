@@ -1,6 +1,3 @@
-import '../App.css';
-import getPopData from './StatePopulation'
-
 let pickedStates = [];
 
 
@@ -20,8 +17,7 @@ function MapClickHandler(currentState, state) {
     if (pickedStates.includes(currentState)) {
         console.log ("already picked, so not added again");
     } else {
-        const population = getPopData(currentState);
-        pickedStates.push({currentState, population});
+        pickedStates.push(currentState);
     };
 
     console.log("In clickhandler, this shows the array of clicked states")

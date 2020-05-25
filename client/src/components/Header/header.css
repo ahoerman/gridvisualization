@@ -1,0 +1,27 @@
+.HeaderDiv {
+    background-color: #FFFFFF;
+      color: #006837;
+      text-align: center;
+      padding: 0rem;
+      margin: 1rem;
+      height: auto;
+  }
+
+.headerLogo {
+    height: 4rem;
+    margin: 1rem;
+    margin-left: 4rem;
+  }
+
+.NavBarDiv {
+    background-color: #F2F2F2;
+  }
+
+.NavBarStyle {
+  color: #006837;
+  font-size: 2rem;
+  float: right;
+  columns: 4;
+  justify-content: space-between;
+  text-align: center;
+}
