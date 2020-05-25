@@ -35,7 +35,7 @@ const USAMap = () => {
 
             console.log(value);
             API.getStateInfo(value)
-              .then(res => console.log(res.data))
+              .then(res => setChosenStates(res.data))
               .catch(err => console.log(err));
         };
     return (
