@@ -1,12 +1,6 @@
 const router = require("express").Router();
 const db = require("../models");
-const WindModel = require("../models/wind");
-const SolarModel = require("../models/solar");
-const NuclearModel = require("../models/nuclear");
-const NaturalGasModel = require("../models/naturalgas");
-const HydroModel = require("../models/hydro");
-const CoalModel = require("../models/coal");
-const PetroleumModel = require("../models/petroleum")
+
 
 router.get("/state", async (req, res) => {
   await db.State.findOne({
