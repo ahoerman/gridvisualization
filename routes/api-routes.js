@@ -28,7 +28,7 @@ router.get("/state", async (req, res) => {
 });
   router.get("/consumption/:energyType", async (req, res) => {
     // retrieve type
-    const allowedTypes = ['Wind', 'Coal'];
+    const allowedTypes = ['Wind', 'Solar', 'Hydro', 'Nuclear', 'Natural Gas', 'Petroleum', 'Coal'];
     if (allowedTypes.includes(req.params.energyType)) {
       let query = `
       SELECT
