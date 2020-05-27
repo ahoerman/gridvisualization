@@ -4,12 +4,14 @@ import Footer from "./components/Footer/Footer";
 import StateDoughnutChart from "./components/charts/DoughnutChart";
 import StateBarChart from "./components/charts/BarChart";
 import './App.css';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
 import TopTenButtons from './components/TopTenButtons/TopTenButtons';
 import MobileInputStateDropdown from './components/MobileInput/MobileInputStateDropdown';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
 import USAMap from './components/USAMap';
 import useWindowSize from "./hooks/useWindowSize";
+import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
   function App() {
   const { width} = useWindowSize();
@@ -21,7 +23,11 @@ import useWindowSize from "./hooks/useWindowSize";
         <ChartContextProvider>
         <>
 
-        { width > 900 ? 
+        { width > 900 ?
+        <>
+        <Row>
+        <h3><FontAwesomeIcon icon={faCheckSquare} /> Click on one or more States to see and compare their energy profile</h3>
+        </Row>
         <Row>
           <Col md={10}>
             <USAMap/>
@@ -30,11 +36,13 @@ import useWindowSize from "./hooks/useWindowSize";
             <TopTenButtons />
           </Col>
         </Row>
-        : <Row>
+        </>
+        :  <>
+        <Row>
           < MobileInputStateDropdown />
         </Row>
+        </>
         } 
-
         <Row>
           <StateDoughnutChart/>
         </Row>

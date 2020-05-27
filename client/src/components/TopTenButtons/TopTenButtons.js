@@ -36,7 +36,7 @@ function TopTenButtons() {
         </Row> 
         <ButtonGroup vertical>
             {buttons.map(btn => (
-              <Button onClick={() => receiveConsumers(btn.apiName)} className="button"><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
+              <Button key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)} className="button"><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
             ))}
         </ButtonGroup>
       </Col>
