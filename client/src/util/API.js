@@ -5,5 +5,8 @@ import axios from "axios";
 export default {
   getStateInfo: function(query) {
     return axios.get("/api/state", { params: { state: query }});
+  },
+  getTopConsumers(type) {
+    return axios.get("/api/consumption/" + type);
   }
 };

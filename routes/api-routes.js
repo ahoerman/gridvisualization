@@ -28,7 +28,7 @@ router.get("/state", async (req, res) => {
 });
   router.get("/consumption/:energyType", async (req, res) => {
     // retrieve type
-    const allowedTypes = ['Wind', 'Solar', 'Hydro', 'Nuclear', 'Natural Gas', 'Petroleum', 'Coal'];
+    const allowedTypes = ['Wind', 'Solar Thermal and Photovoltaic', 'Hydroelectric Conventional', 'Nuclear', 'Natural Gas', 'Petroleum', 'Coal', 'Other', 'Petroleum', 'Other Biomass', 'Wood and Wood Derived Fuels', 'Other Gases', 'Pumped Storage', 'Geothermal'];
     if (allowedTypes.includes(req.params.energyType)) {
       let query = `
       SELECT
@@ -40,7 +40,7 @@ router.get("/state", async (req, res) => {
       ORDER BY \`usage\` DESC
       LIMIT 10
       `;
-      const [result, resource] = await db.Sequelize.query(query);
+      const [result, resource] = await db.sequelize.query(query);
       res.json(result);
     } else {
       // error
