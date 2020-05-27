@@ -26,5 +26,26 @@ router.get("/state", async (req, res) => {
     });
   })
 });
+  router.get("/consumption/:energyType", async (req, res) => {
+    // retrieve type
+    const allowedTypes = ['Wind', 'Coal'];
+    if (allowedTypes.includes(req.params.energyType)) {
+      let query = `
+      SELECT
+          g.amount/s.population as "usage",
+          s.abbrev
+      FROM Generations g
+      JOIN EnergySources e ON g.EnergysourceId = e.id AND e.typeName = "${req.params.energyType}"
+      JOIN States s On s.id = g.StateId
+      ORDER BY \`usage\` DESC
+      LIMIT 10
+      `;
+      const [result, resource] = await db.Sequelize.query(query);
+      res.json(result);
+    } else {
+      // error
+      res.status(500).end()
+  }
+});
 
 module.exports = router;
