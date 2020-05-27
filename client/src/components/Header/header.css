@@ -17,6 +17,10 @@
     background-color: #F2F2F2;
   }
 
+.navbar {
+  height: 8rem;
+}
+
 .NavBarStyle {
   color: #006837;
   font-size: 2rem;
