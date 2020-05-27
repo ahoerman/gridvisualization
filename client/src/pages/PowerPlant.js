@@ -1,8 +1,10 @@
 import React from "react";
+import NavBarTop from "../components/Header/NavBarTop";
 
 function PowerPlants() {
   return (
     <div>
+      <NavBarTop />
       <h1>Power Plants Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque

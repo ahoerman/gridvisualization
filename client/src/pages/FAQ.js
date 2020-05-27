@@ -1,8 +1,10 @@
 import React from "react";
+import NavBarTop from "../components/Header/NavBarTop";
 
 function FAQ() {
   return (
     <div>
+      <NavBarTop />
       <h1>FAQ</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque

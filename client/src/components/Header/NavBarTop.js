@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import AppleseedInitiativeRingTextLogo2 from "./AppleseedInitiativeRingTextLogo2.png"
 import React from "react";
 import './header.css';
