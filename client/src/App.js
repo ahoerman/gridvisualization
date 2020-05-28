@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import StateDoughnutChart from "./components/charts/DoughnutChart";
 import StateBarChart from "./components/charts/BarChart";
 import './App.css';
-import { Container, Row, Col, Tab, Tabs} from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from './components/TopTenButtons/TopTenButtons';
 import MobileInputStateDropdown from './components/MobileInput/MobileInputStateDropdown';
 import ChartContextProvider from "./components/contextProviders/ChartContextProvider";
@@ -43,6 +43,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
         </Row>
         </>
         } 
+
         <Row>
           <StateDoughnutChart/>
         </Row>

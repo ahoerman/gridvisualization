@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from 'react';
 import './toptenbuttons.css';
 import { Button, ButtonGroup } from 'react-bootstrap';
 import { Row, Col} from 'react-bootstrap';
 import API from '../../util/API';
+import InitialStates from "../USAMap/InitialStates";
 
 // get fontawesome imports
 import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
+  const [mapColors, setMapColors] = useState(InitialStates())
   const receiveConsumers = (type) => {
     API.getTopConsumers(type).then(res => {
-      console.log(res.data)
+      let topTenCurrent = res.data;
+      console.log(topTenCurrent);
+      topTenCurrent.map(eachState => {
+        let value = eachState.abbrev
+        console.log(value)
+        setMapColors({
+          ...mapColors,
+          [value]: {
+            ...mapColors[value],
+            fill: "#FFFF00"
+          }
+        })
+      })
     })
   }
 
