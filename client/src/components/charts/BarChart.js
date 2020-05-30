@@ -2,6 +2,32 @@ import React from 'react';
 import {Bar} from 'react-chartjs-2';
 import "./chart.css";
 import ChartContext from "../../Context/ChartContext";
+import _ from "lodash";
+
+const fakeData = [
+  {
+  EnergySource1: "coal",
+  amount1: 100,
+  EnergySource2: "hyrdo",
+  amount2: 700,
+  EnergySource3: "natural gas",
+  amount3: 400,
+  EnergySource4: "nuclear",
+  amount4: 600,
+  stateName: "Texas"
+},
+{
+  EnergySource1: "coal",
+  amount1: 700,
+  EnergySource2: "hyrdo",
+  amount2: 300,
+  EnergySource3: "natural gas",
+  amount3: 600,
+  EnergySource4: "nuclear",
+  amount4: 200,
+  stateName: "Arizona"
+},
+]
 
 export default class StateBarChart extends React.Component {
   render() {
@@ -9,31 +35,32 @@ export default class StateBarChart extends React.Component {
       <ChartContext.Consumer>
       { (value) => (
       <div className="StateBarChart">
-        { value.chosenStates.length &&
+        { !(_.isEmpty(value.chosenStates)) &&
+        fakeData.map(eachState => (
         <Bar
           data={{
-            labels: [value.chosenStates[0].State.fullName],
+            labels: [eachState.stateName],
           datasets: [
             {
-                label: [value.chosenStates[1].EnergySource.typeName],
+                label: [eachState.EnergySource1],
                 backgroundColor: '#E03440',
-                data: [value.chosenStates[1].amount]
+                data: [eachState.amount1]
             },
             {
-                label: [value.chosenStates[2].EnergySource.typeName],
+                label: [eachState.EnergySource2],
                 backgroundColor: '#47A973',
-                data: [value.chosenStates[2].amount]
+                data: [eachState.amount2]
             },
             {
-                label: [value.chosenStates[3].EnergySource.typeName],
+                label: [eachState.EnergySource3],
                 backgroundColor: '#3288B5',
-                data: [value.chosenStates[3].amount]
+                data: [eachState.amount3]
             },
-            // {
-            //     label: ['Nuclear'],
-            //     backgroundColor: '#FCD471',
-            //     data: [81, 56]
-            // },
+            {
+                label: [eachState.EnergySource4],
+                backgroundColor: '#FCD471',
+                data: [eachState.amount4]
+            },
             // {
             //     label: ['Other'],
             //     backgroundColor: '#6B1162',
@@ -54,7 +81,7 @@ export default class StateBarChart extends React.Component {
           options={{
             title:{
               display:true,
-              text:`Types of Energy Generation: ${value.chosenStates[0].State.fullName}`,
+              text:`Types of Energy Generation: ${eachState.stateName}`,
               fontSize:24
             },
             scales: {
@@ -72,7 +99,7 @@ export default class StateBarChart extends React.Component {
                 }]
           }
           }}
-        />
+        />))
       }
       </div>
       )}
