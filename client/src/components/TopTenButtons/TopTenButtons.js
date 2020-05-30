@@ -11,23 +11,42 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
   const [mapColors, setMapColors] = useState(InitialStates())
+ 
   const receiveConsumers = (type) => {
     API.getTopConsumers(type).then(res => {
+
       let topTenCurrent = res.data;
       console.log(topTenCurrent);
+
       topTenCurrent.map(eachState => {
-        let value = eachState.abbrev
-        console.log(value)
-        setMapColors({
-          ...mapColors,
-          [value]: {
-            ...mapColors[value],
-            fill: "#FFFF00"
-          }
+        const value = eachState.abbrev;
+        let currentStateData = mapColors[value];
+        console.log(currentStateData);
         })
+
+        // setMapColors({
+        //   ...mapColors,
+        //   [value]: {
+        //     ...currentStateData,
+        //     fill: "#FFFF00",
+        //   }
+        // })
+
+        // if (currentStateData.fill !== "#FFFF00") {
+        //     console.log(currentStateData.fill)
+        // }
+        
+
+        // const createObject = (arr) => {
+        //   const obj = {};
+        //   arr.forEach(elem => obj[elem.abbreviation] = { item: "potato", element: "George" });
+        //   return obj;
+        //   console.log(obj);
+        // }
+       
+
       })
-    })
-  }
+    }
 
   const buttons = [
     { name: 'Wind', icon: faWind, apiName: 'Wind' },
