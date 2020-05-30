@@ -14,7 +14,6 @@ import ChartContainer from "../components/ChartContainer";
 
   function Home() {
   const { width} = useWindowSize();
-  console.log("render app")
   return (
     <div className="App">
       <Header/>
@@ -36,14 +35,7 @@ import ChartContainer from "../components/ChartContainer";
         </Row>
         } 
         <ChartContainer>
-          
         </ChartContainer>
-        <Row>
-          <StateDoughnutChart/>
-        </Row>
-        <Row>
-          <StateBarChart />
-        </Row>
         </>
         
         </ChartContextProvider>
