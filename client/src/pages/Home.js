@@ -10,6 +10,7 @@ import MobileInputStateDropdown from '../components/MobileInput/MobileInputState
 import ChartContextProvider from "../components/contextProviders/ChartContextProvider";
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
+import ChartContainer from "../components/ChartContainer";
 
   function Home() {
   const { width} = useWindowSize();
@@ -34,7 +35,9 @@ import useWindowSize from "../hooks/useWindowSize";
           < MobileInputStateDropdown />
         </Row>
         } 
-
+        <ChartContainer>
+          
+        </ChartContainer>
         <Row>
           <StateDoughnutChart/>
         </Row>

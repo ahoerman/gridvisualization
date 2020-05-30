@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -12,6 +13,15 @@ import USAMap from './components/USAMap';
 import useWindowSize from "./hooks/useWindowSize";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+=======
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavTabs from "./pages/NavTabs";
+import Home from "./pages/Home";
+import FAQ from "./pages/FAQ";
+import PowerPlants from "./pages/PowerPlant";
+import 'bootstrap/dist/css/bootstrap.min.css';
+>>>>>>> 53445a87ae72ed3e3eccab17629b294b18aa2d17
 
   function App() {
   const { width} = useWindowSize();
