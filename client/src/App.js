@@ -4,6 +4,7 @@ import NavTabs from "./pages/NavTabs";
 import Home from "./pages/Home";
 import FAQ from "./pages/FAQ";
 import PowerPlants from "./pages/PowerPlant";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
