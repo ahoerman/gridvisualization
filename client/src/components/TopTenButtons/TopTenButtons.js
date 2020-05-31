@@ -64,7 +64,7 @@ function TopTenButtons() {
     //   console.log(`the ${type} button was clicked`);
     //   console.log(res.data)
     // })
-  }
+  
 
   const buttons = [
     { name: 'Wind', icon: faWind, apiName: 'Wind' },
