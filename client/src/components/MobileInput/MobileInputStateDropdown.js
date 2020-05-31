@@ -1,8 +1,14 @@
-import "./mobileInput.css";
-import React, { useContext, useEffect, useState } from 'react';
-import {  DropdownButton, Dropdown, ButtonGroup, Button, Container } from 'react-bootstrap';
-import API from "../../util/API";
+import React, { useContext, useEffect } from 'react';
 import ChartContext from '../../Context/ChartContext';
+import API from "../../util/API";
+
+import "./mobileInput.css";
+import Container from 'react-bootstrap/Container'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
+import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown'
+import Button from 'react-bootstrap/Button'
+
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
