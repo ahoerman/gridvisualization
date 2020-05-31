@@ -1,5 +1,6 @@
-//seeder file written by Letty Bedard
-//expects data to be in single .tsv file
+//seeder file written by Letty Bedard for the Appleseed Grid Visualization project
+
+//data is expected to be in .tsv files, see readme for details on expected file formatting and naming
 
 // Once file is read data is first sorted into and array of arrays of like state AND energy source. Then those arrays are reduced to an array of single objects with the total of that type of energy source per state. 
 
@@ -19,25 +20,15 @@ const parse = require("csv-parse/lib/sync");
 const db = require("../models");
 
 let errors = []; 
-
 let data = []; //will be parsed data from file 
-
 let results = []; //will be array of arrays of objects (from group sorting)
-
 let reducedResults = []; //will be array of objects from generation data
-
 let co2Data = []; //will be array of ojbects from co2 data
-
 let stateData = []; //will be array of objects from state data
-
 let stateInfo = {}; //will be obj with abbrev:id and fullName:id pairs
 // let stateInfo = new Map(); //will be array of objects from state data
-
 let nrgSrcObj = {}; //for storing source:id
-
 let nrgId; //where we will store energy id, new or not
-
-
 
 //read and parse generation
 fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (err, input) => {
@@ -53,7 +44,7 @@ fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (er
   });
 
   data.filter((row) => {
-    return row["TYPE OF PRODUCER"] === "Total Electric Power Industry" //we only want the total industry
+    return ((row["TYPE OF PRODUCER"] === "Total Electric Power Industry") && !(row["ENERGY SOURCE"] === "Total")) //we only want the total industry
   }).forEach((row) => {
     let placed = false;
     for (let i = 0; i < results.length; i++) {
@@ -119,8 +110,6 @@ fs.readFile(__dirname + fileLocation + year + "_co2_state.tsv", "utf8", (err, in
   });
 });
 
-
-
 const seedMe = async () => {
   //fill state table first, for linking to others use stateInfo
   for (const { State, Abbrev, Population } of stateData) {
@@ -149,7 +138,8 @@ const seedMe = async () => {
     }
 
     await db.Generation.create({
-      StateId: stateInfo[element["STATE"]],
+      //grab first two chars only, catches US - Total
+      StateId: stateInfo[element["STATE"].slice(0,2)],
       EnergySourceId: nrgId,
       amount: element["GENERATION (Megawatthours)"]
     });  

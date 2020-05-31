@@ -96,3 +96,31 @@ db.sequelize.sync({
   await seedMe();
   db.sequelize.close();
 });
+
+// {
+//   "NH" = {
+//     stateName =  "New Hampshire",
+//     stateAbbrev =  "NH",
+//     population = "1,234,567",
+//     generation = [{
+//       coal: 12  
+//     },{
+//       petroleum = 34
+//     },{
+//       nuclear = 45
+//     },{
+//       hydro = 76
+//     },{
+//       solar = 87
+//     },{
+//       other = 24
+//     }],
+//     co2emission: [{
+//       coal = 123
+//     },{
+//       petroleum = 456
+//     },{
+//       naturalGas = 789
+//     }]
+//   }
+// }
