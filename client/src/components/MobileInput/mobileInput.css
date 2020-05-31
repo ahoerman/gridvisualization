@@ -1,11 +1,31 @@
-.PickButton {
-    font-size: 3rem;
-    justify-content: center;
-    align-self: center;
+.MainDiv {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
+.buttonA {
+    font-size: 1rem;
+    background-color: #137547 ;
+    margin: .15rem;
+}
+
+.ButtonDropdown {
+    font-size: 2rem;
+    background-color: #137547 ;
+    color: #137547;
+    margin: .3rem;
+}
 .Headtext2States {
     text-align: center;
-    padding: 1rem;
     margin: 1rem;
+}
+
+#dropdown-item-button {
+    max-height: 10rem;
+    overflow-y: scroll;
+  }
+
+.statePicks {
+    padding: .5rem;
 }
