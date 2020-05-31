@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
       autoIncrement: true
     },
     amount: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DOUBLE,
       allowNull: false,
     }  
   });

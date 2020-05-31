@@ -1,31 +1,19 @@
 const router = require("express").Router();
 const db = require("../models");
+const controller = require("../controllers/controller");
 
 
 router.get("/state", async (req, res) => {
-  await db.State.findOne({
-    where: {
-      abbrev: (req.query.state),
-    },
-  }).then(async (dbState) => {
-    console.log(`dbState: ${JSON.stringify(dbState)}`);
-    console.log(`dbState["id"]: ${dbState["id"]}`);
-    await db.Generation.findAll({
-      where: {
-        StateId: dbState["id"]
-      },
-      include: [
-        {all: true}
-      ]
-    }).then((fullJoinedResult) => {
-      console.log(`fullJoinedResult: ${JSON.stringify(fullJoinedResult)}`);
-      return res.json(fullJoinedResult);
-    }).catch((err) => {
-      console.log(`error: ${err}`);
-      res.status(422).end()
+  controller.getStateData(req.query.state)
+    .then((fullJoinedResult) => {
+        return res.json(fullJoinedResult);
+    })
+    .catch((err) => {
+        console.log(`error: ${err}`);
+        res.status(422).end()
     });
-  })
 });
+
   router.get("/consumption/:energyType", async (req, res) => {
     // retrieve type
     const allowedTypes = ['Wind', 'Solar Thermal and Photovoltaic', 'Hydroelectric Conventional', 'Nuclear', 'Natural Gas', 'Petroleum', 'Coal', 'Other', 'Petroleum', 'Other Biomass', 'Wood and Wood Derived Fuels', 'Other Gases', 'Pumped Storage', 'Geothermal'];
