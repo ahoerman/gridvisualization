@@ -1,5 +1,5 @@
 //seeder file written by Letty Bedard
-//expects data to be in single .tsv file
+//expects data to be in .tsv files
 
 // Once file is read data is first sorted into and array of arrays of like state AND energy source. Then those arrays are reduced to an array of single objects with the total of that type of energy source per state. 
 
@@ -53,7 +53,7 @@ fs.readFile(__dirname + fileLocation + year + "_generation_all.tsv", "utf8", (er
   });
 
   data.filter((row) => {
-    return row["TYPE OF PRODUCER"] === "Total Electric Power Industry" //we only want the total industry
+    return ((row["TYPE OF PRODUCER"] === "Total Electric Power Industry") && !(row["ENERGY SOURCE"] === "Total")) //we only want the total industry
   }).forEach((row) => {
     let placed = false;
     for (let i = 0; i < results.length; i++) {
@@ -149,7 +149,8 @@ const seedMe = async () => {
     }
 
     await db.Generation.create({
-      StateId: stateInfo[element["STATE"]],
+      //grab first two chars only, catches US - Total
+      StateId: stateInfo[element["STATE"].slice(0,2)],
       EnergySourceId: nrgId,
       amount: element["GENERATION (Megawatthours)"]
     });  
