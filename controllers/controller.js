@@ -1,3 +1,5 @@
+//controller written by Letty Bedard for the Appleseed Grid Visualization project
+
 const db = require("../models");
 
 const resolveToJSON = (sqlzeArr) => {
@@ -7,13 +9,13 @@ const resolveToJSON = (sqlzeArr) => {
 const controller = {
 
   //takes state abbrev, returns corresponding state data as formatted object
-  getStateData: async function (stateAbbrev) {
-    return await db.State.findOne({
+  getStateData: function (stateAbbrev) {
+    return db.State.findOne({
       where: {
         abbrev: stateAbbrev,
       },
-    }).then(async (dbState) => {
-      await db.Generation.findAll({
+    }).then((dbState) => {
+      return db.Generation.findAll({
         where: {
           StateId: dbState["id"]
         },
@@ -37,9 +39,9 @@ const controller = {
             ]
           }
         ]
-      }).then(async (fullJoinedResult) => {
-        console.log(JSON.stringify(fullJoinedResult));
-        await db.Co2Emissions.findAll({
+      }).then((fullJoinedResult) => {
+        //console.log(JSON.stringify(fullJoinedResult));
+        return db.Co2Emissions.findAll({
           where: {
             StateId: dbState["id"]
           },
@@ -56,10 +58,9 @@ const controller = {
             }
           ]
         }).then((co2Data) => {
-          console.log(JSON.stringify(co2Data));
+         // console.log(JSON.stringify(co2Data));
 
           let generationData = {};
-
           let co2emissionData = {};
 
           //create generation object
@@ -80,9 +81,10 @@ const controller = {
             co2emission: co2emissionData
           };
 
-          console.table(generatedResult);
+          //console.table(generatedResult);
  
           return Promise.resolve(generatedResult);
+          // return generatedResult;
         });
       }); 
     });

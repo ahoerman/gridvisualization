@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function TopTenButtons() {
   const receiveConsumers = (type) => {
     API.getTopConsumers(type).then(res => {
+      console.log(`the ${type} button was clicked`);
       console.log(res.data)
     })
   }
