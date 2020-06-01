@@ -30,11 +30,12 @@ function renderRenewable() {
     </p>
     <br></br>
       <h4>Biomass - Energy from plants</h4>
-      <br></br>
+        <br></br>
       <img src={biomass} alt="Biomass Energy" />
       <br></br>
-      <p>Biomass, and biofuels made from biomass, are renewable energy sources that are alternatives to fossil fuels. Burning either fossil fuels or biomass releases carbon dioxide (CO2), a greenhouse gas. However the plants that are the source of biomass for energy, capture almost the same amount of CO2 through photosynthesis while growing as is released when biomass is burned, This makes biomass a carbon-neutral energy source unlike fossil fuels.</p>
-    
+      <p>
+        Biomass, and biofuels made from biomass, are renewable energy sources that are alternatives to fossil fuels. Burning either fossil fuels or biomass releases carbon dioxide (CO2), a greenhouse gas. However the plants that are the source of biomass for energy, capture almost the same amount of CO2 through photosynthesis while growing as is released when biomass is burned, This makes biomass a carbon-neutral energy source unlike fossil fuels.   
+      </p>
       <br></br>
       <h4>Wind</h4>
       <img src={wind} alt="Wind Energy" />
@@ -57,14 +58,14 @@ function renderRenewable() {
       <h4>Solar - Energy From The Sun</h4>
       <img src={solar} alt="Solar Energy" />
       <br></br>
-      <p>
-        Solar power is energy from the sun that is converted into thermal or electrical energy. Solar energy is the cleanest and most abundant renewable energy source available, and the U.S. has some of the richest solar resources in the world. Solar technologies can harness this energy for a variety of uses, including generating electricity, providing light or a comfortable interior environment, and heating water for domestic, commercial, or industrial use.
-      </p>
+    <p>
+      Solar power is energy from the sun that is converted into thermal or electrical energy. Solar energy is the cleanest and most abundant renewable energy source available, and the U.S. has some of the richest solar resources in the world. Solar technologies can harness this energy for a variety of uses, including generating electricity, providing light or a comfortable interior environment, and heating water for domestic, commercial, or industrial use.
+    </p>
       <h4>Hydro - Energy From Flowing Water</h4>
       <img src={hydro} alt="Hydro Energy" />
-      <p>
-        Pumped-storage hydropower facilities are a type of hydroelectric storage system where water is pumped from a water source up to a storage reservoir at a higher elevation and is released from the upper reservoir to power hydro turbines located below the upper reservoir. The electricity for pumping may be supplied by hydro turbines or by other types of power plants including fossil fuel or nuclear power plants. They usually pump water to storage when electricity demand and generation costs, and/or when wholesale electricity prices are relatively low and release the stored water to generate electricity during peak electricity demand periods when wholesale electricity prices are relatively high. Pumped-storage hydroelectric systems generally use more electricity to pump water to the upper water storage reservoirs than they produce with the stored water. Therefore, pumped-storage facilities have net negative electricity generation balances.
-      </p>
+    <p>
+      Pumped-storage hydropower facilities are a type of hydroelectric storage system where water is pumped from a water source up to a storage reservoir at a higher elevation and is released from the upper reservoir to power hydro turbines located below the upper reservoir. The electricity for pumping may be supplied by hydro turbines or by other types of power plants including fossil fuel or nuclear power plants. They usually pump water to storage when electricity demand and generation costs, and/or when wholesale electricity prices are relatively low and release the stored water to generate electricity during peak electricity demand periods when wholesale electricity prices are relatively high. Pumped-storage hydroelectric systems generally use more electricity to pump water to the upper water storage reservoirs than they produce with the stored water. Therefore, pumped-storage facilities have net negative electricity generation balances.
+    </p>
 
     </div>
   )
@@ -150,10 +151,7 @@ function FAQ() {
         </Tabs>
         <Row>
           {key ==="renewable" && renderRenewable() }
-          {/* </Row>         
-        <Row> */}
           {key === "nonrenewable" && renderNonrenewable()}
-
           {key ==="sources" && renderSources()}
         </Row>
       </>
