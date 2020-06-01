@@ -10,6 +10,9 @@ import biomass from './biomass-types.png';
 import wind from './wind.jpg';
 import solar from './solar.jpg';
 import hydro from './hydro.jpg';
+import nuclear from './nuclear.jpg';
+import natural from './naturalgas.jpg';
+import petroleum from './petroleum.jpg';
 
 function renderRenewable() {
   return (
@@ -72,8 +75,37 @@ function renderNonrenewable() {
     <p>
       Most of the energy consumed in the United States (89% in 2019) is from nonrenewable energy sources.
     </p>
+    <p>
+      Non-renewable energy comes from sources that will run out or will not be replenished for thousands or even millions of years. Most sources of non-renewable energy are fossil fuels. Fossil fuels were created as the remains of marine creatures decayed millions of years ago, under huge amounts of pressure and heat. Most fossil fuels are burned to create energy and electricity
+    </p>
+    <h4>Coal</h4>
 
     <img src={coalimg}/>
+    <br></br>
+    <p>
+      Coal is a combustible black or brownish-black sedimentary rock with a high amount of carbon and hydrocarbons. Coal is classified as a nonrenewable energy source because it takes millions of years to form. Coal contains the energy stored by plants that lived hundreds of millions of years ago in swampy forests.
+    </p>
+    <p>
+      Layers of dirt and rock covered the plants over millions of years. The resulting pressure and heat turned the plants into the substance we call coal.
+    </p>
+    <br></br>
+    <h4>Nuclear Energy</h4>
+      <img src={nuclear} alt="Nuclear Energy" />
+    <br></br>
+    <p>
+      Nuclear energy comes from splitting atoms in a reactor to heat water into steam, turn a turbine and generate electricity. Ninety-five nuclear reactors in 29 states generate nearly 20 percent of the nation’s electricity, all without carbon emissions because reactors use uranium, not fossil fuels. These plants are always on: well-operated to avoid interruptions and built to withstand extreme weather, supporting the grid 24/7.
+    </p>
+    <h4>Natural Gas</h4>
+      <img src={natural} alt="Natural Gas" />
+    <p>
+      Natural gas is a fossil energy source that formed deep beneath the earth's surface. Natural gas contains many different compounds. The largest component of natural gas is methane, a compound with one carbon atom and four hydrogen atoms (CH4). Natural gas also contains smaller amounts of natural gas liquids (NGL, which are also hydrocarbon gas liquids), and nonhydrocarbon gases, such as carbon dioxide and water vapor. We use natural gas as a fuel and to make materials and chemicals.
+    </p>
+    <h4>Petroleum</h4>
+    <img src={petroleum} alt="Petroleum Energy" />
+    <p>
+      Petroleum is a broad term that groups together a combination of organic liquids and gases that is formed after kerogen is heated and compressed over long periods of time. This mix can be fairly complex, but the main gaseous component of petroleum is natural gas - largely methane - whereas the main liquid component is crude oil. Crude oil itself is a complex mixture of hydrocarbons, so the exact composition of petroleum is never the same.[2] Secondary fuels such as gasoline, kerosene, heating oil, and diesel fuel are all included in the definition of "petroleum".[3] Petroleum traps energy, first originating from the Sun, that was captured by photosynthetic plankton in ancient oceans. Just like coal, petroleum is a type of fossil fuel.
+    </p>
+
     </div>
   )
 }
