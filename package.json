@@ -13,7 +13,7 @@
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build"
+    "build": "npm --prefix client i && npm --prefix client run build"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +29,7 @@
     "if-env": "^1.0.4",
     "lodash": "^4.17.15",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.21.9"
+    "sequelize": "^5.21.9",
+    "react-scripts": "^3.4.1"
   }
 }
