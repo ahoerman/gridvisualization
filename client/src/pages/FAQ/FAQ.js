@@ -73,14 +73,14 @@ function renderNonrenewable() {
   return (
     <div>
     <p>
-      Most of the energy consumed in the United States (89% in 2019) is from nonrenewable energy sources.
+      Most of the energy consumed in the United States (89% in 2019) is from non-renewable energy sources.
     </p>
     <p>
       Non-renewable energy comes from sources that will run out or will not be replenished for thousands or even millions of years. Most sources of non-renewable energy are fossil fuels. Fossil fuels were created as the remains of marine creatures decayed millions of years ago, under huge amounts of pressure and heat. Most fossil fuels are burned to create energy and electricity
     </p>
     <h4>Coal</h4>
 
-    <img src={coalimg}/>
+    <img src={coalimg} alt="Coal Energy" />
     <br></br>
     <p>
       Coal is a combustible black or brownish-black sedimentary rock with a high amount of carbon and hydrocarbons. Coal is classified as a nonrenewable energy source because it takes millions of years to form. Coal contains the energy stored by plants that lived hundreds of millions of years ago in swampy forests.
@@ -115,8 +115,6 @@ function renderSources() {
       <p>
         Data sources will be linked to here
       </p>
-
-=
     </div>
   )
 }
@@ -125,9 +123,7 @@ function FAQ() {
   return (
     <div>
       <NavBarTop />
-      
       <h1>FAQ</h1>
-
       <p>
         When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable (energy source that can be replenished) or non-renewable (an energy source that can't be easily replenished).
       </p>
@@ -150,25 +146,19 @@ function FAQ() {
           <Tab eventKey="nonrenewable" title="Non-Renewable Energy">
           </Tab>
           <Tab eventKey="sources" title="Sources">
-
           </Tab>
         </Tabs>
-
         <Row>
           {key ==="renewable" && renderRenewable() }
-          {/* </Row>
-          
+          {/* </Row>         
         <Row> */}
           {key === "nonrenewable" && renderNonrenewable()}
 
           {key ==="sources" && renderSources()}
         </Row>
       </>
-     
         </div>
   )
 };
 
 export default FAQ;
-
-
