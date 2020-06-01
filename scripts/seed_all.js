@@ -10,6 +10,7 @@
 
 require("dotenv").config({ path: __dirname + "/../"});
 
+// process.env.NODE_ENV = "seedProduction";
 process.env.NODE_ENV = "development";
 
 const fileLocation = "/../data/";
