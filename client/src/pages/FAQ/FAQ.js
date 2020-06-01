@@ -9,6 +9,7 @@ import coalimg from './coal.jpg';
 import biomass from './biomass-types.png';
 import wind from './wind.jpg';
 import solar from './solar.jpg';
+import hydro from './hydro.jpg';
 
 function renderRenewable() {
   return (
@@ -56,6 +57,11 @@ function renderRenewable() {
       <p>
         Solar power is energy from the sun that is converted into thermal or electrical energy. Solar energy is the cleanest and most abundant renewable energy source available, and the U.S. has some of the richest solar resources in the world. Solar technologies can harness this energy for a variety of uses, including generating electricity, providing light or a comfortable interior environment, and heating water for domestic, commercial, or industrial use.
       </p>
+      <h4>Hydro - Energy From Flowing Water</h4>
+      <img src={hydro} alt="Hydro Energy" />
+      <p>
+        Pumped-storage hydropower facilities are a type of hydroelectric storage system where water is pumped from a water source up to a storage reservoir at a higher elevation and is released from the upper reservoir to power hydro turbines located below the upper reservoir. The electricity for pumping may be supplied by hydro turbines or by other types of power plants including fossil fuel or nuclear power plants. They usually pump water to storage when electricity demand and generation costs, and/or when wholesale electricity prices are relatively low and release the stored water to generate electricity during peak electricity demand periods when wholesale electricity prices are relatively high. Pumped-storage hydroelectric systems generally use more electricity to pump water to the upper water storage reservoirs than they produce with the stored water. Therefore, pumped-storage facilities have net negative electricity generation balances.
+      </p>
 
     </div>
   )
@@ -71,6 +77,17 @@ function renderNonrenewable() {
     </div>
   )
 }
+function renderSources() {
+  return (
+    <div>
+      <p>
+        Data sources will be linked to here
+      </p>
+
+=
+    </div>
+  )
+}
 function FAQ() {
   const [key, setKey] = useState('home');
   return (
@@ -79,9 +96,17 @@ function FAQ() {
       
       <h1>FAQ</h1>
 
-      <p>When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable or Nonrenewable Renewable (an energy source that can be easily replenished).
-      The major types of renewable energy sources are:
-</p>
+      <p>
+        When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable (energy source that can be replenished) or non-renewable (an energy source that can't be easily replenished).
+      </p>
+      <p>
+        To learn more about each type covered in the data, click on the tabs below.
+      </p>
+      <p>
+        To understand the data we used to create this page, click on the "Source" tab for links to data sources we used.  
+
+        Caveat:  In order to present as accurate a picture as possible, we based our statistics on the last data year available for the generated energy and population data, which was 2017.
+      </p>
       <>
         <Tabs
           id="controlled-tab-example"
@@ -92,6 +117,9 @@ function FAQ() {
           </Tab>
           <Tab eventKey="nonrenewable" title="Non-Renewable Energy">
           </Tab>
+          <Tab eventKey="sources" title="Sources">
+
+          </Tab>
         </Tabs>
 
         <Row>
@@ -100,6 +128,8 @@ function FAQ() {
           
         <Row> */}
           {key === "nonrenewable" && renderNonrenewable()}
+
+          {key ==="sources" && renderSources()}
         </Row>
       </>
      
