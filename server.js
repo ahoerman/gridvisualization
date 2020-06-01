@@ -17,11 +17,11 @@ if (process.env.NODE_ENV === "production") {
 // Use apiRoutes
 app.use("/api", apiRoutes);
 
-// Send every request to the React app
 // Define any API routes before this runs
 app.get("*", function(req, res) {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
+// Send every request to the React app
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
