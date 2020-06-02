@@ -13,57 +13,46 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
   const [mapColors, setMapColors] = useState(InitialStates())
-  const { setChosenStates, chosenStates } = useContext(ChartContext);
+  const { setChosenStates, chosenStates, mapState, mapDispatch } = useContext(ChartContext);
   useEffect(() => { console.log(chosenStates) }, [chosenStates]);
  
   const receiveConsumers = (type) => {
     API.getTopConsumers(type).then(res => {
 
       let topTenCurrent = res.data;
-      console.log(topTenCurrent);
+      console.log(topTenCurrent); 
 
-      //first resetting all the states to the original colors
-      Object.keys(mapColors).forEach(function (item) {
-        // console.log(item); // key
-        if (mapColors[item].fill !== mapColors[item].originalFill) {
-          setMapColors({
-            ...mapColors,
-            [item]: {
-              ...mapColors[item],
-              fill: mapColors[item].originalFill,
+    //making an array of the top ten state abbreviations then doing all ten API requests
+    const topTenAbbrev = topTenCurrent.map( ( currentStateObj ) => API.getStateInfo(currentStateObj.abbrev))
+      Promise.all (topTenAbbrev).then( res => {
+          const eachTopTenData = {};
+          const newMapColors = InitialStates();
+          res.forEach( (eachState) => {
+            console.log(eachState.data)
+
+            // setChosenStates({
+            //   ...chosenStates,
+            //   [currentStateObj.abbrev]: res.data
+            // })
+
+            //setting the yellow color for each State
+            newMapColors[eachState.data.stateAbbrev] = {
+              ...newMapColors[eachState.data.stateAbbrev],
+              fill: "#FFFF00" ,
+              clicked: true
             }
           })
-        }
-      });
 
-      //setting the top ten states to yellow
-      Object.keys(topTenCurrent).forEach(function (item) {
-        console.log(topTenCurrent[item].abbrev)
-        setMapColors({
-          ...mapColors,
-          [topTenCurrent[item].abbrev]: {
-            ...mapColors[topTenCurrent[item].abbrev],
-            fill: "#FFFF00",
-          }
-        })
+          mapDispatch ({
+            type: "SET_TOPTEN_STATES",
+            mapColors: newMapColors
+          })
+          console.log(eachTopTenData)
       })
-
-      //getting the data for each of the top ten states picked
-      Object.keys(topTenCurrent).forEach(function (item) {
-      API.getStateInfo(topTenCurrent[item].abbrev)
-        .then(res => setChosenStates({
-          ...chosenStates,
-          [topTenCurrent[item].abbrev]: res.data
-        }))
-        .catch(err => console.log(err));
-      })
-
 
       })
     }
-    //   console.log(`the ${type} button was clicked`);
-    //   console.log(res.data)
-    // })
+
   
 
   const buttons = [
