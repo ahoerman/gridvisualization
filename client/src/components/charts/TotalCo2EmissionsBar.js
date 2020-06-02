@@ -96,7 +96,7 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `Types of Energy Generation`,
+              text: `Total cO${"2".sub()} Emissions Per State`,
               fontSize: 24
             },
             scales: {
@@ -104,7 +104,11 @@ export default function () {
                 stacked: true,
                 ticks: {
                   beginAtZero: true
-                }
+                },
+                scaleLabel: {
+                  display: true,
+                  labelString: "Tons"
+                  }
               }],
               xAxes: [{
                 stacked: true,
@@ -115,7 +119,6 @@ export default function () {
             }
           }}
         />
-      })
             }
     </div>
   );
