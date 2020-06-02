@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./pages/NavTabs";
 import Home from "./pages/Home";
-import FAQ from "./pages/FAQ";
+import FAQ from "../src/pages/FAQ/FAQ";
 import PowerPlants from "./pages/PowerPlant";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
