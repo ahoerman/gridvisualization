@@ -1,6 +1,3 @@
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-                    [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-                    [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
 
 ## Name
 
