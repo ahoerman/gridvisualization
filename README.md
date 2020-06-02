@@ -29,9 +29,9 @@ Abby Hoerman, Letty Bedard, Walter Hoerman, Tania Moore
 
 With support from Bobby Hoffman, Mike Fearnley, Scott Byers, Blake Barnes
 
-##License
+## License
 MIT License
 
-##Project status
+## Project status
 Deployed to heroku
 
