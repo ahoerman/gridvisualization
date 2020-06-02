@@ -12,6 +12,7 @@ A map of the United States that displays energy generation by state; allows you 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
+![NPM License](https://img.shields.io/npm/l/:packageName)
 
 ## Visuals
 screenshot here
