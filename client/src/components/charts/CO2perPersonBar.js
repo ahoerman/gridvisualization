@@ -32,9 +32,9 @@ export default function () {
     const dataObject = initialState();
     Object.keys(chartContext.chosenStates).map(eachState => {
       dataObject.labels.push(eachState);
-      dataObject.datasets[0].data.push((chartContext.chosenStates[eachState].co2emission.Coal) * 2000 / (chartContext.chosenStates[eachState].population));
-      dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) * 2000 / (chartContext.chosenStates[eachState].population));
-      dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) * 2000 / (chartContext.chosenStates[eachState].population));
+      dataObject.datasets[0].data.push((chartContext.chosenStates[eachState].co2emission.Coal) * 1000000 / (chartContext.chosenStates[eachState].population));
+      dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) * 1000000 / (chartContext.chosenStates[eachState].population));
+      dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) * 1000000 / (chartContext.chosenStates[eachState].population));
     });
     console.log(dataObject);
     setChartData(dataObject);
@@ -57,7 +57,7 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `Total cO${"2".sub()} Emissions Per Person Per State`,
+              text: `Total CO2 Emissions Per Person Per State`,
               fontSize: 24
             },
             scales: {
@@ -68,7 +68,7 @@ export default function () {
                 },
                 scaleLabel: {
                     display: true,
-                    labelString: "lbs"
+                    labelString: "Metric Tons"
                     }
               }],
               xAxes: [{
