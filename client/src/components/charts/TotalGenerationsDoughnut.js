@@ -114,7 +114,7 @@ export default class StateDoughnutChart extends React.Component {
                     options={{
                       title: {
                         display: true,
-                        text: `Types of Energy Generation for ${value.chosenStates[eachState].stateName}`,
+                        text: `Types of Energy Generation in MWH for ${value.chosenStates[eachState].stateName}`,
                         fontSize: 24
                       },
                       legend: {

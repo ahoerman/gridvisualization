@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import StateDoughnutChart from "../components/charts/DoughnutChart";
-import StateBarChart from "../components/charts/BarChart";
 import '../App.css';
 import { Container, Row, Col} from 'react-bootstrap';
 import TopTenButtons from '../components/TopTenButtons/TopTenButtons';
