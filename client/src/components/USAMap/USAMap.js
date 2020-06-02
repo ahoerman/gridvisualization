@@ -8,39 +8,48 @@ import InitialStates from "./InitialStates";
 
 const USAMap = () => {
 
-  const [mapColors, setMapColors] = useState(InitialStates())
-  const { setChosenStates, chosenStates } = useContext(ChartContext);
+  const { setChosenStates, chosenStates, mapState, mapDispatch } = useContext(ChartContext);
   useEffect(() => { console.log(chosenStates) }, [chosenStates]);
+  useEffect(() => console.log(mapState), [mapState] )
+
   const handleStateClick = event => {
+
     // When the form is submitted, prevent its default behavior, get recipes update the recipes state
     event.preventDefault();
+
     // Update the appropriate state
     const value = event.target.dataset.name;
-    const isSelected = !mapColors[value].clicked;
-    setMapColors({
-      ...mapColors,
-      [value]: {
-        ...mapColors[value],
-        fill: isSelected ? "#FFFF00" : mapColors[value].originalFill,
-        clicked: isSelected
-      }
-    })
+
+    // deselecting a State
     if (chosenStates[value]) {
+      
       const newChosenStates = { ...chosenStates };
       delete newChosenStates[value];
       setChosenStates(newChosenStates);
+
+      mapDispatch({
+        type: "REMOVE_CHOSEN_STATE",
+        stateKey: value,
+      })
     } else {
       API.getStateInfo(value)
-        .then(res => setChosenStates({
+        .then(res => {
+          mapDispatch({
+            type: "ADD_CHOSEN_STATE", 
+            stateKey: value,
+          })
+
+        setChosenStates({
           ...chosenStates,
           [value]: res.data
-        }))
+        })
+      })
         .catch(err => console.log(err));
     };
   };
   return (
     <Col>
-      <ReactMap customize={mapColors} onClick={handleStateClick} />
+      <ReactMap customize={mapState.mapColors} onClick={handleStateClick} />
     </Col>
   )
 }
