@@ -29,9 +29,9 @@ function ControlledTabs() {
         >
             <Tab eventKey="totalGenerations" title="Types of Generation Per State">      
             </Tab>
-            <Tab eventKey="totalCo2Emissions" title="Total cO2 Emissions Per State Comparison">
+            <Tab eventKey="totalCo2Emissions" title="Total cO2 Emissions Per State">
              </Tab>
-             <Tab eventKey="co2EmissionsPerKWH" title="c02 Emissions Per KWH Per State">
+             <Tab eventKey="co2EmissionsPerKWH" title="c02 Emissions Per mWh Per State">
              </Tab>
              <Tab eventKey="co2EmissionsPerPerson" title="c02 Emissions Per Person Per State">
              </Tab>

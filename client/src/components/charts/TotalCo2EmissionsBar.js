@@ -96,7 +96,7 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `Total cO${"2".sub()} Emissions Per State`,
+              text: `Total CO2 Emissions Per State`,
               fontSize: 24
             },
             scales: {
@@ -107,7 +107,7 @@ export default function () {
                 },
                 scaleLabel: {
                   display: true,
-                  labelString: "Tons"
+                  labelString: "Millions of Metric Tons"
                   }
               }],
               xAxes: [{
