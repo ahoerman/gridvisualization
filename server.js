@@ -14,6 +14,15 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
+// Use apiRoutes
+app.use("/api", apiRoutes);
+
+// Define any API routes before this runs
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+// Send every request to the React app
+
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
 db.sequelize.sync({ force: false }).then(function() {
@@ -21,12 +30,3 @@ db.sequelize.sync({ force: false }).then(function() {
       console.log("App listening on PORT " + PORT);
     });
   });
-
-// Use apiRoutes
-app.use("/api", apiRoutes);
-
-// Send every request to the React app
-// Define any API routes before this runs
-app.get("*", function(req, res) {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
-});
