@@ -9,11 +9,13 @@ import ChartContextProvider from "../components/contextProviders/ChartContextPro
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
+import ScrollUpButton from "react-scroll-up-button";
 
   function Home() {
   const { width} = useWindowSize();
   return (
     <div className="App">
+      <ScrollUpButton />
       <Header/>
       <Container fluid>
         <ChartContextProvider>
