@@ -27,20 +27,20 @@ function ControlledTabs() {
             activeKey={key}
             onSelect={(k) => setKey(k)}
         >
-            <Tab eventKey="totalGenerations" title="Types of Generation Per State">      
+            <Tab eventKey="totalGenerations" title="Types of Generation">      
             </Tab>
-            <Tab eventKey="totalCo2Emissions" title="Total cO2 Emissions Per State">
+            <Tab eventKey="totalCo2Emissions" title="Total cO2 Emissions">
              </Tab>
-             <Tab eventKey="co2EmissionsPerKWH" title="c02 Emissions Per mWh Per State">
+             <Tab eventKey="co2EmissionsPerMWH" title="c02 Emissions Per Total mWh">
              </Tab>
-             <Tab eventKey="co2EmissionsPerPerson" title="c02 Emissions Per Person Per State">
+             <Tab eventKey="co2EmissionsPerPerson" title="c02 Emissions Per Capita">
              </Tab>
         </Tabs>
 
         <Row>
           { key==="totalGenerations" && <StateDoughnutChart /> }
           { key==="totalCo2Emissions" &&  <TotalCo2EmissionsBarChart /> }
-          { key==="co2EmissionsPerKWH" &&  <CO2perKWHChart /> }
+          { key==="co2EmissionsPerMWH" &&  <CO2perKWHChart /> }
           { key==="co2EmissionsPerPerson" &&  <CO2perPersonChart /> }
         </Row>
         </>
