@@ -47,9 +47,9 @@ const USAMap = () => {
     };
   };
   return (
-    <Col>
+    <div>
       <ReactMap customize={mapState.mapColors} onClick={handleStateClick} />
-    </Col>
+    </div>
   )
 }
 

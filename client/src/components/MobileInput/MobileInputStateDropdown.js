@@ -40,7 +40,6 @@ function MobileInputStateDropdown() {
 
     return (
     <Container fluid>
-      <h3 className="text-center"><FontAwesomeIcon icon={faCheckSquare} /> Choose a State (or two) for data</h3>
       <Container>
         <DropdownButton 
         as = {ButtonGroup}

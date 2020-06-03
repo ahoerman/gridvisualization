@@ -14,30 +14,34 @@ import ChartContainer from "../components/ChartContainer";
   const { width} = useWindowSize();
   return (
     <div className="App">
-      <Header/>
-      <Container fluid>
+      <div class="row mx-auto">
+        <Header/>
+      </div>
+      <div class="container-lg">
         <ChartContextProvider>
         <>
-
-        { width > 900 ? 
-        <Row>
-          <Col md={10}>
-            <USAMap/>
-          </Col>
-          <Col md={2}>
-            <TopTenButtons />
-          </Col>
-        </Row>
+        { width > 750 ? 
+        <div class="container-lg">
+          <div class="row mx-auto">
+            <div class="col-12 col-md-10">
+              <TopTenButtons />
+            </div>
+          </div>
+          <div class="row mx-auto">
+            <div class="col-12 col-md-10 ">
+              <USAMap/>
+            </div>
+          </div>
+        </div>
         : <Row>
-          < MobileInputStateDropdown />
-        </Row>
+            < MobileInputStateDropdown />
+          </Row>
         } 
         <ChartContainer>
         </ChartContainer>
         </>
-        
         </ChartContextProvider>
-      </Container>
+      </div>
       <Footer />
     </div>
   );
