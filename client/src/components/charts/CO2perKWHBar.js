@@ -32,10 +32,17 @@ export default function () {
   const buildData = () => {
     const dataObject = initialState();
     Object.keys(chartContext.chosenStates).map(eachState => {
+
+      const dataLabels = Object.keys(chartContext.chosenStates[eachState].generation).sort();
+      let totalGenerationNum = 0;
+      dataLabels.forEach(key => {
+        totalGenerationNum += chartContext.chosenStates[eachState].generation[key];
+      });
+      console.log(totalGenerationNum);
       dataObject.labels.push(eachState);
-      dataObject.datasets[0].data.push((chartContext.chosenStates[eachState].co2emission.Coal) * 2000 / (chartContext.chosenStates[eachState].generation.Coal));
-      dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) * 2000 / (chartContext.chosenStates[eachState].generation["Natural Gas"]));
-      dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) * 2000 / (chartContext.chosenStates[eachState].generation.Petroleum));
+      dataObject.datasets[0].data.push((chartContext.chosenStates[eachState].co2emission.Coal) / totalGenerationNum);
+      dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) / totalGenerationNum);
+      dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) / totalGenerationNum);
     });
     console.log(dataObject);
     setChartData(dataObject);
@@ -58,7 +65,7 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `Total CO2 Emissions/mWh Per State`,
+              text: `Total CO2 Emissions Per Total mWh`,
               fontSize: 24
             },
             scales: {
@@ -69,7 +76,7 @@ export default function () {
                 },
                 scaleLabel: {
                 display: true,
-                labelString: "lbs/mWh"
+                labelString: "Metric Tons/mWh"
                 }
               }],
               xAxes: [{
