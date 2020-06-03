@@ -1,12 +1,6 @@
 .HeaderDiv {
     background-color: #FFFFFF;
       color: #006837;
-      padding: 0rem;
-      margin: 0.5rem;
-  }
-
-  .navbar {
-    max-height: 100px;
   }
 
 p {
@@ -14,4 +8,8 @@ p {
   color: #006837;
 }
 
+.navBarTop {
+  background-color: #FFFFFF;
+    color: #006837;
+}
 

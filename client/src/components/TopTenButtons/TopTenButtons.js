@@ -71,6 +71,7 @@ const receiveConsumers = (type) => {
     { name: 'Coal', icon: faSnowplow, apiName: 'Coal' },
     { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' },
     { name: 'Reset States', icon: faTrashRestoreAlt, apiName: 'Reset'},
+    { name: 'Total for United States', icon: faTrashRestoreAlt, apiName: 'US'},
   ];
 
   return (
