@@ -1,13 +1,110 @@
-body {
-  margin: 1;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.faq {
+  background-color: #ffffff; 
+  color: #000000;
+  padding: 50px;
+  font-family: Arial;
+  text-align: left;   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.renergy {
+  background-color: #ddffcc; 
+  color: #000000;
+  padding: 50px;
+  font-family: Arial;
+  text-align: left;
 }
+.nenergy {
+  background-color: #e0e0eb; 
+  color: #000000;
+  padding: 50px;
+  font-family: Arial;
+  text-align: left;  
+}
+
+.sources {
+  background-color: #ffffff; 
+  color: #000000;
+  padding: 50px;
+  font-family: Arial;
+  text-align: left; 
+}
+
+.biomass-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wind-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solar-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hydro-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coal-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nuclear-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.natural-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.petroleum-img {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
