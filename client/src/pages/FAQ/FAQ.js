@@ -1,9 +1,9 @@
-import React, { useState, props } from 'react';
+import React, { useState } from 'react';
 import NavBarTop from '../../components/Header/NavBarTop';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import TabContainer from 'react-bootstrap/TabContainer';
-import { Container, Row, Col } from 'react-bootstrap';
+import './index.css';
+import { Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import coalimg from './coal.jpg';
 import biomass from './biomass-types.png';
@@ -14,8 +14,11 @@ import nuclear from './nuclear.jpg';
 import natural from './naturalgas.jpg';
 import petroleum from './petroleum.jpg';
 
+
+
 function renderRenewable() {
   return (
+    
     <div>
     <h2>Renewable Energy</h2>
     <br></br>
