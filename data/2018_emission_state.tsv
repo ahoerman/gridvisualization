@@ -1,0 +1,1511 @@
+Year	State	Producer Type	Energy Source	CO2 (Metric Tons)	SO2 (Metric Tons)	NOx (Metric Tons)
+2018	AK	Electric Utility	All Sources	2641943	1594	16398
+2018	AK	Electric Utility	Coal	687109	592	897
+2018	AK	Electric Utility	Natural Gas	1346076	6	9409
+2018	AK	Electric Utility	Petroleum	608758	996	6092
+2018	AK	IPP NAICS-22 Cogen	All Sources	317902	437	724
+2018	AK	IPP NAICS-22 Cogen	Coal	317902	437	724
+2018	AK	Commercial Non-Cogen	All Sources	183	0	445
+2018	AK	Commercial Non-Cogen	Natural Gas	138	0	3
+2018	AK	Commercial Non-Cogen	Other Biomass	0	0	441
+2018	AK	Commercial Non-Cogen	Petroleum	45	0	1
+2018	AK	Commercial Cogen	All Sources	357839	514	608
+2018	AK	Commercial Cogen	Coal	345088	491	592
+2018	AK	Commercial Cogen	Petroleum	12751	23	16
+2018	AK	Industrial Non-Cogen	All Sources	20708	54	466
+2018	AK	Industrial Non-Cogen	Other Biomass	0	19	55
+2018	AK	Industrial Non-Cogen	Petroleum	20708	35	411
+2018	AK	Industrial Cogen	All Sources	50976	16	313
+2018	AK	Industrial Cogen	Natural Gas	41162	0	126
+2018	AK	Industrial Cogen	Petroleum	9814	16	187
+2018	AK	Total Electric Power Industry	All Sources	3389551	2615	18954
+2018	AK	Total Electric Power Industry	Coal	1350099	1520	2213
+2018	AK	Total Electric Power Industry	Natural Gas	1387376	6	9538
+2018	AK	Total Electric Power Industry	Other Biomass	0	19	496
+2018	AK	Total Electric Power Industry	Petroleum	652076	1070	6707
+2018	AL	Electric Utility	All Sources	39351041	10715	21062
+2018	AL	Electric Utility	Coal	30307119	10642	14748
+2018	AL	Electric Utility	Natural Gas	9015075	48	6248
+2018	AL	Electric Utility	Petroleum	28847	25	66
+2018	AL	IPP NAICS-22 Non-Cogen	All Sources	12442109	65	1479
+2018	AL	IPP NAICS-22 Non-Cogen	Natural Gas	12413135	63	994
+2018	AL	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	454
+2018	AL	IPP NAICS-22 Non-Cogen	Petroleum	28974	2	31
+2018	AL	IPP NAICS-22 Cogen	All Sources	2094874	50	405
+2018	AL	IPP NAICS-22 Cogen	Natural Gas	2094874	10	247
+2018	AL	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	40	158
+2018	AL	Industrial Non-Cogen	All Sources	16186	0	42
+2018	AL	Industrial Non-Cogen	Natural Gas	16186	0	42
+2018	AL	Industrial Cogen	All Sources	2235553	26576	8581
+2018	AL	Industrial Cogen	Coal	246929	1479	497
+2018	AL	Industrial Cogen	Natural Gas	1963424	9	2312
+2018	AL	Industrial Cogen	Other Gases	0	2	371
+2018	AL	Industrial Cogen	Petroleum	25200	59	20
+2018	AL	Industrial Cogen	Wood and Wood Derived Fuels	0	25027	5381
+2018	AL	Total Electric Power Industry	All Sources	56139763	37406	31569
+2018	AL	Total Electric Power Industry	Coal	30554048	12121	15245
+2018	AL	Total Electric Power Industry	Natural Gas	25502694	130	9843
+2018	AL	Total Electric Power Industry	Other Biomass	0	0	454
+2018	AL	Total Electric Power Industry	Other Gases	0	2	371
+2018	AL	Total Electric Power Industry	Petroleum	83021	86	117
+2018	AL	Total Electric Power Industry	Wood and Wood Derived Fuels	0	25067	5539
+2018	AR	Electric Utility	All Sources	31949697	43706	18205
+2018	AR	Electric Utility	Coal	24380479	43636	16660
+2018	AR	Electric Utility	Natural Gas	7549434	43	1536
+2018	AR	Electric Utility	Petroleum	19784	27	9
+2018	AR	IPP NAICS-22 Non-Cogen	All Sources	4791733	3257	2525
+2018	AR	IPP NAICS-22 Non-Cogen	Coal	4787567	3255	1920
+2018	AR	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	605
+2018	AR	IPP NAICS-22 Non-Cogen	Petroleum	4166	2	0
+2018	AR	IPP NAICS-22 Cogen	All Sources	724376	17	274
+2018	AR	IPP NAICS-22 Cogen	Natural Gas	724376	4	221
+2018	AR	IPP NAICS-22 Cogen	Other Biomass	0	13	53
+2018	AR	Commercial Cogen	All Sources	23993	0	178
+2018	AR	Commercial Cogen	Natural Gas	23993	0	68
+2018	AR	Commercial Cogen	Other Biomass	0	0	110
+2018	AR	Industrial Cogen	All Sources	859654	12205	5021
+2018	AR	Industrial Cogen	Coal	159522	480	330
+2018	AR	Industrial Cogen	Natural Gas	671587	4	1456
+2018	AR	Industrial Cogen	Other	16632	178	31
+2018	AR	Industrial Cogen	Petroleum	11913	14	8
+2018	AR	Industrial Cogen	Wood and Wood Derived Fuels	0	11529	3196
+2018	AR	Total Electric Power Industry	All Sources	38349453	59185	26203
+2018	AR	Total Electric Power Industry	Coal	29327568	47371	18910
+2018	AR	Total Electric Power Industry	Natural Gas	8969390	51	3281
+2018	AR	Total Electric Power Industry	Other Biomass	0	13	768
+2018	AR	Total Electric Power Industry	Other	16632	178	31
+2018	AR	Total Electric Power Industry	Petroleum	35863	43	17
+2018	AR	Total Electric Power Industry	Wood and Wood Derived Fuels	0	11529	3196
+2018	AZ	Electric Utility	All Sources	43511886	14944	36847
+2018	AZ	Electric Utility	Coal	30897502	14847	25707
+2018	AZ	Electric Utility	Natural Gas	12575104	91	11116
+2018	AZ	Electric Utility	Petroleum	39280	6	24
+2018	AZ	IPP NAICS-22 Non-Cogen	All Sources	3136895	45	946
+2018	AZ	IPP NAICS-22 Non-Cogen	Natural Gas	3136895	20	325
+2018	AZ	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	523
+2018	AZ	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	25	98
+2018	AZ	IPP NAICS-22 Cogen	All Sources	21133	0	15
+2018	AZ	IPP NAICS-22 Cogen	Natural Gas	21133	0	15
+2018	AZ	Commercial Non-Cogen	All Sources	36	0	0
+2018	AZ	Commercial Non-Cogen	Natural Gas	16	0	0
+2018	AZ	Commercial Non-Cogen	Petroleum	20	0	0
+2018	AZ	Commercial Cogen	All Sources	86612	0	197
+2018	AZ	Commercial Cogen	Natural Gas	86612	0	197
+2018	AZ	Total Electric Power Industry	All Sources	46756562	14989	38005
+2018	AZ	Total Electric Power Industry	Coal	30897502	14847	25707
+2018	AZ	Total Electric Power Industry	Natural Gas	15819760	111	11653
+2018	AZ	Total Electric Power Industry	Other Biomass	0	0	523
+2018	AZ	Total Electric Power Industry	Petroleum	39300	6	24
+2018	AZ	Total Electric Power Industry	Wood and Wood Derived Fuels	0	25	98
+2018	CA	Electric Utility	All Sources	12248180	103	6108
+2018	CA	Electric Utility	Geothermal	20683	0	0
+2018	CA	Electric Utility	Natural Gas	12201413	61	5519
+2018	CA	Electric Utility	Other Biomass	0	0	115
+2018	CA	Electric Utility	Petroleum	26084	42	474
+2018	CA	IPP NAICS-22 Non-Cogen	All Sources	14708489	315	15338
+2018	CA	IPP NAICS-22 Non-Cogen	Geothermal	286493	0	0
+2018	CA	IPP NAICS-22 Non-Cogen	Natural Gas	14275109	66	3021
+2018	CA	IPP NAICS-22 Non-Cogen	Other Biomass	0	12	11260
+2018	CA	IPP NAICS-22 Non-Cogen	Other	139921	48	376
+2018	CA	IPP NAICS-22 Non-Cogen	Petroleum	6966	9	30
+2018	CA	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	180	651
+2018	CA	IPP NAICS-22 Cogen	All Sources	7310747	351	13148
+2018	CA	IPP NAICS-22 Cogen	Natural Gas	7175109	32	11279
+2018	CA	IPP NAICS-22 Cogen	Other Biomass	0	0	1498
+2018	CA	IPP NAICS-22 Cogen	Other	135638	288	175
+2018	CA	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	31	196
+2018	CA	Commercial Non-Cogen	All Sources	26245	4	2439
+2018	CA	Commercial Non-Cogen	Natural Gas	25877	0	118
+2018	CA	Commercial Non-Cogen	Other Biomass	0	4	2314
+2018	CA	Commercial Non-Cogen	Petroleum	368	0	7
+2018	CA	Commercial Cogen	All Sources	1240387	3	9504
+2018	CA	Commercial Cogen	Natural Gas	1240035	2	4866
+2018	CA	Commercial Cogen	Other Biomass	0	1	4632
+2018	CA	Commercial Cogen	Petroleum	352	0	6
+2018	CA	Industrial Non-Cogen	All Sources	256634	34	1177
+2018	CA	Industrial Non-Cogen	Natural Gas	256633	1	773
+2018	CA	Industrial Non-Cogen	Other Biomass	0	0	115
+2018	CA	Industrial Non-Cogen	Other Gases	0	0	115
+2018	CA	Industrial Non-Cogen	Petroleum	1	0	0
+2018	CA	Industrial Non-Cogen	Wood and Wood Derived Fuels	0	33	174
+2018	CA	Industrial Cogen	All Sources	7788186	509	19433
+2018	CA	Industrial Cogen	Coal	1359682	327	785
+2018	CA	Industrial Cogen	Natural Gas	6398216	27	16293
+2018	CA	Industrial Cogen	Other Gases	0	8	1774
+2018	CA	Industrial Cogen	Other	0	0	0
+2018	CA	Industrial Cogen	Petroleum	30288	50	31
+2018	CA	Industrial Cogen	Wood and Wood Derived Fuels	0	97	550
+2018	CA	Total Electric Power Industry	All Sources	43578868	1319	67147
+2018	CA	Total Electric Power Industry	Coal	1359682	327	785
+2018	CA	Total Electric Power Industry	Geothermal	307176	0	0
+2018	CA	Total Electric Power Industry	Natural Gas	41572392	189	41869
+2018	CA	Total Electric Power Industry	Other Biomass	0	17	19934
+2018	CA	Total Electric Power Industry	Other Gases	0	8	1889
+2018	CA	Total Electric Power Industry	Other	275559	336	551
+2018	CA	Total Electric Power Industry	Petroleum	64059	101	548
+2018	CA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	341	1571
+2018	CO	Electric Utility	All Sources	33116661	10325	17188
+2018	CO	Electric Utility	Coal	27176625	10286	15333
+2018	CO	Electric Utility	Natural Gas	5926573	29	1816
+2018	CO	Electric Utility	Petroleum	13463	10	39
+2018	CO	IPP NAICS-22 Non-Cogen	All Sources	1177581	15	1266
+2018	CO	IPP NAICS-22 Non-Cogen	Natural Gas	1177220	6	509
+2018	CO	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	749
+2018	CO	IPP NAICS-22 Non-Cogen	Petroleum	361	0	0
+2018	CO	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	9	8
+2018	CO	IPP NAICS-22 Cogen	All Sources	247820	1	624
+2018	CO	IPP NAICS-22 Cogen	Natural Gas	247820	1	467
+2018	CO	IPP NAICS-22 Cogen	Other Biomass	0	0	157
+2018	CO	Commercial Cogen	All Sources	729	0	2
+2018	CO	Commercial Cogen	Natural Gas	729	0	2
+2018	CO	Industrial Cogen	All Sources	170103	307	345
+2018	CO	Industrial Cogen	Coal	151912	307	295
+2018	CO	Industrial Cogen	Natural Gas	18157	0	49
+2018	CO	Industrial Cogen	Petroleum	34	0	1
+2018	CO	Total Electric Power Industry	All Sources	34712894	10648	19425
+2018	CO	Total Electric Power Industry	Coal	27328537	10593	15628
+2018	CO	Total Electric Power Industry	Natural Gas	7370499	36	2843
+2018	CO	Total Electric Power Industry	Other Biomass	0	0	906
+2018	CO	Total Electric Power Industry	Petroleum	13858	10	40
+2018	CO	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9	8
+2018	CT	Electric Utility	All Sources	32588	8	72
+2018	CT	Electric Utility	Natural Gas	28620	0	1
+2018	CT	Electric Utility	Petroleum	3968	8	71
+2018	CT	IPP NAICS-22 Non-Cogen	All Sources	8675978	867	3689
+2018	CT	IPP NAICS-22 Non-Cogen	Coal	391072	315	229
+2018	CT	IPP NAICS-22 Non-Cogen	Natural Gas	7248026	26	868
+2018	CT	IPP NAICS-22 Non-Cogen	Other Biomass	0	6	147
+2018	CT	IPP NAICS-22 Non-Cogen	Other	770560	153	2073
+2018	CT	IPP NAICS-22 Non-Cogen	Petroleum	266320	323	300
+2018	CT	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	44	72
+2018	CT	IPP NAICS-22 Cogen	All Sources	147834	1	46
+2018	CT	IPP NAICS-22 Cogen	Natural Gas	145573	0	46
+2018	CT	IPP NAICS-22 Cogen	Petroleum	2261	1	0
+2018	CT	Commercial Non-Cogen	All Sources	628	0	1
+2018	CT	Commercial Non-Cogen	Natural Gas	589	0	0
+2018	CT	Commercial Non-Cogen	Petroleum	39	0	1
+2018	CT	Commercial Cogen	All Sources	282306	5	1121
+2018	CT	Commercial Cogen	Natural Gas	279620	0	1119
+2018	CT	Commercial Cogen	Petroleum	2686	5	2
+2018	CT	Industrial Non-Cogen	All Sources	27365	0	231
+2018	CT	Industrial Non-Cogen	Natural Gas	27365	0	231
+2018	CT	Industrial Cogen	All Sources	424785	2	884
+2018	CT	Industrial Cogen	Natural Gas	423154	0	880
+2018	CT	Industrial Cogen	Petroleum	1631	2	4
+2018	CT	Total Electric Power Industry	All Sources	9591484	883	6044
+2018	CT	Total Electric Power Industry	Coal	391072	315	229
+2018	CT	Total Electric Power Industry	Natural Gas	8152947	26	3145
+2018	CT	Total Electric Power Industry	Other Biomass	0	6	147
+2018	CT	Total Electric Power Industry	Other	770560	153	2073
+2018	CT	Total Electric Power Industry	Petroleum	276905	339	378
+2018	CT	Total Electric Power Industry	Wood and Wood Derived Fuels	0	44	72
+2018	DC	Commercial Cogen	All Sources	42828	0	339
+2018	DC	Commercial Cogen	Natural Gas	42828	0	118
+2018	DC	Commercial Cogen	Other Biomass	0	0	221
+2018	DC	Total Electric Power Industry	All Sources	42828	0	339
+2018	DC	Total Electric Power Industry	Natural Gas	42828	0	118
+2018	DC	Total Electric Power Industry	Other Biomass	0	0	221
+2018	DE	Electric Utility	All Sources	20625	0	3
+2018	DE	Electric Utility	Natural Gas	15432	0	2
+2018	DE	Electric Utility	Petroleum	5193	0	1
+2018	DE	IPP NAICS-22 Non-Cogen	All Sources	2485836	579	1349
+2018	DE	IPP NAICS-22 Non-Cogen	Coal	400866	397	115
+2018	DE	IPP NAICS-22 Non-Cogen	Natural Gas	1941343	2	589
+2018	DE	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	578
+2018	DE	IPP NAICS-22 Non-Cogen	Petroleum	143627	180	67
+2018	DE	IPP NAICS-22 Cogen	All Sources	43229	0	9
+2018	DE	IPP NAICS-22 Cogen	Natural Gas	41394	0	8
+2018	DE	IPP NAICS-22 Cogen	Petroleum	1835	0	1
+2018	DE	Industrial Cogen	All Sources	643483	10	212
+2018	DE	Industrial Cogen	Natural Gas	643483	6	64
+2018	DE	Industrial Cogen	Other Biomass	0	0	136
+2018	DE	Industrial Cogen	Other Gases	0	4	12
+2018	DE	Total Electric Power Industry	All Sources	3193173	589	1573
+2018	DE	Total Electric Power Industry	Coal	400866	397	115
+2018	DE	Total Electric Power Industry	Natural Gas	2641652	8	663
+2018	DE	Total Electric Power Industry	Other Biomass	0	0	714
+2018	DE	Total Electric Power Industry	Other Gases	0	4	12
+2018	DE	Total Electric Power Industry	Petroleum	150655	180	69
+2018	FL	Electric Utility	All Sources	99216442	26436	33225
+2018	FL	Electric Utility	Coal	29377523	22639	12171
+2018	FL	Electric Utility	Natural Gas	67766829	613	19669
+2018	FL	Electric Utility	Other Biomass	0	0	271
+2018	FL	Electric Utility	Petroleum	2072090	3169	845
+2018	FL	Electric Utility	Wood and Wood Derived Fuels	0	15	269
+2018	FL	IPP NAICS-22 Non-Cogen	All Sources	5163020	2046	11363
+2018	FL	IPP NAICS-22 Non-Cogen	Natural Gas	2547424	21	567
+2018	FL	IPP NAICS-22 Non-Cogen	Other Biomass	0	30	4180
+2018	FL	IPP NAICS-22 Non-Cogen	Other	2604390	1920	6276
+2018	FL	IPP NAICS-22 Non-Cogen	Petroleum	11206	50	5
+2018	FL	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	25	335
+2018	FL	IPP NAICS-22 Cogen	All Sources	990370	39	781
+2018	FL	IPP NAICS-22 Cogen	Natural Gas	990370	4	663
+2018	FL	IPP NAICS-22 Cogen	Other Biomass	0	35	118
+2018	FL	Commercial Non-Cogen	All Sources	83	0	2
+2018	FL	Commercial Non-Cogen	Natural Gas	83	0	2
+2018	FL	Commercial Cogen	All Sources	20543	0	1026
+2018	FL	Commercial Cogen	Natural Gas	20543	0	164
+2018	FL	Commercial Cogen	Other Biomass	0	0	862
+2018	FL	Industrial Non-Cogen	All Sources	54687	0	149
+2018	FL	Industrial Non-Cogen	Natural Gas	54687	0	149
+2018	FL	Industrial Cogen	All Sources	2346788	24977	12061
+2018	FL	Industrial Cogen	Coal	383413	2770	556
+2018	FL	Industrial Cogen	Natural Gas	1852424	10	3455
+2018	FL	Industrial Cogen	Other Biomass	0	84	955
+2018	FL	Industrial Cogen	Other Gases	0	8	1980
+2018	FL	Industrial Cogen	Other	9370	9	62
+2018	FL	Industrial Cogen	Petroleum	101581	750	155
+2018	FL	Industrial Cogen	Wood and Wood Derived Fuels	0	21346	4898
+2018	FL	Total Electric Power Industry	All Sources	107791933	53498	58607
+2018	FL	Total Electric Power Industry	Coal	29760936	25409	12727
+2018	FL	Total Electric Power Industry	Natural Gas	73232360	648	24669
+2018	FL	Total Electric Power Industry	Other Biomass	0	149	6386
+2018	FL	Total Electric Power Industry	Other Gases	0	8	1980
+2018	FL	Total Electric Power Industry	Other	2613760	1929	6338
+2018	FL	Total Electric Power Industry	Petroleum	2184877	3969	1005
+2018	FL	Total Electric Power Industry	Wood and Wood Derived Fuels	0	21386	5502
+2018	GA	Electric Utility	All Sources	47244582	12615	22797
+2018	GA	Electric Utility	Coal	31602441	12418	20168
+2018	GA	Electric Utility	Natural Gas	15534901	81	2251
+2018	GA	Electric Utility	Petroleum	107240	116	378
+2018	GA	IPP NAICS-22 Non-Cogen	All Sources	4840698	101	5428
+2018	GA	IPP NAICS-22 Non-Cogen	Natural Gas	4773895	22	1259
+2018	GA	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	3665
+2018	GA	IPP NAICS-22 Non-Cogen	Petroleum	66803	47	160
+2018	GA	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	32	344
+2018	GA	IPP NAICS-22 Cogen	All Sources	100901	7	290
+2018	GA	IPP NAICS-22 Cogen	Natural Gas	90378	0	59
+2018	GA	IPP NAICS-22 Cogen	Other Biomass	0	0	198
+2018	GA	IPP NAICS-22 Cogen	Petroleum	10523	4	2
+2018	GA	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	3	31
+2018	GA	Commercial Non-Cogen	All Sources	3091	5	60
+2018	GA	Commercial Non-Cogen	Petroleum	3091	5	60
+2018	GA	Industrial Cogen	All Sources	2614094	35282	14414
+2018	GA	Industrial Cogen	Coal	650535	1259	878
+2018	GA	Industrial Cogen	Natural Gas	1119193	4	2190
+2018	GA	Industrial Cogen	Other Biomass	0	186	152
+2018	GA	Industrial Cogen	Other	195434	2006	158
+2018	GA	Industrial Cogen	Petroleum	648932	2043	568
+2018	GA	Industrial Cogen	Wood and Wood Derived Fuels	0	29784	10468
+2018	GA	Total Electric Power Industry	All Sources	54803366	48010	42989
+2018	GA	Total Electric Power Industry	Coal	32252976	13677	21046
+2018	GA	Total Electric Power Industry	Natural Gas	21518367	107	5759
+2018	GA	Total Electric Power Industry	Other Biomass	0	186	4015
+2018	GA	Total Electric Power Industry	Other	195434	2006	158
+2018	GA	Total Electric Power Industry	Petroleum	836589	2215	1168
+2018	GA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	29819	10843
+2018	HI	Electric Utility	All Sources	4165279	11257	11364
+2018	HI	Electric Utility	Other Biomass	0	326	558
+2018	HI	Electric Utility	Other	0	0	50
+2018	HI	Electric Utility	Petroleum	4165279	10931	10756
+2018	HI	IPP NAICS-22 Non-Cogen	All Sources	219611	315	213
+2018	HI	IPP NAICS-22 Non-Cogen	Geothermal	2896	0	0
+2018	HI	IPP NAICS-22 Non-Cogen	Other Biomass	0	3	46
+2018	HI	IPP NAICS-22 Non-Cogen	Petroleum	216715	312	167
+2018	HI	IPP NAICS-22 Cogen	All Sources	2271937	2708	2572
+2018	HI	IPP NAICS-22 Cogen	Coal	1396494	277	916
+2018	HI	IPP NAICS-22 Cogen	Petroleum	875443	2431	1656
+2018	HI	Commercial Non-Cogen	All Sources	315005	399	779
+2018	HI	Commercial Non-Cogen	Other	310736	394	776
+2018	HI	Commercial Non-Cogen	Petroleum	4269	5	3
+2018	HI	Industrial Cogen	All Sources	225393	332	1009
+2018	HI	Industrial Cogen	Other Gases	0	0	101
+2018	HI	Industrial Cogen	Petroleum	225393	332	908
+2018	HI	Total Electric Power Industry	All Sources	7197225	15011	15937
+2018	HI	Total Electric Power Industry	Coal	1396494	277	916
+2018	HI	Total Electric Power Industry	Geothermal	2896	0	0
+2018	HI	Total Electric Power Industry	Other Biomass	0	329	604
+2018	HI	Total Electric Power Industry	Other Gases	0	0	101
+2018	HI	Total Electric Power Industry	Other	310736	394	826
+2018	HI	Total Electric Power Industry	Petroleum	5487099	14011	13490
+2018	IA	Electric Utility	All Sources	29075484	30976	22079
+2018	IA	Electric Utility	Coal	26332854	30944	21410
+2018	IA	Electric Utility	Natural Gas	2690625	15	557
+2018	IA	Electric Utility	Other Biomass	0	6	7
+2018	IA	Electric Utility	Petroleum	52005	11	105
+2018	IA	IPP NAICS-22 Non-Cogen	All Sources	3184	5	1400
+2018	IA	IPP NAICS-22 Non-Cogen	Natural Gas	4	0	0
+2018	IA	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	1341
+2018	IA	IPP NAICS-22 Non-Cogen	Petroleum	3180	4	59
+2018	IA	IPP NAICS-22 Cogen	All Sources	5951	0	78
+2018	IA	IPP NAICS-22 Cogen	Natural Gas	5951	0	16
+2018	IA	IPP NAICS-22 Cogen	Other Biomass	0	0	62
+2018	IA	Commercial Non-Cogen	All Sources	766	0	17
+2018	IA	Commercial Non-Cogen	Natural Gas	766	0	17
+2018	IA	Commercial Cogen	All Sources	403364	1986	1047
+2018	IA	Commercial Cogen	Coal	220585	648	265
+2018	IA	Commercial Cogen	Natural Gas	147800	0	153
+2018	IA	Commercial Cogen	Other Biomass	0	3	506
+2018	IA	Commercial Cogen	Petroleum	34979	1335	119
+2018	IA	Commercial Cogen	Wood and Wood Derived Fuels	0	0	4
+2018	IA	Industrial Non-Cogen	All Sources	136	0	3
+2018	IA	Industrial Non-Cogen	Petroleum	136	0	3
+2018	IA	Industrial Cogen	All Sources	4763994	805	4159
+2018	IA	Industrial Cogen	Coal	4063110	795	3014
+2018	IA	Industrial Cogen	Natural Gas	513687	2	1055
+2018	IA	Industrial Cogen	Other Biomass	0	1	28
+2018	IA	Industrial Cogen	Petroleum	187197	7	62
+2018	IA	Total Electric Power Industry	All Sources	34252879	33772	28783
+2018	IA	Total Electric Power Industry	Coal	30616549	32387	24689
+2018	IA	Total Electric Power Industry	Natural Gas	3358833	17	1798
+2018	IA	Total Electric Power Industry	Other Biomass	0	11	1944
+2018	IA	Total Electric Power Industry	Petroleum	277497	1357	348
+2018	IA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	0	4
+2018	ID	Electric Utility	All Sources	671861	2	313
+2018	ID	Electric Utility	Natural Gas	671828	2	132
+2018	ID	Electric Utility	Other Biomass	0	0	180
+2018	ID	Electric Utility	Petroleum	33	0	1
+2018	ID	IPP NAICS-22 Non-Cogen	All Sources	616131	3	467
+2018	ID	IPP NAICS-22 Non-Cogen	Geothermal	2186	0	0
+2018	ID	IPP NAICS-22 Non-Cogen	Natural Gas	613945	3	66
+2018	ID	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	401
+2018	ID	IPP NAICS-22 Cogen	All Sources	0	16	1195
+2018	ID	IPP NAICS-22 Cogen	Other Biomass	0	0	1059
+2018	ID	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	16	136
+2018	ID	Commercial Non-Cogen	All Sources	0	0	110
+2018	ID	Commercial Non-Cogen	Other Biomass	0	0	110
+2018	ID	Commercial Cogen	All Sources	25174	0	68
+2018	ID	Commercial Cogen	Natural Gas	25155	0	68
+2018	ID	Commercial Cogen	Petroleum	19	0	0
+2018	ID	Industrial Cogen	All Sources	453316	3849	2083
+2018	ID	Industrial Cogen	Coal	111117	398	215
+2018	ID	Industrial Cogen	Natural Gas	342199	1	739
+2018	ID	Industrial Cogen	Other Biomass	0	0	283
+2018	ID	Industrial Cogen	Wood and Wood Derived Fuels	0	3450	846
+2018	ID	Total Electric Power Industry	All Sources	1766482	3870	4236
+2018	ID	Total Electric Power Industry	Coal	111117	398	215
+2018	ID	Total Electric Power Industry	Geothermal	2186	0	0
+2018	ID	Total Electric Power Industry	Natural Gas	1653127	6	1005
+2018	ID	Total Electric Power Industry	Other Biomass	0	0	2033
+2018	ID	Total Electric Power Industry	Petroleum	52	0	1
+2018	ID	Total Electric Power Industry	Wood and Wood Derived Fuels	0	3466	982
+2018	IL	Electric Utility	All Sources	4938145	6093	2619
+2018	IL	Electric Utility	Coal	4361920	6085	1899
+2018	IL	Electric Utility	Natural Gas	569587	2	268
+2018	IL	Electric Utility	Other Biomass	0	1	366
+2018	IL	Electric Utility	Petroleum	6638	5	86
+2018	IL	IPP NAICS-22 Non-Cogen	All Sources	60925085	45943	29427
+2018	IL	IPP NAICS-22 Non-Cogen	Coal	54320217	45870	24784
+2018	IL	IPP NAICS-22 Non-Cogen	Natural Gas	6566376	50	2107
+2018	IL	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	2514
+2018	IL	IPP NAICS-22 Non-Cogen	Petroleum	38492	23	22
+2018	IL	IPP NAICS-22 Cogen	All Sources	443893	2	518
+2018	IL	IPP NAICS-22 Cogen	Natural Gas	443893	2	264
+2018	IL	IPP NAICS-22 Cogen	Other Biomass	0	0	254
+2018	IL	IPP NAICS-22 Cogen	Other Gases	0	0	0
+2018	IL	Commercial Non-Cogen	All Sources	44	0	0
+2018	IL	Commercial Non-Cogen	Natural Gas	2	0	0
+2018	IL	Commercial Non-Cogen	Petroleum	42	0	0
+2018	IL	Commercial Cogen	All Sources	431936	2857	1339
+2018	IL	Commercial Cogen	Coal	153374	2857	377
+2018	IL	Commercial Cogen	Natural Gas	278290	0	957
+2018	IL	Commercial Cogen	Petroleum	272	0	5
+2018	IL	Industrial Non-Cogen	All Sources	7217	0	168
+2018	IL	Industrial Non-Cogen	Natural Gas	7217	0	168
+2018	IL	Industrial Cogen	All Sources	5514458	25152	2846
+2018	IL	Industrial Cogen	Coal	4803717	25119	2263
+2018	IL	Industrial Cogen	Natural Gas	699705	3	522
+2018	IL	Industrial Cogen	Other Gases	0	14	56
+2018	IL	Industrial Cogen	Other	11036	16	5
+2018	IL	Total Electric Power Industry	All Sources	72260778	80047	36917
+2018	IL	Total Electric Power Industry	Coal	63639228	79931	29323
+2018	IL	Total Electric Power Industry	Natural Gas	8565070	57	4286
+2018	IL	Total Electric Power Industry	Other Biomass	0	1	3134
+2018	IL	Total Electric Power Industry	Other Gases	0	14	56
+2018	IL	Total Electric Power Industry	Other	11036	16	5
+2018	IL	Total Electric Power Industry	Petroleum	45444	28	113
+2018	IN	Electric Utility	All Sources	78495553	59062	56441
+2018	IN	Electric Utility	Coal	73396725	58997	50940
+2018	IN	Electric Utility	Natural Gas	5008803	26	1626
+2018	IN	Electric Utility	Other Biomass	0	1	3816
+2018	IN	Electric Utility	Petroleum	90025	38	59
+2018	IN	IPP NAICS-22 Non-Cogen	All Sources	4335535	21	1086
+2018	IN	IPP NAICS-22 Non-Cogen	Natural Gas	4335158	21	422
+2018	IN	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	663
+2018	IN	IPP NAICS-22 Non-Cogen	Petroleum	377	0	1
+2018	IN	IPP NAICS-22 Cogen	All Sources	6135761	2562	7651
+2018	IN	IPP NAICS-22 Cogen	Coal	4539027	2554	7281
+2018	IN	IPP NAICS-22 Cogen	Natural Gas	1596732	8	370
+2018	IN	IPP NAICS-22 Cogen	Petroleum	2	0	0
+2018	IN	Commercial Non-Cogen	All Sources	33	0	1
+2018	IN	Commercial Non-Cogen	Petroleum	33	0	1
+2018	IN	Commercial Cogen	All Sources	724837	847	2117
+2018	IN	Commercial Cogen	Coal	113499	300	99
+2018	IN	Commercial Cogen	Natural Gas	317500	2	410
+2018	IN	Commercial Cogen	Other	293381	544	1600
+2018	IN	Commercial Cogen	Petroleum	457	1	8
+2018	IN	Industrial Non-Cogen	All Sources	24561	0	1460
+2018	IN	Industrial Non-Cogen	Natural Gas	24334	0	558
+2018	IN	Industrial Non-Cogen	Other Biomass	0	0	892
+2018	IN	Industrial Non-Cogen	Other Gases	0	0	6
+2018	IN	Industrial Non-Cogen	Petroleum	227	0	4
+2018	IN	Industrial Cogen	All Sources	1837248	311	6146
+2018	IN	Industrial Cogen	Natural Gas	1806936	8	2768
+2018	IN	Industrial Cogen	Other Biomass	0	0	792
+2018	IN	Industrial Cogen	Other Gases	0	120	2580
+2018	IN	Industrial Cogen	Petroleum	30312	183	6
+2018	IN	Total Electric Power Industry	All Sources	91553528	62803	74902
+2018	IN	Total Electric Power Industry	Coal	78049251	61851	58320
+2018	IN	Total Electric Power Industry	Natural Gas	13089463	65	6154
+2018	IN	Total Electric Power Industry	Other Biomass	0	1	6163
+2018	IN	Total Electric Power Industry	Other Gases	0	120	2586
+2018	IN	Total Electric Power Industry	Other	293381	544	1600
+2018	IN	Total Electric Power Industry	Petroleum	121433	222	79
+2018	KS	Electric Utility	All Sources	23475073	4944	15904
+2018	KS	Electric Utility	Coal	21874850	4919	11256
+2018	KS	Electric Utility	Natural Gas	1550253	6	4450
+2018	KS	Electric Utility	Petroleum	49970	19	198
+2018	KS	IPP NAICS-22 Non-Cogen	All Sources	0	0	827
+2018	KS	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	827
+2018	KS	Industrial Cogen	All Sources	272566	0	662
+2018	KS	Industrial Cogen	Natural Gas	272566	0	662
+2018	KS	Industrial Cogen	Other Biomass	0	0	0
+2018	KS	Total Electric Power Industry	All Sources	23747639	4944	17393
+2018	KS	Total Electric Power Industry	Coal	21874850	4919	11256
+2018	KS	Total Electric Power Industry	Natural Gas	1822819	6	5112
+2018	KS	Total Electric Power Industry	Other Biomass	0	0	827
+2018	KS	Total Electric Power Industry	Petroleum	49970	19	198
+2018	KY	Electric Utility	All Sources	65592005	50040	44127
+2018	KY	Electric Utility	Coal	59645690	49955	37051
+2018	KY	Electric Utility	Natural Gas	5811764	56	5704
+2018	KY	Electric Utility	Other Biomass	0	0	1302
+2018	KY	Electric Utility	Other	57810	4	29
+2018	KY	Electric Utility	Petroleum	76741	25	41
+2018	KY	IPP NAICS-22 Non-Cogen	All Sources	436220	2	302
+2018	KY	IPP NAICS-22 Non-Cogen	Natural Gas	436220	2	192
+2018	KY	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	110
+2018	KY	Industrial Cogen	All Sources	239021	2817	852
+2018	KY	Industrial Cogen	Natural Gas	239021	1	98
+2018	KY	Industrial Cogen	Wood and Wood Derived Fuels	0	2816	754
+2018	KY	Total Electric Power Industry	All Sources	66267246	52859	45281
+2018	KY	Total Electric Power Industry	Coal	59645690	49955	37051
+2018	KY	Total Electric Power Industry	Natural Gas	6487005	59	5994
+2018	KY	Total Electric Power Industry	Other Biomass	0	0	1412
+2018	KY	Total Electric Power Industry	Other	57810	4	29
+2018	KY	Total Electric Power Industry	Petroleum	76741	25	41
+2018	KY	Total Electric Power Industry	Wood and Wood Derived Fuels	0	2816	754
+2018	LA	Electric Utility	All Sources	27848203	22838	23934
+2018	LA	Electric Utility	Coal	8565526	18002	5564
+2018	LA	Electric Utility	Natural Gas	14484372	70	16248
+2018	LA	Electric Utility	Petroleum	4798305	4766	2122
+2018	LA	IPP NAICS-22 Non-Cogen	All Sources	4937707	11759	3074
+2018	LA	IPP NAICS-22 Non-Cogen	Coal	4412099	11753	2669
+2018	LA	IPP NAICS-22 Non-Cogen	Natural Gas	525608	2	347
+2018	LA	IPP NAICS-22 Non-Cogen	Other Biomass	0	4	58
+2018	LA	IPP NAICS-22 Cogen	All Sources	1385019	7	358
+2018	LA	IPP NAICS-22 Cogen	Natural Gas	1385019	7	358
+2018	LA	Commercial Cogen	All Sources	114376	0	312
+2018	LA	Commercial Cogen	Natural Gas	114376	0	312
+2018	LA	Industrial Non-Cogen	All Sources	106211	0	887
+2018	LA	Industrial Non-Cogen	Natural Gas	106211	0	856
+2018	LA	Industrial Non-Cogen	Other Gases	0	0	11
+2018	LA	Industrial Non-Cogen	Other	0	0	20
+2018	LA	Industrial Cogen	All Sources	16378752	71433	47097
+2018	LA	Industrial Cogen	Natural Gas	15960210	68	23092
+2018	LA	Industrial Cogen	Other Biomass	0	25	374
+2018	LA	Industrial Cogen	Other Gases	0	38	6266
+2018	LA	Industrial Cogen	Other	12957	143	323
+2018	LA	Industrial Cogen	Petroleum	405585	21	109
+2018	LA	Industrial Cogen	Wood and Wood Derived Fuels	0	71138	16933
+2018	LA	Total Electric Power Industry	All Sources	50770268	106037	75662
+2018	LA	Total Electric Power Industry	Coal	12977625	29755	8233
+2018	LA	Total Electric Power Industry	Natural Gas	32575796	147	41213
+2018	LA	Total Electric Power Industry	Other Biomass	0	29	432
+2018	LA	Total Electric Power Industry	Other Gases	0	38	6277
+2018	LA	Total Electric Power Industry	Other	12957	143	343
+2018	LA	Total Electric Power Industry	Petroleum	5203890	4787	2231
+2018	LA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	71138	16933
+2018	MA	Electric Utility	All Sources	147035	77	271
+2018	MA	Electric Utility	Natural Gas	93946	0	142
+2018	MA	Electric Utility	Petroleum	53089	77	129
+2018	MA	IPP NAICS-22 Non-Cogen	All Sources	7925741	2387	5828
+2018	MA	IPP NAICS-22 Non-Cogen	Natural Gas	6330295	25	789
+2018	MA	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	1765
+2018	MA	IPP NAICS-22 Non-Cogen	Other	1306508	1679	3104
+2018	MA	IPP NAICS-22 Non-Cogen	Petroleum	288938	655	143
+2018	MA	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	28	27
+2018	MA	IPP NAICS-22 Cogen	All Sources	914201	13	278
+2018	MA	IPP NAICS-22 Cogen	Natural Gas	898511	1	278
+2018	MA	IPP NAICS-22 Cogen	Petroleum	15690	12	0
+2018	MA	Commercial Non-Cogen	All Sources	14	0	0
+2018	MA	Commercial Non-Cogen	Petroleum	14	0	0
+2018	MA	Commercial Cogen	All Sources	635259	29	1350
+2018	MA	Commercial Cogen	Natural Gas	620158	2	1280
+2018	MA	Commercial Cogen	Other Biomass	0	0	5
+2018	MA	Commercial Cogen	Petroleum	15101	27	65
+2018	MA	Industrial Non-Cogen	All Sources	22	0	0
+2018	MA	Industrial Non-Cogen	Petroleum	22	0	0
+2018	MA	Industrial Cogen	All Sources	353639	5	725
+2018	MA	Industrial Cogen	Natural Gas	351562	0	716
+2018	MA	Industrial Cogen	Petroleum	2077	5	9
+2018	MA	Total Electric Power Industry	All Sources	9975911	2511	8452
+2018	MA	Total Electric Power Industry	Natural Gas	8294472	28	3205
+2018	MA	Total Electric Power Industry	Other Biomass	0	0	1770
+2018	MA	Total Electric Power Industry	Other	1306508	1679	3104
+2018	MA	Total Electric Power Industry	Petroleum	374931	776	346
+2018	MA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	28	27
+2018	MD	Electric Utility	All Sources	1432699	16	173
+2018	MD	Electric Utility	Natural Gas	1428015	7	87
+2018	MD	Electric Utility	Petroleum	4684	9	86
+2018	MD	IPP NAICS-22 Non-Cogen	All Sources	13157870	9347	7191
+2018	MD	IPP NAICS-22 Non-Cogen	Coal	9310103	8967	4070
+2018	MD	IPP NAICS-22 Non-Cogen	Natural Gas	3382909	13	974
+2018	MD	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	1148
+2018	MD	IPP NAICS-22 Non-Cogen	Other	251493	17	415
+2018	MD	IPP NAICS-22 Non-Cogen	Petroleum	213365	350	584
+2018	MD	IPP NAICS-22 Cogen	All Sources	2057320	1106	1659
+2018	MD	IPP NAICS-22 Cogen	Coal	1172020	950	449
+2018	MD	IPP NAICS-22 Cogen	Natural Gas	565854	0	344
+2018	MD	IPP NAICS-22 Cogen	Other	299143	153	861
+2018	MD	IPP NAICS-22 Cogen	Petroleum	20303	3	5
+2018	MD	Commercial Non-Cogen	All Sources	332676	2	1155
+2018	MD	Commercial Non-Cogen	Natural Gas	332675	2	665
+2018	MD	Commercial Non-Cogen	Other Biomass	0	0	490
+2018	MD	Commercial Non-Cogen	Petroleum	1	0	0
+2018	MD	Commercial Cogen	All Sources	214569	9	408
+2018	MD	Commercial Cogen	Natural Gas	213364	0	342
+2018	MD	Commercial Cogen	Petroleum	1205	2	6
+2018	MD	Commercial Cogen	Wood and Wood Derived Fuels	0	7	60
+2018	MD	Industrial Cogen	All Sources	644186	7978	1210
+2018	MD	Industrial Cogen	Coal	374723	6133	378
+2018	MD	Industrial Cogen	Natural Gas	250578	1	184
+2018	MD	Industrial Cogen	Petroleum	18885	45	19
+2018	MD	Industrial Cogen	Wood and Wood Derived Fuels	0	1799	629
+2018	MD	Total Electric Power Industry	All Sources	17839320	18458	11796
+2018	MD	Total Electric Power Industry	Coal	10856846	16050	4897
+2018	MD	Total Electric Power Industry	Natural Gas	6173395	23	2596
+2018	MD	Total Electric Power Industry	Other Biomass	0	0	1638
+2018	MD	Total Electric Power Industry	Other	550636	170	1276
+2018	MD	Total Electric Power Industry	Petroleum	258443	409	700
+2018	MD	Total Electric Power Industry	Wood and Wood Derived Fuels	0	1806	689
+2018	ME	Electric Utility	All Sources	14	0	0
+2018	ME	Electric Utility	Petroleum	14	0	0
+2018	ME	IPP NAICS-22 Non-Cogen	All Sources	978531	815	1618
+2018	ME	IPP NAICS-22 Non-Cogen	Natural Gas	763842	3	118
+2018	ME	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	380
+2018	ME	IPP NAICS-22 Non-Cogen	Other	73445	17	220
+2018	ME	IPP NAICS-22 Non-Cogen	Petroleum	141244	579	146
+2018	ME	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	216	754
+2018	ME	IPP NAICS-22 Cogen	All Sources	483778	674	1192
+2018	ME	IPP NAICS-22 Cogen	Coal	147103	81	141
+2018	ME	IPP NAICS-22 Cogen	Natural Gas	3013	0	2
+2018	ME	IPP NAICS-22 Cogen	Other Biomass	0	4	74
+2018	ME	IPP NAICS-22 Cogen	Other	317357	330	279
+2018	ME	IPP NAICS-22 Cogen	Petroleum	16305	14	23
+2018	ME	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	245	673
+2018	ME	Commercial Non-Cogen	All Sources	125161	67	507
+2018	ME	Commercial Non-Cogen	Natural Gas	298	0	1
+2018	ME	Commercial Non-Cogen	Other	122275	67	503
+2018	ME	Commercial Non-Cogen	Petroleum	2588	0	2
+2018	ME	Commercial Non-Cogen	Wood and Wood Derived Fuels	0	0	1
+2018	ME	Commercial Cogen	All Sources	22810	0	64
+2018	ME	Commercial Cogen	Natural Gas	22807	0	64
+2018	ME	Commercial Cogen	Petroleum	3	0	0
+2018	ME	Industrial Cogen	All Sources	591314	5749	2586
+2018	ME	Industrial Cogen	Coal	49892	273	86
+2018	ME	Industrial Cogen	Natural Gas	413101	0	337
+2018	ME	Industrial Cogen	Other Biomass	0	59	67
+2018	ME	Industrial Cogen	Other	84722	454	82
+2018	ME	Industrial Cogen	Petroleum	43599	246	46
+2018	ME	Industrial Cogen	Wood and Wood Derived Fuels	0	4717	1968
+2018	ME	Total Electric Power Industry	All Sources	2201608	7305	5967
+2018	ME	Total Electric Power Industry	Coal	196995	354	227
+2018	ME	Total Electric Power Industry	Natural Gas	1203061	3	522
+2018	ME	Total Electric Power Industry	Other Biomass	0	63	521
+2018	ME	Total Electric Power Industry	Other	597799	868	1084
+2018	ME	Total Electric Power Industry	Petroleum	203753	839	217
+2018	ME	Total Electric Power Industry	Wood and Wood Derived Fuels	0	5178	3396
+2018	MI	Electric Utility	All Sources	48590355	58514	31207
+2018	MI	Electric Utility	Coal	42315288	58204	26927
+2018	MI	Electric Utility	Natural Gas	5141524	24	3379
+2018	MI	Electric Utility	Other Gases	0	2	164
+2018	MI	Electric Utility	Petroleum	1133543	284	737
+2018	MI	IPP NAICS-22 Non-Cogen	All Sources	2708959	1126	9108
+2018	MI	IPP NAICS-22 Non-Cogen	Natural Gas	2622207	13	184
+2018	MI	IPP NAICS-22 Non-Cogen	Other Biomass	0	2	7967
+2018	MI	IPP NAICS-22 Non-Cogen	Other	86752	956	122
+2018	MI	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	155	835
+2018	MI	IPP NAICS-22 Cogen	All Sources	6896288	848	5425
+2018	MI	IPP NAICS-22 Cogen	Coal	510088	195	1043
+2018	MI	IPP NAICS-22 Cogen	Natural Gas	6353197	216	4210
+2018	MI	IPP NAICS-22 Cogen	Other Biomass	0	0	63
+2018	MI	IPP NAICS-22 Cogen	Other Gases	0	420	23
+2018	MI	IPP NAICS-22 Cogen	Other	33003	17	62
+2018	MI	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	0	24
+2018	MI	Commercial Non-Cogen	All Sources	86176	22	69
+2018	MI	Commercial Non-Cogen	Natural Gas	625	0	0
+2018	MI	Commercial Non-Cogen	Other	85255	22	64
+2018	MI	Commercial Non-Cogen	Petroleum	296	0	5
+2018	MI	Commercial Cogen	All Sources	993817	120	2223
+2018	MI	Commercial Cogen	Natural Gas	654152	2	699
+2018	MI	Commercial Cogen	Other	325231	112	1508
+2018	MI	Commercial Cogen	Petroleum	14434	6	16
+2018	MI	Commercial Cogen	Wood and Wood Derived Fuels	0	0	0
+2018	MI	Industrial Cogen	All Sources	2159705	13689	4042
+2018	MI	Industrial Cogen	Coal	329593	1490	470
+2018	MI	Industrial Cogen	Natural Gas	1196639	4	2084
+2018	MI	Industrial Cogen	Other Biomass	0	48	23
+2018	MI	Industrial Cogen	Other	47899	528	74
+2018	MI	Industrial Cogen	Petroleum	585574	7153	418
+2018	MI	Industrial Cogen	Wood and Wood Derived Fuels	0	4466	973
+2018	MI	Total Electric Power Industry	All Sources	61435300	74319	52074
+2018	MI	Total Electric Power Industry	Coal	43154969	59889	28440
+2018	MI	Total Electric Power Industry	Natural Gas	15968344	259	10556
+2018	MI	Total Electric Power Industry	Other Biomass	0	50	8053
+2018	MI	Total Electric Power Industry	Other Gases	0	422	187
+2018	MI	Total Electric Power Industry	Other	578140	1635	1830
+2018	MI	Total Electric Power Industry	Petroleum	1733847	7443	1176
+2018	MI	Total Electric Power Industry	Wood and Wood Derived Fuels	0	4621	1832
+2018	MN	Electric Utility	All Sources	26905021	14543	17963
+2018	MN	Electric Utility	Coal	23503091	14434	14241
+2018	MN	Electric Utility	Natural Gas	3026403	14	2234
+2018	MN	Electric Utility	Other Biomass	0	0	376
+2018	MN	Electric Utility	Other	350981	38	734
+2018	MN	Electric Utility	Petroleum	24546	15	87
+2018	MN	Electric Utility	Wood and Wood Derived Fuels	0	42	291
+2018	MN	IPP NAICS-22 Non-Cogen	All Sources	426035	74	1287
+2018	MN	IPP NAICS-22 Non-Cogen	Natural Gas	260628	0	63
+2018	MN	IPP NAICS-22 Non-Cogen	Other Biomass	0	5	784
+2018	MN	IPP NAICS-22 Non-Cogen	Other	152975	8	311
+2018	MN	IPP NAICS-22 Non-Cogen	Petroleum	12432	2	15
+2018	MN	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	59	114
+2018	MN	IPP NAICS-22 Cogen	All Sources	298771	46	826
+2018	MN	IPP NAICS-22 Cogen	Natural Gas	298191	1	336
+2018	MN	IPP NAICS-22 Cogen	Other Biomass	0	3	339
+2018	MN	IPP NAICS-22 Cogen	Petroleum	580	1	3
+2018	MN	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	41	148
+2018	MN	Commercial Non-Cogen	All Sources	490	0	8
+2018	MN	Commercial Non-Cogen	Petroleum	490	0	8
+2018	MN	Commercial Cogen	All Sources	246232	242	1182
+2018	MN	Commercial Cogen	Coal	28594	103	89
+2018	MN	Commercial Cogen	Natural Gas	145761	0	328
+2018	MN	Commercial Cogen	Other Biomass	0	0	88
+2018	MN	Commercial Cogen	Other	69376	122	359
+2018	MN	Commercial Cogen	Petroleum	2501	3	10
+2018	MN	Commercial Cogen	Wood and Wood Derived Fuels	0	14	308
+2018	MN	Industrial Non-Cogen	All Sources	109	0	2
+2018	MN	Industrial Non-Cogen	Petroleum	109	0	2
+2018	MN	Industrial Cogen	All Sources	1928467	9089	5480
+2018	MN	Industrial Cogen	Coal	1644079	4349	3290
+2018	MN	Industrial Cogen	Natural Gas	281154	1	525
+2018	MN	Industrial Cogen	Other Biomass	0	67	119
+2018	MN	Industrial Cogen	Other	0	0	0
+2018	MN	Industrial Cogen	Petroleum	3234	4	6
+2018	MN	Industrial Cogen	Wood and Wood Derived Fuels	0	4668	1540
+2018	MN	Total Electric Power Industry	All Sources	29805125	23994	26748
+2018	MN	Total Electric Power Industry	Coal	25175764	18886	17620
+2018	MN	Total Electric Power Industry	Natural Gas	4012137	16	3486
+2018	MN	Total Electric Power Industry	Other Biomass	0	75	1706
+2018	MN	Total Electric Power Industry	Other	573332	168	1404
+2018	MN	Total Electric Power Industry	Petroleum	43892	25	131
+2018	MN	Total Electric Power Industry	Wood and Wood Derived Fuels	0	4824	2401
+2018	MO	Electric Utility	All Sources	64297139	93085	46323
+2018	MO	Electric Utility	Coal	61853016	93024	44496
+2018	MO	Electric Utility	Natural Gas	2348525	7	1391
+2018	MO	Electric Utility	Other Biomass	0	0	222
+2018	MO	Electric Utility	Other	722	2	1
+2018	MO	Electric Utility	Petroleum	94876	52	213
+2018	MO	IPP NAICS-22 Non-Cogen	All Sources	899068	4	666
+2018	MO	IPP NAICS-22 Non-Cogen	Natural Gas	899068	4	106
+2018	MO	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	560
+2018	MO	IPP NAICS-22 Cogen	All Sources	200490	1	470
+2018	MO	IPP NAICS-22 Cogen	Natural Gas	200490	1	470
+2018	MO	Commercial Non-Cogen	All Sources	21	0	0
+2018	MO	Commercial Non-Cogen	Petroleum	21	0	0
+2018	MO	Commercial Cogen	All Sources	137541	657	372
+2018	MO	Commercial Cogen	Coal	25770	641	66
+2018	MO	Commercial Cogen	Natural Gas	111771	0	241
+2018	MO	Commercial Cogen	Wood and Wood Derived Fuels	0	16	65
+2018	MO	Industrial Cogen	All Sources	89033	0	105
+2018	MO	Industrial Cogen	Natural Gas	89033	0	101
+2018	MO	Industrial Cogen	Other Biomass	0	0	4
+2018	MO	Total Electric Power Industry	All Sources	65623292	93747	47936
+2018	MO	Total Electric Power Industry	Coal	61878786	93665	44562
+2018	MO	Total Electric Power Industry	Natural Gas	3648887	12	2309
+2018	MO	Total Electric Power Industry	Other Biomass	0	0	786
+2018	MO	Total Electric Power Industry	Other	722	2	1
+2018	MO	Total Electric Power Industry	Petroleum	94897	52	213
+2018	MO	Total Electric Power Industry	Wood and Wood Derived Fuels	0	16	65
+2018	MS	Electric Utility	All Sources	20841641	331	9775
+2018	MS	Electric Utility	Coal	2706140	255	1158
+2018	MS	Electric Utility	Natural Gas	18115462	75	8604
+2018	MS	Electric Utility	Petroleum	20039	1	13
+2018	MS	IPP NAICS-22 Non-Cogen	All Sources	4889137	2561	2204
+2018	MS	IPP NAICS-22 Non-Cogen	Coal	2972738	2551	1925
+2018	MS	IPP NAICS-22 Non-Cogen	Natural Gas	1916399	10	152
+2018	MS	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	127
+2018	MS	Commercial Cogen	All Sources	3932	0	11
+2018	MS	Commercial Cogen	Natural Gas	3932	0	11
+2018	MS	Industrial Cogen	All Sources	422287	9025	3279
+2018	MS	Industrial Cogen	Natural Gas	414667	1	915
+2018	MS	Industrial Cogen	Other Biomass	0	1	11
+2018	MS	Industrial Cogen	Petroleum	7620	13	3
+2018	MS	Industrial Cogen	Wood and Wood Derived Fuels	0	9010	2350
+2018	MS	Total Electric Power Industry	All Sources	26156997	11917	15269
+2018	MS	Total Electric Power Industry	Coal	5678878	2806	3083
+2018	MS	Total Electric Power Industry	Natural Gas	20450460	86	9682
+2018	MS	Total Electric Power Industry	Other Biomass	0	1	138
+2018	MS	Total Electric Power Industry	Petroleum	27659	14	16
+2018	MS	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9010	2350
+2018	MT	Electric Utility	All Sources	528578	18	611
+2018	MT	Electric Utility	Coal	309296	17	489
+2018	MT	Electric Utility	Natural Gas	218718	1	122
+2018	MT	Electric Utility	Petroleum	564	0	0
+2018	MT	IPP NAICS-22 Non-Cogen	All Sources	14132932	7556	13781
+2018	MT	IPP NAICS-22 Non-Cogen	Coal	14054555	7553	12314
+2018	MT	IPP NAICS-22 Non-Cogen	Natural Gas	64841	0	1461
+2018	MT	IPP NAICS-22 Non-Cogen	Petroleum	13536	3	6
+2018	MT	IPP NAICS-22 Cogen	All Sources	731111	2613	1395
+2018	MT	IPP NAICS-22 Cogen	Other Gases	0	0	832
+2018	MT	IPP NAICS-22 Cogen	Petroleum	731111	2613	563
+2018	MT	Industrial Cogen	All Sources	220917	623	681
+2018	MT	Industrial Cogen	Coal	187680	614	535
+2018	MT	Industrial Cogen	Natural Gas	33237	0	70
+2018	MT	Industrial Cogen	Wood and Wood Derived Fuels	0	9	76
+2018	MT	Total Electric Power Industry	All Sources	15613538	10810	16468
+2018	MT	Total Electric Power Industry	Coal	14551531	8184	13338
+2018	MT	Total Electric Power Industry	Natural Gas	316796	1	1653
+2018	MT	Total Electric Power Industry	Other Gases	0	0	832
+2018	MT	Total Electric Power Industry	Petroleum	745211	2616	569
+2018	MT	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9	76
+2018	NC	Electric Utility	All Sources	44651268	14103	36847
+2018	NC	Electric Utility	Coal	28850330	13651	24490
+2018	NC	Electric Utility	Natural Gas	15322800	51	11354
+2018	NC	Electric Utility	Petroleum	478138	401	1003
+2018	NC	IPP NAICS-22 Non-Cogen	All Sources	2940750	2376	5206
+2018	NC	IPP NAICS-22 Non-Cogen	Coal	54250	273	68
+2018	NC	IPP NAICS-22 Non-Cogen	Natural Gas	2699800	6	355
+2018	NC	IPP NAICS-22 Non-Cogen	Other Biomass	0	50	4005
+2018	NC	IPP NAICS-22 Non-Cogen	Other	154050	1792	214
+2018	NC	IPP NAICS-22 Non-Cogen	Petroleum	32650	12	63
+2018	NC	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	243	501
+2018	NC	IPP NAICS-22 Cogen	All Sources	539330	3199	1640
+2018	NC	IPP NAICS-22 Cogen	Coal	236573	413	524
+2018	NC	IPP NAICS-22 Cogen	Other Biomass	0	41	343
+2018	NC	IPP NAICS-22 Cogen	Other	302568	2622	459
+2018	NC	IPP NAICS-22 Cogen	Petroleum	189	0	4
+2018	NC	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	123	310
+2018	NC	Commercial Non-Cogen	All Sources	206	0	86
+2018	NC	Commercial Non-Cogen	Natural Gas	1	0	0
+2018	NC	Commercial Non-Cogen	Other Biomass	0	0	82
+2018	NC	Commercial Non-Cogen	Petroleum	205	0	4
+2018	NC	Commercial Cogen	All Sources	261480	30	274
+2018	NC	Commercial Cogen	Coal	165085	26	65
+2018	NC	Commercial Cogen	Natural Gas	94168	0	197
+2018	NC	Commercial Cogen	Petroleum	2227	4	12
+2018	NC	Industrial Non-Cogen	All Sources	422	0	7
+2018	NC	Industrial Non-Cogen	Petroleum	422	0	7
+2018	NC	Industrial Cogen	All Sources	1248956	17250	5197
+2018	NC	Industrial Cogen	Coal	820458	5005	877
+2018	NC	Industrial Cogen	Natural Gas	363873	1	735
+2018	NC	Industrial Cogen	Petroleum	64625	311	135
+2018	NC	Industrial Cogen	Wood and Wood Derived Fuels	0	11933	3450
+2018	NC	Total Electric Power Industry	All Sources	49642412	36958	49257
+2018	NC	Total Electric Power Industry	Coal	30126696	19368	26024
+2018	NC	Total Electric Power Industry	Natural Gas	18480642	58	12641
+2018	NC	Total Electric Power Industry	Other Biomass	0	91	4430
+2018	NC	Total Electric Power Industry	Other	456618	4414	673
+2018	NC	Total Electric Power Industry	Petroleum	578456	728	1228
+2018	NC	Total Electric Power Industry	Wood and Wood Derived Fuels	0	12299	4261
+2018	ND	Electric Utility	All Sources	30752147	35890	30645
+2018	ND	Electric Utility	Coal	30153138	35820	30514
+2018	ND	Electric Utility	Natural Gas	558623	2	106
+2018	ND	Electric Utility	Other	7897	58	14
+2018	ND	Electric Utility	Petroleum	32489	10	11
+2018	ND	Commercial Non-Cogen	All Sources	45	0	1
+2018	ND	Commercial Non-Cogen	Petroleum	45	0	1
+2018	ND	Industrial Cogen	All Sources	529646	1443	1380
+2018	ND	Industrial Cogen	Coal	467004	1441	765
+2018	ND	Industrial Cogen	Natural Gas	62642	0	147
+2018	ND	Industrial Cogen	Other Biomass	0	0	3
+2018	ND	Industrial Cogen	Other Gases	0	2	465
+2018	ND	Total Electric Power Industry	All Sources	31281838	37333	32026
+2018	ND	Total Electric Power Industry	Coal	30620142	37261	31279
+2018	ND	Total Electric Power Industry	Natural Gas	621265	2	253
+2018	ND	Total Electric Power Industry	Other Biomass	0	0	3
+2018	ND	Total Electric Power Industry	Other Gases	0	2	465
+2018	ND	Total Electric Power Industry	Other	7897	58	14
+2018	ND	Total Electric Power Industry	Petroleum	32534	10	12
+2018	NE	Electric Utility	All Sources	24189709	53474	20533
+2018	NE	Electric Utility	Coal	23657974	53451	19234
+2018	NE	Electric Utility	Natural Gas	517166	2	567
+2018	NE	Electric Utility	Other Biomass	0	0	602
+2018	NE	Electric Utility	Petroleum	14569	21	130
+2018	NE	Commercial Cogen	All Sources	2278	0	443
+2018	NE	Commercial Cogen	Natural Gas	2278	0	54
+2018	NE	Commercial Cogen	Other Biomass	0	0	389
+2018	NE	Industrial Non-Cogen	All Sources	194266	375	378
+2018	NE	Industrial Non-Cogen	Coal	194266	375	378
+2018	NE	Industrial Cogen	All Sources	1138398	554	626
+2018	NE	Industrial Cogen	Coal	1138398	554	626
+2018	NE	Total Electric Power Industry	All Sources	25524651	54403	21980
+2018	NE	Total Electric Power Industry	Coal	24990638	54380	20238
+2018	NE	Total Electric Power Industry	Natural Gas	519444	2	621
+2018	NE	Total Electric Power Industry	Other Biomass	0	0	991
+2018	NE	Total Electric Power Industry	Petroleum	14569	21	130
+2018	NH	Electric Utility	All Sources	847063	1065	1225
+2018	NH	Electric Utility	Coal	727561	718	896
+2018	NH	Electric Utility	Natural Gas	22148	0	32
+2018	NH	Electric Utility	Other Biomass	0	0	0
+2018	NH	Electric Utility	Petroleum	97354	304	137
+2018	NH	Electric Utility	Wood and Wood Derived Fuels	0	43	160
+2018	NH	IPP NAICS-22 Non-Cogen	All Sources	1274417	136	1069
+2018	NH	IPP NAICS-22 Non-Cogen	Natural Gas	1156720	4	93
+2018	NH	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	369
+2018	NH	IPP NAICS-22 Non-Cogen	Other	82837	4	238
+2018	NH	IPP NAICS-22 Non-Cogen	Petroleum	34860	4	2
+2018	NH	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	124	367
+2018	NH	Commercial Cogen	All Sources	49817	147	153
+2018	NH	Commercial Cogen	Natural Gas	5144	0	14
+2018	NH	Commercial Cogen	Other Biomass	0	0	48
+2018	NH	Commercial Cogen	Petroleum	44673	147	91
+2018	NH	Industrial Cogen	All Sources	19266	0	53
+2018	NH	Industrial Cogen	Natural Gas	19266	0	53
+2018	NH	Total Electric Power Industry	All Sources	2190563	1348	2500
+2018	NH	Total Electric Power Industry	Coal	727561	718	896
+2018	NH	Total Electric Power Industry	Natural Gas	1203278	4	192
+2018	NH	Total Electric Power Industry	Other Biomass	0	0	417
+2018	NH	Total Electric Power Industry	Other	82837	4	238
+2018	NH	Total Electric Power Industry	Petroleum	176887	455	230
+2018	NH	Total Electric Power Industry	Wood and Wood Derived Fuels	0	167	527
+2018	NJ	Electric Utility	All Sources	91086	0	13
+2018	NJ	Electric Utility	Natural Gas	88496	0	10
+2018	NJ	Electric Utility	Petroleum	2590	0	3
+2018	NJ	IPP NAICS-22 Non-Cogen	All Sources	13595946	264	6053
+2018	NJ	IPP NAICS-22 Non-Cogen	Coal	15758	17	31
+2018	NJ	IPP NAICS-22 Non-Cogen	Natural Gas	12738965	42	1745
+2018	NJ	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	2913
+2018	NJ	IPP NAICS-22 Non-Cogen	Other	685078	175	1297
+2018	NJ	IPP NAICS-22 Non-Cogen	Petroleum	156145	29	67
+2018	NJ	IPP NAICS-22 Cogen	All Sources	4455161	1210	1574
+2018	NJ	IPP NAICS-22 Cogen	Coal	1545335	1195	960
+2018	NJ	IPP NAICS-22 Cogen	Natural Gas	2835704	1	545
+2018	NJ	IPP NAICS-22 Cogen	Other Biomass	0	1	66
+2018	NJ	IPP NAICS-22 Cogen	Petroleum	74122	13	3
+2018	NJ	Commercial Non-Cogen	All Sources	213786	414	300
+2018	NJ	Commercial Non-Cogen	Other Biomass	0	0	86
+2018	NJ	Commercial Non-Cogen	Other	213786	414	214
+2018	NJ	Commercial Cogen	All Sources	149572	8	1082
+2018	NJ	Commercial Cogen	Natural Gas	144550	0	915
+2018	NJ	Commercial Cogen	Other Biomass	0	0	137
+2018	NJ	Commercial Cogen	Petroleum	5022	8	30
+2018	NJ	Industrial Cogen	All Sources	406197	1174	1051
+2018	NJ	Industrial Cogen	Natural Gas	367407	1	733
+2018	NJ	Industrial Cogen	Other Gases	0	3	206
+2018	NJ	Industrial Cogen	Petroleum	38790	1170	112
+2018	NJ	Total Electric Power Industry	All Sources	18911748	3070	10073
+2018	NJ	Total Electric Power Industry	Coal	1561093	1212	991
+2018	NJ	Total Electric Power Industry	Natural Gas	16175122	44	3948
+2018	NJ	Total Electric Power Industry	Other Biomass	0	2	3202
+2018	NJ	Total Electric Power Industry	Other Gases	0	3	206
+2018	NJ	Total Electric Power Industry	Other	898864	589	1511
+2018	NJ	Total Electric Power Industry	Petroleum	276669	1220	215
+2018	NM	Electric Utility	All Sources	16650353	3177	15117
+2018	NM	Electric Utility	Coal	12919732	3159	12319
+2018	NM	Electric Utility	Natural Gas	3713354	17	2792
+2018	NM	Electric Utility	Petroleum	17267	1	6
+2018	NM	IPP NAICS-22 Non-Cogen	All Sources	1691012	4	202
+2018	NM	IPP NAICS-22 Non-Cogen	Geothermal	346	0	0
+2018	NM	IPP NAICS-22 Non-Cogen	Natural Gas	1690666	4	109
+2018	NM	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	93
+2018	NM	IPP NAICS-22 Cogen	All Sources	19045	0	654
+2018	NM	IPP NAICS-22 Cogen	Natural Gas	19045	0	410
+2018	NM	IPP NAICS-22 Cogen	Other Biomass	0	0	244
+2018	NM	Commercial Cogen	All Sources	65871	0	177
+2018	NM	Commercial Cogen	Natural Gas	65871	0	177
+2018	NM	Industrial Non-Cogen	All Sources	15732	0	18
+2018	NM	Industrial Non-Cogen	Natural Gas	15732	0	18
+2018	NM	Total Electric Power Industry	All Sources	18442013	3181	16168
+2018	NM	Total Electric Power Industry	Coal	12919732	3159	12319
+2018	NM	Total Electric Power Industry	Geothermal	346	0	0
+2018	NM	Total Electric Power Industry	Natural Gas	5504668	21	3506
+2018	NM	Total Electric Power Industry	Other Biomass	0	0	337
+2018	NM	Total Electric Power Industry	Petroleum	17267	1	6
+2018	NV	Electric Utility	All Sources	11580994	2836	3736
+2018	NV	Electric Utility	Coal	1638650	2781	2281
+2018	NV	Electric Utility	Natural Gas	9935560	49	1450
+2018	NV	Electric Utility	Petroleum	6784	6	5
+2018	NV	IPP NAICS-22 Non-Cogen	All Sources	1166147	198	627
+2018	NV	IPP NAICS-22 Non-Cogen	Coal	1071684	198	271
+2018	NV	IPP NAICS-22 Non-Cogen	Geothermal	90193	0	0
+2018	NV	IPP NAICS-22 Non-Cogen	Natural Gas	1996	0	5
+2018	NV	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	351
+2018	NV	IPP NAICS-22 Non-Cogen	Petroleum	2274	0	0
+2018	NV	IPP NAICS-22 Cogen	All Sources	1064453	5	2228
+2018	NV	IPP NAICS-22 Cogen	Natural Gas	1064453	5	2228
+2018	NV	Commercial Non-Cogen	All Sources	880	0	0
+2018	NV	Commercial Non-Cogen	Geothermal	880	0	0
+2018	NV	Commercial Cogen	All Sources	36938	0	94
+2018	NV	Commercial Cogen	Natural Gas	36938	0	94
+2018	NV	Industrial Non-Cogen	All Sources	155331	1	3515
+2018	NV	Industrial Non-Cogen	Natural Gas	155331	1	3515
+2018	NV	Total Electric Power Industry	All Sources	14004743	3040	10200
+2018	NV	Total Electric Power Industry	Coal	2710334	2979	2552
+2018	NV	Total Electric Power Industry	Geothermal	91073	0	0
+2018	NV	Total Electric Power Industry	Natural Gas	11194278	55	7292
+2018	NV	Total Electric Power Industry	Other Biomass	0	0	351
+2018	NV	Total Electric Power Industry	Petroleum	9058	6	5
+2018	NY	Electric Utility	All Sources	6222373	1096	3695
+2018	NY	Electric Utility	Natural Gas	5707623	19	2755
+2018	NY	Electric Utility	Petroleum	514750	1077	940
+2018	NY	IPP NAICS-22 Non-Cogen	All Sources	13734018	3614	18606
+2018	NY	IPP NAICS-22 Non-Cogen	Coal	651610	2080	525
+2018	NY	IPP NAICS-22 Non-Cogen	Natural Gas	11479663	45	5427
+2018	NY	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	9005
+2018	NY	IPP NAICS-22 Non-Cogen	Other	948002	192	2735
+2018	NY	IPP NAICS-22 Non-Cogen	Petroleum	654743	1293	523
+2018	NY	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	3	391
+2018	NY	IPP NAICS-22 Cogen	All Sources	5912201	650	1608
+2018	NY	IPP NAICS-22 Cogen	Natural Gas	5530357	21	1556
+2018	NY	IPP NAICS-22 Cogen	Other	319038	600	18
+2018	NY	IPP NAICS-22 Cogen	Petroleum	62806	29	34
+2018	NY	Commercial Non-Cogen	All Sources	376199	25	977
+2018	NY	Commercial Non-Cogen	Natural Gas	50212	0	140
+2018	NY	Commercial Non-Cogen	Other Biomass	0	0	108
+2018	NY	Commercial Non-Cogen	Other	324402	24	708
+2018	NY	Commercial Non-Cogen	Petroleum	1585	1	21
+2018	NY	Commercial Cogen	All Sources	834577	172	2641
+2018	NY	Commercial Cogen	Natural Gas	741756	2	2165
+2018	NY	Commercial Cogen	Other	77588	145	427
+2018	NY	Commercial Cogen	Petroleum	15233	25	49
+2018	NY	Industrial Non-Cogen	All Sources	191	0	4
+2018	NY	Industrial Non-Cogen	Petroleum	191	0	4
+2018	NY	Industrial Cogen	All Sources	856830	5188	1405
+2018	NY	Industrial Cogen	Coal	31695	553	30
+2018	NY	Industrial Cogen	Natural Gas	725374	3	818
+2018	NY	Industrial Cogen	Petroleum	99761	240	93
+2018	NY	Industrial Cogen	Wood and Wood Derived Fuels	0	4392	464
+2018	NY	Total Electric Power Industry	All Sources	27936389	10745	28936
+2018	NY	Total Electric Power Industry	Coal	683305	2633	555
+2018	NY	Total Electric Power Industry	Natural Gas	24234985	90	12861
+2018	NY	Total Electric Power Industry	Other Biomass	0	1	9113
+2018	NY	Total Electric Power Industry	Other	1669030	961	3888
+2018	NY	Total Electric Power Industry	Petroleum	1349069	2665	1664
+2018	NY	Total Electric Power Industry	Wood and Wood Derived Fuels	0	4395	855
+2018	OH	Electric Utility	All Sources	13505975	13447	11925
+2018	OH	Electric Utility	Coal	9411908	13416	10943
+2018	OH	Electric Utility	Natural Gas	4065929	19	870
+2018	OH	Electric Utility	Petroleum	28138	12	112
+2018	OH	IPP NAICS-22 Non-Cogen	All Sources	62670779	67129	40719
+2018	OH	IPP NAICS-22 Non-Cogen	Coal	46928149	64482	32234
+2018	OH	IPP NAICS-22 Non-Cogen	Natural Gas	13859558	72	1581
+2018	OH	IPP NAICS-22 Non-Cogen	Other Biomass	0	2	6249
+2018	OH	IPP NAICS-22 Non-Cogen	Petroleum	1883072	2573	655
+2018	OH	IPP NAICS-22 Cogen	All Sources	192714	10	4047
+2018	OH	IPP NAICS-22 Cogen	Natural Gas	192714	1	440
+2018	OH	IPP NAICS-22 Cogen	Other Gases	0	2	3546
+2018	OH	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	7	61
+2018	OH	Commercial Non-Cogen	All Sources	188	0	4
+2018	OH	Commercial Non-Cogen	Petroleum	188	0	4
+2018	OH	Commercial Cogen	All Sources	236386	2	753
+2018	OH	Commercial Cogen	Natural Gas	235948	1	521
+2018	OH	Commercial Cogen	Other Biomass	0	0	229
+2018	OH	Commercial Cogen	Petroleum	438	1	3
+2018	OH	Industrial Non-Cogen	All Sources	0	0	325
+2018	OH	Industrial Non-Cogen	Other Biomass	0	0	325
+2018	OH	Industrial Cogen	All Sources	1445102	24928	2833
+2018	OH	Industrial Cogen	Coal	69026	354	160
+2018	OH	Industrial Cogen	Natural Gas	533678	1	420
+2018	OH	Industrial Cogen	Other Gases	0	13	82
+2018	OH	Industrial Cogen	Other	36017	349	3
+2018	OH	Industrial Cogen	Petroleum	806381	22670	2133
+2018	OH	Industrial Cogen	Wood and Wood Derived Fuels	0	1541	35
+2018	OH	Total Electric Power Industry	All Sources	78051144	105516	60606
+2018	OH	Total Electric Power Industry	Coal	56409083	78252	43337
+2018	OH	Total Electric Power Industry	Natural Gas	18887827	94	3832
+2018	OH	Total Electric Power Industry	Other Biomass	0	2	6803
+2018	OH	Total Electric Power Industry	Other Gases	0	15	3628
+2018	OH	Total Electric Power Industry	Other	36017	349	3
+2018	OH	Total Electric Power Industry	Petroleum	2718217	25256	2907
+2018	OH	Total Electric Power Industry	Wood and Wood Derived Fuels	0	1548	96
+2018	OK	Electric Utility	All Sources	25123735	27958	18149
+2018	OK	Electric Utility	Coal	13860841	27883	9903
+2018	OK	Electric Utility	Natural Gas	11249377	54	8239
+2018	OK	Electric Utility	Petroleum	13517	21	7
+2018	OK	IPP NAICS-22 Non-Cogen	All Sources	6042769	32	1811
+2018	OK	IPP NAICS-22 Non-Cogen	Natural Gas	6042769	32	1552
+2018	OK	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	259
+2018	OK	IPP NAICS-22 Cogen	All Sources	2131271	180	1219
+2018	OK	IPP NAICS-22 Cogen	Coal	2023190	172	1161
+2018	OK	IPP NAICS-22 Cogen	Natural Gas	53398	0	24
+2018	OK	IPP NAICS-22 Cogen	Other	54683	8	34
+2018	OK	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	0	0
+2018	OK	Commercial Cogen	All Sources	6239	0	15
+2018	OK	Commercial Cogen	Natural Gas	6239	0	15
+2018	OK	Industrial Non-Cogen	All Sources	10635	1	240
+2018	OK	Industrial Non-Cogen	Natural Gas	9913	0	226
+2018	OK	Industrial Non-Cogen	Petroleum	722	1	14
+2018	OK	Industrial Cogen	All Sources	1161542	4005	2578
+2018	OK	Industrial Cogen	Coal	437832	857	608
+2018	OK	Industrial Cogen	Natural Gas	593247	3	1032
+2018	OK	Industrial Cogen	Other Biomass	0	14	124
+2018	OK	Industrial Cogen	Other	130463	2	144
+2018	OK	Industrial Cogen	Wood and Wood Derived Fuels	0	3129	670
+2018	OK	Total Electric Power Industry	All Sources	34476191	32176	24012
+2018	OK	Total Electric Power Industry	Coal	16321863	28912	11672
+2018	OK	Total Electric Power Industry	Natural Gas	17954943	89	11088
+2018	OK	Total Electric Power Industry	Other Biomass	0	14	383
+2018	OK	Total Electric Power Industry	Other	185146	10	178
+2018	OK	Total Electric Power Industry	Petroleum	14239	22	21
+2018	OK	Total Electric Power Industry	Wood and Wood Derived Fuels	0	3129	670
+2018	OR	Electric Utility	All Sources	4992346	2127	5711
+2018	OR	Electric Utility	Coal	1506082	2090	1505
+2018	OR	Electric Utility	Natural Gas	3482572	33	3404
+2018	OR	Electric Utility	Other Biomass	0	0	801
+2018	OR	Electric Utility	Petroleum	3692	4	1
+2018	OR	IPP NAICS-22 Non-Cogen	All Sources	1491485	48	2551
+2018	OR	IPP NAICS-22 Non-Cogen	Geothermal	4636	0	0
+2018	OR	IPP NAICS-22 Non-Cogen	Natural Gas	1420654	8	194
+2018	OR	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	2147
+2018	OR	IPP NAICS-22 Non-Cogen	Other	66195	17	62
+2018	OR	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	22	148
+2018	OR	IPP NAICS-22 Cogen	All Sources	1994039	10	1051
+2018	OR	IPP NAICS-22 Cogen	Natural Gas	1994039	10	260
+2018	OR	IPP NAICS-22 Cogen	Other Biomass	0	0	791
+2018	OR	Commercial Non-Cogen	All Sources	0	0	225
+2018	OR	Commercial Non-Cogen	Other Biomass	0	0	225
+2018	OR	Commercial Cogen	All Sources	33855	0	339
+2018	OR	Commercial Cogen	Natural Gas	33839	0	91
+2018	OR	Commercial Cogen	Other Biomass	0	0	248
+2018	OR	Commercial Cogen	Petroleum	16	0	0
+2018	OR	Industrial Non-Cogen	All Sources	0	18	15
+2018	OR	Industrial Non-Cogen	Wood and Wood Derived Fuels	0	18	15
+2018	OR	Industrial Cogen	All Sources	287785	3836	1918
+2018	OR	Industrial Cogen	Natural Gas	287785	1	602
+2018	OR	Industrial Cogen	Other Biomass	0	0	14
+2018	OR	Industrial Cogen	Wood and Wood Derived Fuels	0	3835	1302
+2018	OR	Total Electric Power Industry	All Sources	8799510	6039	11810
+2018	OR	Total Electric Power Industry	Coal	1506082	2090	1505
+2018	OR	Total Electric Power Industry	Geothermal	4636	0	0
+2018	OR	Total Electric Power Industry	Natural Gas	7218889	52	4551
+2018	OR	Total Electric Power Industry	Other Biomass	0	1	4226
+2018	OR	Total Electric Power Industry	Other	66195	17	62
+2018	OR	Total Electric Power Industry	Petroleum	3708	4	1
+2018	OR	Total Electric Power Industry	Wood and Wood Derived Fuels	0	3875	1465
+2018	PA	Electric Utility	All Sources	4580	2	100
+2018	PA	Electric Utility	Natural Gas	3404	0	78
+2018	PA	Electric Utility	Petroleum	1176	2	22
+2018	PA	IPP NAICS-22 Non-Cogen	All Sources	68220509	56682	41202
+2018	PA	IPP NAICS-22 Non-Cogen	Coal	39440126	55546	23540
+2018	PA	IPP NAICS-22 Non-Cogen	Natural Gas	27249466	120	6538
+2018	PA	IPP NAICS-22 Non-Cogen	Other Biomass	0	63	6011
+2018	PA	IPP NAICS-22 Non-Cogen	Other	1043072	675	4470
+2018	PA	IPP NAICS-22 Non-Cogen	Petroleum	487845	278	643
+2018	PA	IPP NAICS-22 Cogen	All Sources	6797073	6856	2785
+2018	PA	IPP NAICS-22 Cogen	Coal	4220883	6590	2088
+2018	PA	IPP NAICS-22 Cogen	Natural Gas	2347203	10	407
+2018	PA	IPP NAICS-22 Cogen	Other Biomass	0	0	144
+2018	PA	IPP NAICS-22 Cogen	Other Gases	0	0	0
+2018	PA	IPP NAICS-22 Cogen	Other	132670	229	101
+2018	PA	IPP NAICS-22 Cogen	Petroleum	96317	27	45
+2018	PA	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	0	0
+2018	PA	Commercial Non-Cogen	All Sources	156416	48	636
+2018	PA	Commercial Non-Cogen	Natural Gas	5308	0	29
+2018	PA	Commercial Non-Cogen	Other Biomass	0	0	108
+2018	PA	Commercial Non-Cogen	Other	146040	47	495
+2018	PA	Commercial Non-Cogen	Petroleum	5068	1	4
+2018	PA	Commercial Cogen	All Sources	135549	1	1053
+2018	PA	Commercial Cogen	Natural Gas	135018	0	551
+2018	PA	Commercial Cogen	Other Biomass	0	0	495
+2018	PA	Commercial Cogen	Petroleum	531	1	7
+2018	PA	Industrial Non-Cogen	All Sources	7941	13	159
+2018	PA	Industrial Non-Cogen	Petroleum	7941	13	159
+2018	PA	Industrial Cogen	All Sources	1708655	3511	1326
+2018	PA	Industrial Cogen	Coal	303773	295	81
+2018	PA	Industrial Cogen	Natural Gas	1267510	5	476
+2018	PA	Industrial Cogen	Other Biomass	0	5	107
+2018	PA	Industrial Cogen	Other Gases	0	28	403
+2018	PA	Industrial Cogen	Petroleum	137372	21	112
+2018	PA	Industrial Cogen	Wood and Wood Derived Fuels	0	3157	147
+2018	PA	Total Electric Power Industry	All Sources	77030723	67113	47261
+2018	PA	Total Electric Power Industry	Coal	43964782	62431	25709
+2018	PA	Total Electric Power Industry	Natural Gas	31007909	135	8079
+2018	PA	Total Electric Power Industry	Other Biomass	0	68	6865
+2018	PA	Total Electric Power Industry	Other Gases	0	28	403
+2018	PA	Total Electric Power Industry	Other	1321782	951	5066
+2018	PA	Total Electric Power Industry	Petroleum	736250	343	992
+2018	PA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	3157	147
+2018	RI	Electric Utility	All Sources	50	0	1
+2018	RI	Electric Utility	Petroleum	50	0	1
+2018	RI	IPP NAICS-22 Non-Cogen	All Sources	3172888	20	601
+2018	RI	IPP NAICS-22 Non-Cogen	Natural Gas	3124894	9	460
+2018	RI	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	136
+2018	RI	IPP NAICS-22 Non-Cogen	Petroleum	47994	10	5
+2018	RI	Commercial Cogen	All Sources	93657	42	164
+2018	RI	Commercial Cogen	Natural Gas	85469	0	156
+2018	RI	Commercial Cogen	Petroleum	8188	42	8
+2018	RI	Industrial Cogen	All Sources	81264	0	1119
+2018	RI	Industrial Cogen	Natural Gas	81227	0	1119
+2018	RI	Industrial Cogen	Petroleum	37	0	0
+2018	RI	Total Electric Power Industry	All Sources	3347859	62	1885
+2018	RI	Total Electric Power Industry	Natural Gas	3291590	9	1735
+2018	RI	Total Electric Power Industry	Other Biomass	0	1	136
+2018	RI	Total Electric Power Industry	Petroleum	56269	52	14
+2018	SC	Electric Utility	All Sources	26950343	6620	11963
+2018	SC	Electric Utility	Coal	18649144	6481	8879
+2018	SC	Electric Utility	Natural Gas	8046221	19	1604
+2018	SC	Electric Utility	Other Biomass	0	0	840
+2018	SC	Electric Utility	Petroleum	254978	109	458
+2018	SC	Electric Utility	Wood and Wood Derived Fuels	0	11	182
+2018	SC	IPP NAICS-22 Non-Cogen	All Sources	1176027	70	607
+2018	SC	IPP NAICS-22 Non-Cogen	Natural Gas	1172416	3	352
+2018	SC	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	191
+2018	SC	IPP NAICS-22 Non-Cogen	Petroleum	3611	3	2
+2018	SC	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	64	62
+2018	SC	IPP NAICS-22 Cogen	All Sources	250423	222	166
+2018	SC	IPP NAICS-22 Cogen	Natural Gas	230791	1	55
+2018	SC	IPP NAICS-22 Cogen	Other	17703	185	14
+2018	SC	IPP NAICS-22 Cogen	Petroleum	1929	3	1
+2018	SC	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	33	96
+2018	SC	Commercial Non-Cogen	All Sources	156	0	1
+2018	SC	Commercial Non-Cogen	Natural Gas	107	0	0
+2018	SC	Commercial Non-Cogen	Petroleum	49	0	1
+2018	SC	Industrial Non-Cogen	All Sources	0	0	92
+2018	SC	Industrial Non-Cogen	Other Biomass	0	0	92
+2018	SC	Industrial Cogen	All Sources	497217	11160	2391
+2018	SC	Industrial Cogen	Coal	53673	268	29
+2018	SC	Industrial Cogen	Natural Gas	289133	1	159
+2018	SC	Industrial Cogen	Other	117259	1183	84
+2018	SC	Industrial Cogen	Petroleum	37152	167	32
+2018	SC	Industrial Cogen	Wood and Wood Derived Fuels	0	9541	2087
+2018	SC	Total Electric Power Industry	All Sources	28874166	18072	15220
+2018	SC	Total Electric Power Industry	Coal	18702817	6749	8908
+2018	SC	Total Electric Power Industry	Natural Gas	9738668	24	2170
+2018	SC	Total Electric Power Industry	Other Biomass	0	0	1123
+2018	SC	Total Electric Power Industry	Other	134962	1368	98
+2018	SC	Total Electric Power Industry	Petroleum	297719	282	494
+2018	SC	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9649	2427
+2018	SD	Electric Utility	All Sources	2920480	919	1296
+2018	SD	Electric Utility	Coal	2391054	909	953
+2018	SD	Electric Utility	Natural Gas	520884	2	299
+2018	SD	Electric Utility	Petroleum	8542	8	44
+2018	SD	IPP NAICS-22 Non-Cogen	All Sources	18	0	0
+2018	SD	IPP NAICS-22 Non-Cogen	Petroleum	18	0	0
+2018	SD	Commercial Non-Cogen	All Sources	20	0	0
+2018	SD	Commercial Non-Cogen	Petroleum	20	0	0
+2018	SD	Total Electric Power Industry	All Sources	2920518	919	1296
+2018	SD	Total Electric Power Industry	Coal	2391054	909	953
+2018	SD	Total Electric Power Industry	Natural Gas	520884	2	299
+2018	SD	Total Electric Power Industry	Petroleum	8580	8	44
+2018	TN	Electric Utility	All Sources	25922716	10649	8415
+2018	TN	Electric Utility	Coal	20364873	10580	6918
+2018	TN	Electric Utility	Natural Gas	5463934	32	1442
+2018	TN	Electric Utility	Petroleum	93909	37	55
+2018	TN	IPP NAICS-22 Non-Cogen	All Sources	7446	0	1098
+2018	TN	IPP NAICS-22 Non-Cogen	Natural Gas	7239	0	171
+2018	TN	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	923
+2018	TN	IPP NAICS-22 Non-Cogen	Petroleum	207	0	4
+2018	TN	Commercial Cogen	All Sources	163095	0	421
+2018	TN	Commercial Cogen	Natural Gas	163095	0	421
+2018	TN	Industrial Cogen	All Sources	3209660	16007	2418
+2018	TN	Industrial Cogen	Coal	2008360	7892	1464
+2018	TN	Industrial Cogen	Natural Gas	1157069	6	354
+2018	TN	Industrial Cogen	Other Biomass	0	168	130
+2018	TN	Industrial Cogen	Other Gases	0	0	41
+2018	TN	Industrial Cogen	Other	37936	451	1
+2018	TN	Industrial Cogen	Petroleum	6295	4	2
+2018	TN	Industrial Cogen	Wood and Wood Derived Fuels	0	7486	426
+2018	TN	Total Electric Power Industry	All Sources	29302917	26656	12352
+2018	TN	Total Electric Power Industry	Coal	22373233	18472	8382
+2018	TN	Total Electric Power Industry	Natural Gas	6791337	38	2388
+2018	TN	Total Electric Power Industry	Other Biomass	0	168	1053
+2018	TN	Total Electric Power Industry	Other Gases	0	0	41
+2018	TN	Total Electric Power Industry	Other	37936	451	1
+2018	TN	Total Electric Power Industry	Petroleum	100411	41	61
+2018	TN	Total Electric Power Industry	Wood and Wood Derived Fuels	0	7486	426
+2018	TX	Electric Utility	All Sources	70652451	67120	59344
+2018	TX	Electric Utility	Coal	48823745	66988	36699
+2018	TX	Electric Utility	Natural Gas	21797184	109	22625
+2018	TX	Electric Utility	Petroleum	31522	23	20
+2018	TX	IPP NAICS-22 Non-Cogen	All Sources	111686113	124051	49829
+2018	TX	IPP NAICS-22 Non-Cogen	Coal	65386699	123789	31677
+2018	TX	IPP NAICS-22 Non-Cogen	Natural Gas	46283992	236	12707
+2018	TX	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	5320
+2018	TX	IPP NAICS-22 Non-Cogen	Petroleum	15422	20	39
+2018	TX	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	6	86
+2018	TX	IPP NAICS-22 Cogen	All Sources	21574542	181	6818
+2018	TX	IPP NAICS-22 Cogen	Natural Gas	21574542	166	6597
+2018	TX	IPP NAICS-22 Cogen	Other Gases	0	15	221
+2018	TX	Commercial Non-Cogen	All Sources	128	0	3
+2018	TX	Commercial Non-Cogen	Petroleum	128	0	3
+2018	TX	Commercial Cogen	All Sources	440252	2	1230
+2018	TX	Commercial Cogen	Natural Gas	439661	1	1152
+2018	TX	Commercial Cogen	Other Biomass	0	0	67
+2018	TX	Commercial Cogen	Petroleum	591	1	11
+2018	TX	Industrial Non-Cogen	All Sources	1100230	602	3797
+2018	TX	Industrial Non-Cogen	Natural Gas	1004206	2	2351
+2018	TX	Industrial Non-Cogen	Other Gases	0	4	1183
+2018	TX	Industrial Non-Cogen	Petroleum	96024	596	263
+2018	TX	Industrial Cogen	All Sources	24622592	11387	49818
+2018	TX	Industrial Cogen	Natural Gas	24257275	178	44017
+2018	TX	Industrial Cogen	Other Biomass	0	71	493
+2018	TX	Industrial Cogen	Other Gases	0	32	2145
+2018	TX	Industrial Cogen	Other	7348	72	4
+2018	TX	Industrial Cogen	Petroleum	357969	1074	1201
+2018	TX	Industrial Cogen	Wood and Wood Derived Fuels	0	9960	1958
+2018	TX	Total Electric Power Industry	All Sources	230076308	203343	170839
+2018	TX	Total Electric Power Industry	Coal	114210444	190777	68376
+2018	TX	Total Electric Power Industry	Natural Gas	115356860	692	89449
+2018	TX	Total Electric Power Industry	Other Biomass	0	71	5880
+2018	TX	Total Electric Power Industry	Other Gases	0	51	3549
+2018	TX	Total Electric Power Industry	Other	7348	72	4
+2018	TX	Total Electric Power Industry	Petroleum	501656	1714	1537
+2018	TX	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9966	2044
+2018	US-TOTAL	Electric Utility	All Sources	1189403402	790977	795987
+2018	US-TOTAL	Electric Utility	Coal	863864455	764443	589376
+2018	US-TOTAL	Electric Utility	Geothermal	26551	0	0
+2018	US-TOTAL	Electric Utility	Natural Gas	309054153	1959	166648
+2018	US-TOTAL	Electric Utility	Other Biomass	0	334	9537
+2018	US-TOTAL	Electric Utility	Other Gases	0	2	164
+2018	US-TOTAL	Electric Utility	Other	448885	160	852
+2018	US-TOTAL	Electric Utility	Petroleum	16009358	23818	26624
+2018	US-TOTAL	Electric Utility	Wood and Wood Derived Fuels	0	261	2786
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	All Sources	491539883	360276	323238
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Coal	263546043	343236	151044
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Geothermal	392608	0	0
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Natural Gas	213725348	977	48049
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Other Biomass	0	185	91286
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Other	8956350	7730	23627
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Petroleum	4919534	6832	4261
+2018	US-TOTAL	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	1316	4971
+2018	US-TOTAL	IPP NAICS-22 Cogen	All Sources	81855654	26250	70467
+2018	US-TOTAL	IPP NAICS-22 Cogen	Coal	17853020	15064	18211
+2018	US-TOTAL	IPP NAICS-22 Cogen	Natural Gas	60454772	508	33671
+2018	US-TOTAL	IPP NAICS-22 Cogen	Other Biomass	0	97	7166
+2018	US-TOTAL	IPP NAICS-22 Cogen	Other Gases	0	438	5231
+2018	US-TOTAL	IPP NAICS-22 Cogen	Other	1611803	4432	2003
+2018	US-TOTAL	IPP NAICS-22 Cogen	Petroleum	1936059	5172	2352
+2018	US-TOTAL	IPP NAICS-22 Cogen	Wood and Wood Derived Fuels	0	539	1833
+2018	US-TOTAL	Commercial Non-Cogen	All Sources	1805288	989	8379
+2018	US-TOTAL	Commercial Non-Cogen	Geothermal	880	0	0
+2018	US-TOTAL	Commercial Non-Cogen	Natural Gas	443197	2	1049
+2018	US-TOTAL	Commercial Non-Cogen	Other Biomass	0	4	4272
+2018	US-TOTAL	Commercial Non-Cogen	Other	1342307	971	2924
+2018	US-TOTAL	Commercial Non-Cogen	Petroleum	18904	12	133
+2018	US-TOTAL	Commercial Non-Cogen	Wood and Wood Derived Fuels	0	0	1
+2018	US-TOTAL	Commercial Cogen	All Sources	9334112	8096	35421
+2018	US-TOTAL	Commercial Cogen	Coal	1083735	5207	1622
+2018	US-TOTAL	Commercial Cogen	Natural Gas	6960052	13	19076
+2018	US-TOTAL	Commercial Cogen	Other Biomass	0	4	8760
+2018	US-TOTAL	Commercial Cogen	Other	1002647	1111	4933
+2018	US-TOTAL	Commercial Cogen	Petroleum	287678	1721	569
+2018	US-TOTAL	Commercial Cogen	Wood and Wood Derived Fuels	0	40	461
+2018	US-TOTAL	Industrial Non-Cogen	All Sources	2160948	1099	13802
+2018	US-TOTAL	Industrial Non-Cogen	Coal	194266	375	378
+2018	US-TOTAL	Industrial Non-Cogen	Natural Gas	1840130	5	9453
+2018	US-TOTAL	Industrial Non-Cogen	Other Biomass	0	19	1579
+2018	US-TOTAL	Industrial Non-Cogen	Other Gases	0	4	1315
+2018	US-TOTAL	Industrial Non-Cogen	Other	0	0	20
+2018	US-TOTAL	Industrial Non-Cogen	Petroleum	126552	645	868
+2018	US-TOTAL	Industrial Non-Cogen	Wood and Wood Derived Fuels	0	51	189
+2018	US-TOTAL	Industrial Cogen	All Sources	98246833	383740	237897
+2018	US-TOTAL	Industrial Cogen	Coal	23656822	74234	22765
+2018	US-TOTAL	Industrial Cogen	Natural Gas	69924904	368	116738
+2018	US-TOTAL	Industrial Cogen	Other Biomass	0	771	4085
+2018	US-TOTAL	Industrial Cogen	Other Gases	0	279	19674
+2018	US-TOTAL	Industrial Cogen	Other	715147	5471	1036
+2018	US-TOTAL	Industrial Cogen	Petroleum	3949960	36796	6458
+2018	US-TOTAL	Industrial Cogen	Wood and Wood Derived Fuels	0	265821	67141
+2018	US-TOTAL	Total Electric Power Industry	All Sources	1874346120	1571427	1485191
+2018	US-TOTAL	Total Electric Power Industry	Coal	1170198341	1202559	783396
+2018	US-TOTAL	Total Electric Power Industry	Geothermal	420039	0	0
+2018	US-TOTAL	Total Electric Power Industry	Natural Gas	662402556	3832	394684
+2018	US-TOTAL	Total Electric Power Industry	Other Biomass	0	1414	126685
+2018	US-TOTAL	Total Electric Power Industry	Other Gases	0	723	26384
+2018	US-TOTAL	Total Electric Power Industry	Other	14077139	19875	35395
+2018	US-TOTAL	Total Electric Power Industry	Petroleum	27248045	74996	41265
+2018	US-TOTAL	Total Electric Power Industry	Wood and Wood Derived Fuels	0	268028	77382
+2018	UT	Electric Utility	All Sources	27598698	7926	27995
+2018	UT	Electric Utility	Coal	24242914	7905	27049
+2018	UT	Electric Utility	Geothermal	5868	0	0
+2018	UT	Electric Utility	Natural Gas	3323671	17	921
+2018	UT	Electric Utility	Petroleum	26245	4	25
+2018	UT	IPP NAICS-22 Non-Cogen	All Sources	500932	406	1119
+2018	UT	IPP NAICS-22 Non-Cogen	Coal	464254	406	253
+2018	UT	IPP NAICS-22 Non-Cogen	Geothermal	5858	0	0
+2018	UT	IPP NAICS-22 Non-Cogen	Natural Gas	29855	0	0
+2018	UT	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	866
+2018	UT	IPP NAICS-22 Non-Cogen	Petroleum	965	0	0
+2018	UT	Commercial Non-Cogen	All Sources	26351	0	266
+2018	UT	Commercial Non-Cogen	Natural Gas	26351	0	71
+2018	UT	Commercial Non-Cogen	Other Biomass	0	0	195
+2018	UT	Commercial Cogen	All Sources	20457	0	55
+2018	UT	Commercial Cogen	Natural Gas	20457	0	55
+2018	UT	Industrial Cogen	All Sources	397595	3	1290
+2018	UT	Industrial Cogen	Natural Gas	397595	3	1280
+2018	UT	Industrial Cogen	Other Gases	0	0	10
+2018	UT	Total Electric Power Industry	All Sources	28544033	8335	30725
+2018	UT	Total Electric Power Industry	Coal	24707168	8311	27302
+2018	UT	Total Electric Power Industry	Geothermal	11726	0	0
+2018	UT	Total Electric Power Industry	Natural Gas	3797929	20	2327
+2018	UT	Total Electric Power Industry	Other Biomass	0	0	1061
+2018	UT	Total Electric Power Industry	Other Gases	0	0	10
+2018	UT	Total Electric Power Industry	Petroleum	27210	4	25
+2018	VA	Electric Utility	All Sources	21358261	6106	10949
+2018	VA	Electric Utility	Coal	8123893	4981	6845
+2018	VA	Electric Utility	Natural Gas	12684892	200	2473
+2018	VA	Electric Utility	Other Biomass	0	0	30
+2018	VA	Electric Utility	Petroleum	549476	869	783
+2018	VA	Electric Utility	Wood and Wood Derived Fuels	0	56	818
+2018	VA	IPP NAICS-22 Non-Cogen	All Sources	7630156	447	10603
+2018	VA	IPP NAICS-22 Non-Cogen	Coal	549321	240	248
+2018	VA	IPP NAICS-22 Non-Cogen	Natural Gas	6472868	18	1168
+2018	VA	IPP NAICS-22 Non-Cogen	Other Biomass	0	2	7253
+2018	VA	IPP NAICS-22 Non-Cogen	Other	484107	75	1406
+2018	VA	IPP NAICS-22 Non-Cogen	Petroleum	123860	65	486
+2018	VA	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	47	42
+2018	VA	IPP NAICS-22 Cogen	All Sources	1897598	1691	2551
+2018	VA	IPP NAICS-22 Cogen	Coal	1180152	1671	1915
+2018	VA	IPP NAICS-22 Cogen	Natural Gas	691359	1	624
+2018	VA	IPP NAICS-22 Cogen	Petroleum	26087	19	12
+2018	VA	Commercial Non-Cogen	All Sources	139984	3	281
+2018	VA	Commercial Non-Cogen	Other Biomass	0	0	113
+2018	VA	Commercial Non-Cogen	Other	139813	3	164
+2018	VA	Commercial Non-Cogen	Petroleum	171	0	4
+2018	VA	Commercial Cogen	All Sources	441421	413	1325
+2018	VA	Commercial Cogen	Coal	31740	141	69
+2018	VA	Commercial Cogen	Natural Gas	49789	0	119
+2018	VA	Commercial Cogen	Other	237071	188	1039
+2018	VA	Commercial Cogen	Petroleum	122821	84	98
+2018	VA	Industrial Non-Cogen	All Sources	145825	1	184
+2018	VA	Industrial Non-Cogen	Natural Gas	145825	1	174
+2018	VA	Industrial Non-Cogen	Other Biomass	0	0	10
+2018	VA	Industrial Cogen	All Sources	1890706	8851	2472
+2018	VA	Industrial Cogen	Coal	573368	1402	235
+2018	VA	Industrial Cogen	Natural Gas	1307520	4	757
+2018	VA	Industrial Cogen	Other Biomass	0	3	11
+2018	VA	Industrial Cogen	Petroleum	9818	11	6
+2018	VA	Industrial Cogen	Wood and Wood Derived Fuels	0	7431	1463
+2018	VA	Total Electric Power Industry	All Sources	33503951	17512	28365
+2018	VA	Total Electric Power Industry	Coal	10458474	8435	9312
+2018	VA	Total Electric Power Industry	Natural Gas	21352253	224	5315
+2018	VA	Total Electric Power Industry	Other Biomass	0	5	7417
+2018	VA	Total Electric Power Industry	Other	860991	266	2609
+2018	VA	Total Electric Power Industry	Petroleum	832233	1048	1389
+2018	VA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	7534	2323
+2018	VT	Electric Utility	All Sources	4969	8	160
+2018	VT	Electric Utility	Natural Gas	609	0	0
+2018	VT	Electric Utility	Petroleum	4360	7	32
+2018	VT	Electric Utility	Wood and Wood Derived Fuels	0	1	128
+2018	VT	IPP NAICS-22 Non-Cogen	All Sources	0	34	291
+2018	VT	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	155
+2018	VT	IPP NAICS-22 Non-Cogen	Wood and Wood Derived Fuels	0	34	136
+2018	VT	Commercial Cogen	All Sources	5007	5	36
+2018	VT	Commercial Cogen	Natural Gas	4425	0	11
+2018	VT	Commercial Cogen	Petroleum	582	2	1
+2018	VT	Commercial Cogen	Wood and Wood Derived Fuels	0	3	24
+2018	VT	Total Electric Power Industry	All Sources	9976	47	487
+2018	VT	Total Electric Power Industry	Natural Gas	5034	0	11
+2018	VT	Total Electric Power Industry	Other Biomass	0	0	155
+2018	VT	Total Electric Power Industry	Petroleum	4942	9	33
+2018	VT	Total Electric Power Industry	Wood and Wood Derived Fuels	0	38	288
+2018	WA	Electric Utility	All Sources	2817881	97	1681
+2018	WA	Electric Utility	Natural Gas	2814554	21	1087
+2018	WA	Electric Utility	Other Biomass	0	0	51
+2018	WA	Electric Utility	Petroleum	3327	4	2
+2018	WA	Electric Utility	Wood and Wood Derived Fuels	0	72	541
+2018	WA	IPP NAICS-22 Non-Cogen	All Sources	6989300	1392	6713
+2018	WA	IPP NAICS-22 Non-Cogen	Coal	5577946	1383	5617
+2018	WA	IPP NAICS-22 Non-Cogen	Natural Gas	1296451	5	99
+2018	WA	IPP NAICS-22 Non-Cogen	Other Biomass	0	0	661
+2018	WA	IPP NAICS-22 Non-Cogen	Other	106965	2	308
+2018	WA	IPP NAICS-22 Non-Cogen	Petroleum	7938	2	28
+2018	WA	IPP NAICS-22 Cogen	All Sources	309571	3	1443
+2018	WA	IPP NAICS-22 Cogen	Natural Gas	309571	2	834
+2018	WA	IPP NAICS-22 Cogen	Other Gases	0	1	609
+2018	WA	Commercial Non-Cogen	All Sources	277	0	6
+2018	WA	Commercial Non-Cogen	Natural Gas	149	0	3
+2018	WA	Commercial Non-Cogen	Petroleum	128	0	3
+2018	WA	Commercial Cogen	All Sources	86968	1	459
+2018	WA	Commercial Cogen	Natural Gas	86453	0	188
+2018	WA	Commercial Cogen	Other Biomass	0	0	269
+2018	WA	Commercial Cogen	Petroleum	515	1	2
+2018	WA	Industrial Cogen	All Sources	456852	9351	3831
+2018	WA	Industrial Cogen	Coal	131460	193	210
+2018	WA	Industrial Cogen	Natural Gas	274195	1	481
+2018	WA	Industrial Cogen	Other Biomass	0	27	82
+2018	WA	Industrial Cogen	Petroleum	51197	181	67
+2018	WA	Industrial Cogen	Wood and Wood Derived Fuels	0	8949	2991
+2018	WA	Total Electric Power Industry	All Sources	10660849	10844	14133
+2018	WA	Total Electric Power Industry	Coal	5709406	1576	5827
+2018	WA	Total Electric Power Industry	Natural Gas	4781373	29	2692
+2018	WA	Total Electric Power Industry	Other Biomass	0	27	1063
+2018	WA	Total Electric Power Industry	Other Gases	0	1	609
+2018	WA	Total Electric Power Industry	Other	106965	2	308
+2018	WA	Total Electric Power Industry	Petroleum	63105	188	102
+2018	WA	Total Electric Power Industry	Wood and Wood Derived Fuels	0	9021	3532
+2018	WI	Electric Utility	All Sources	38858183	9130	14163
+2018	WI	Electric Utility	Coal	32236338	8766	11640
+2018	WI	Electric Utility	Natural Gas	6402515	35	1957
+2018	WI	Electric Utility	Other	31475	58	24
+2018	WI	Electric Utility	Petroleum	187855	250	145
+2018	WI	Electric Utility	Wood and Wood Derived Fuels	0	21	397
+2018	WI	IPP NAICS-22 Non-Cogen	All Sources	264601	2	3614
+2018	WI	IPP NAICS-22 Non-Cogen	Natural Gas	264319	1	86
+2018	WI	IPP NAICS-22 Non-Cogen	Other Biomass	0	1	3527
+2018	WI	IPP NAICS-22 Non-Cogen	Petroleum	282	0	1
+2018	WI	IPP NAICS-22 Cogen	All Sources	329768	5	1739
+2018	WI	IPP NAICS-22 Cogen	Natural Gas	329212	3	36
+2018	WI	IPP NAICS-22 Cogen	Other Biomass	0	0	1703
+2018	WI	IPP NAICS-22 Cogen	Petroleum	556	2	0
+2018	WI	Commercial Cogen	All Sources	261609	4	1239
+2018	WI	Commercial Cogen	Natural Gas	259528	1	781
+2018	WI	Commercial Cogen	Other Biomass	0	0	454
+2018	WI	Commercial Cogen	Petroleum	2081	3	4
+2018	WI	Industrial Non-Cogen	All Sources	49	0	91
+2018	WI	Industrial Non-Cogen	Other Biomass	0	0	90
+2018	WI	Industrial Non-Cogen	Petroleum	49	0	1
+2018	WI	Industrial Cogen	All Sources	2064988	14150	5425
+2018	WI	Industrial Cogen	Coal	1244945	9439	2647
+2018	WI	Industrial Cogen	Natural Gas	810366	4	996
+2018	WI	Industrial Cogen	Other Biomass	0	12	177
+2018	WI	Industrial Cogen	Other	8074	80	16
+2018	WI	Industrial Cogen	Petroleum	1603	4	3
+2018	WI	Industrial Cogen	Wood and Wood Derived Fuels	0	4611	1586
+2018	WI	Total Electric Power Industry	All Sources	41779198	23291	26271
+2018	WI	Total Electric Power Industry	Coal	33481283	18205	14287
+2018	WI	Total Electric Power Industry	Natural Gas	8065940	44	3856
+2018	WI	Total Electric Power Industry	Other Biomass	0	13	5951
+2018	WI	Total Electric Power Industry	Other	39549	138	40
+2018	WI	Total Electric Power Industry	Petroleum	192426	259	154
+2018	WI	Total Electric Power Industry	Wood and Wood Derived Fuels	0	4632	1983
+2018	WV	Electric Utility	All Sources	46736837	27228	27504
+2018	WV	Electric Utility	Coal	46515773	27222	27437
+2018	WV	Electric Utility	Natural Gas	109784	1	34
+2018	WV	Electric Utility	Petroleum	111280	5	33
+2018	WV	IPP NAICS-22 Non-Cogen	All Sources	12531078	13773	8244
+2018	WV	IPP NAICS-22 Non-Cogen	Coal	12018443	13771	7944
+2018	WV	IPP NAICS-22 Non-Cogen	Natural Gas	501689	0	293
+2018	WV	IPP NAICS-22 Non-Cogen	Petroleum	10946	2	7
+2018	WV	IPP NAICS-22 Cogen	All Sources	564759	529	1011
+2018	WV	IPP NAICS-22 Cogen	Coal	564253	529	1009
+2018	WV	IPP NAICS-22 Cogen	Natural Gas	506	0	2
+2018	WV	Industrial Cogen	All Sources	370789	2	319
+2018	WV	Industrial Cogen	Natural Gas	370789	2	282
+2018	WV	Industrial Cogen	Other Gases	0	0	37
+2018	WV	Total Electric Power Industry	All Sources	60203463	41532	37078
+2018	WV	Total Electric Power Industry	Coal	59098469	41522	36390
+2018	WV	Total Electric Power Industry	Natural Gas	982768	3	611
+2018	WV	Total Electric Power Industry	Other Gases	0	0	37
+2018	WV	Total Electric Power Industry	Petroleum	122226	7	40
+2018	WY	Electric Utility	All Sources	40633174	27757	29811
+2018	WY	Electric Utility	Coal	40497311	27746	29756
+2018	WY	Electric Utility	Natural Gas	103571	0	38
+2018	WY	Electric Utility	Petroleum	32292	11	17
+2018	WY	IPP NAICS-22 Non-Cogen	All Sources	739407	390	611
+2018	WY	IPP NAICS-22 Non-Cogen	Coal	738586	390	610
+2018	WY	IPP NAICS-22 Non-Cogen	Natural Gas	821	0	1
+2018	WY	Industrial Non-Cogen	All Sources	16490	0	392
+2018	WY	Industrial Non-Cogen	Natural Gas	16490	0	392
+2018	WY	Industrial Cogen	All Sources	2624875	199	6221
+2018	WY	Industrial Cogen	Coal	1860926	188	1441
+2018	WY	Industrial Cogen	Natural Gas	763858	4	1584
+2018	WY	Industrial Cogen	Other Gases	0	7	3145
+2018	WY	Industrial Cogen	Other	0	0	49
+2018	WY	Industrial Cogen	Petroleum	91	0	2
+2018	WY	Total Electric Power Industry	All Sources	44013946	28346	37035
+2018	WY	Total Electric Power Industry	Coal	43096823	28324	31807
+2018	WY	Total Electric Power Industry	Natural Gas	884740	4	2015
+2018	WY	Total Electric Power Industry	Other Gases	0	7	3145
+2018	WY	Total Electric Power Industry	Other	0	0	49
+2018	WY	Total Electric Power Industry	Petroleum	32383	11	19
