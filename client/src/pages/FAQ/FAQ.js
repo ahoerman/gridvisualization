@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBarTop from '../../components/Header/NavBarTop';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import ReactPlayer from "react-player"
 import './index.css';
 import { Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -65,6 +66,7 @@ function renderRenewable() {
     <img src={hydro} alt="Hydro Energy"
         className="hydro-img"
     />
+    <br></br>
     <p>
       Pumped-storage hydropower facilities are a type of hydroelectric storage system where water is pumped from a water source up to a storage reservoir at a higher elevation and is released from the upper reservoir to power hydro turbines located below the upper reservoir. The electricity for pumping may be supplied by hydro turbines or by other types of power plants including fossil fuel or nuclear power plants. They usually pump water to storage when electricity demand and generation costs, and/or when wholesale electricity prices are relatively low and release the stored water to generate electricity during peak electricity demand periods when wholesale electricity prices are relatively high. Pumped-storage hydroelectric systems generally use more electricity to pump water to the upper water storage reservoirs than they produce with the stored water. Therefore, pumped-storage facilities have net negative electricity generation balances.
     </p>
@@ -138,8 +140,21 @@ function renderSources() {
   return (
     <div className= "sources">
       <p>
-        Data sources will be linked to here
+        <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
       </p>
+      <p>
+        <a href="https://www.nationalgeographic.org/encyclopedia/non-renewable-energy/#:~:text=Non-renewable" target="_blank">National Geographic Society. (2013, February 14). non-renewable energy. Retrieved from energy comes from sources that will run out,main element in fossil fuels."</a>
+      </p>
+      <p>
+        <a href="https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis" target="_blank"> Shinn, Lora. "Renewable Energy:  The Clean Facts." <i>NRDC,</i> 2 Oct. 2019.</a>
+      </p>
+      <p>
+        <a href="https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural" target="_blank">U.S. Energy Information Administration - EIA - Independent Statistics and Analysis. (n.d.). Retrieved from https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural gas is a fossil,four hydrogen atoms (CH4)."</a>
+      </p>
+      <p>
+        <a href="https://resource-solutions.org/why-renewable-energy" target="_blank">Why Renewable Energy. (2018, April 13). Retrieved from https://resource-solutions.org/why-renewable-energy.</a>
+      </p>
+
     </div>
   )
 }
@@ -150,6 +165,10 @@ function FAQ() {
     <div className="faq">
       <NavBarTop />
       <h1>FAQ</h1>
+      <br></br>
+        <ReactPlayer
+        url="https://www.youtube.com/watch?v=PLBK1ux5b7U" alt="Renewable v. Non-Renewable" 
+        />
       <br></br>
       <p>
         When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable (energy source that can be replenished) or non-renewable (an energy source that can't be easily replenished).
