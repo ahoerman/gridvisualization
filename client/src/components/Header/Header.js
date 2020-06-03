@@ -15,7 +15,7 @@ function Header() {
         <Row>
           <Col>
             <Row>
-              <h1 className="mainTitle">Electric Grid Visualization <FontAwesomeIcon icon={faBolt} /></h1>
+              <h1 className="mx-auto">Electric Grid Visualization <FontAwesomeIcon icon={faBolt} /></h1>
             </Row> 
           </Col>
         </Row>

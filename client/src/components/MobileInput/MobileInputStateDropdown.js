@@ -57,15 +57,15 @@ function MobileInputStateDropdown() {
           <Dropdown.Item as="button" eventKey="CT" className="buttonA" onSelect={handleStateClick2}>Connecticut</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="DE" className="buttonA" onSelect={handleStateClick2}>Delaware</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="FL" className="buttonA" onSelect={handleStateClick2}>Florida</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1GA" className="buttonA" onSelect={handleStateClick2}>Georgia</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1HI" className="buttonA" onSelect={handleStateClick2}>Hawaii</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1IA" className="buttonA" onSelect={handleStateClick2}>Iowa</Dropdown.Item>        
-          <Dropdown.Item as="button" eventKey="1ID" className="buttonA" onSelect={handleStateClick2}>Idaho</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1IL" className="buttonA" onSelect={handleStateClick2}>Illinois</Dropdown.Item>        
-          <Dropdown.Item as="button" eventKey="1IN" className="buttonA" onSelect={handleStateClick2}>Indiana</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1KS" className="buttonA" onSelect={handleStateClick2}>Kansas</Dropdown.Item>        
-          <Dropdown.Item as="button" eventKey="1KY" className="buttonA" onSelect={handleStateClick2}>Kentucky</Dropdown.Item>
-          <Dropdown.Item as="button" eventKey="1LA" className="buttonA" onSelect={handleStateClick2}>Louisiana</Dropdown.Item>        
+          <Dropdown.Item as="button" eventKey="GA" className="buttonA" onSelect={handleStateClick2}>Georgia</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="HI" className="buttonA" onSelect={handleStateClick2}>Hawaii</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="IA" className="buttonA" onSelect={handleStateClick2}>Iowa</Dropdown.Item>        
+          <Dropdown.Item as="button" eventKey="ID" className="buttonA" onSelect={handleStateClick2}>Idaho</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="IL" className="buttonA" onSelect={handleStateClick2}>Illinois</Dropdown.Item>        
+          <Dropdown.Item as="button" eventKey="IN" className="buttonA" onSelect={handleStateClick2}>Indiana</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="KS" className="buttonA" onSelect={handleStateClick2}>Kansas</Dropdown.Item>        
+          <Dropdown.Item as="button" eventKey="KY" className="buttonA" onSelect={handleStateClick2}>Kentucky</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="LA" className="buttonA" onSelect={handleStateClick2}>Louisiana</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="1MA" className="buttonA" onSelect={handleStateClick2}>Massachussetts</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="MD" className="buttonA" onSelect={handleStateClick2}>Maryland</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="ME" className="buttonA" onSelect={handleStateClick2}>Maine</Dropdown.Item>

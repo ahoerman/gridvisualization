@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import ChartContext from '../../Context/ChartContext';
 import InitialStates from "../USAMap/InitialStates";
 import API from '../../util/API';
@@ -12,12 +12,19 @@ import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, f
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
-  const [mapColors, setMapColors] = useState(InitialStates())
-  const { setChosenStates, chosenStates, mapState, mapDispatch } = useContext(ChartContext);
+
+  const { setChosenStates, chosenStates, mapDispatch } = useContext(ChartContext);
   useEffect(() => { console.log(chosenStates) }, [chosenStates]);
- 
-  const receiveConsumers = (type) => {
-    API.getTopConsumers(type).then(res => {
+
+const receiveConsumers = (type) => {
+  if (type === "Reset") {
+    setChosenStates({});
+    mapDispatch({
+      type: "RESET"
+    })   
+    return
+  }
+  API.getTopConsumers(type).then(res => {
 
       let topTenCurrent = res.data;
       console.log(topTenCurrent); 
@@ -25,15 +32,12 @@ function TopTenButtons() {
     //making an array of the top ten state abbreviations then doing all ten API requests
     const topTenAbbrev = topTenCurrent.map( ( currentStateObj ) => API.getStateInfo(currentStateObj.abbrev))
       Promise.all (topTenAbbrev).then( res => {
-          const eachTopTenData = {};
+          const chosenTenStates= {};
           const newMapColors = InitialStates();
-          res.forEach( (eachState) => {
-            console.log(eachState.data)
 
-            // setChosenStates({
-            //   ...chosenStates,
-            //   [currentStateObj.abbrev]: res.data
-            // })
+          res.forEach( (eachState) => {
+
+            chosenTenStates[eachState.data.stateAbbrev] = eachState.data
 
             //setting the yellow color for each State
             newMapColors[eachState.data.stateAbbrev] = {
@@ -42,12 +46,14 @@ function TopTenButtons() {
               clicked: true
             }
           })
+          console.log(chosenTenStates);
+
+          setChosenStates( chosenTenStates)
 
           mapDispatch ({
             type: "SET_TOPTEN_STATES",
             mapColors: newMapColors
           })
-          console.log(eachTopTenData)
       })
 
       })
@@ -64,7 +70,7 @@ function TopTenButtons() {
     { name: 'Petroleum', icon: faOilCan, apiName: 'Petroleum' },
     { name: 'Coal', icon: faSnowplow, apiName: 'Coal' },
     { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' },
-    { name: 'Reset Colors', icon: faTrashRestoreAlt, apiName: 'Reset Colors'},
+    { name: 'Reset Colors', icon: faTrashRestoreAlt, apiName: 'Reset'},
   ];
 
   return (
