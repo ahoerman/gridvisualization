@@ -140,19 +140,19 @@ function renderSources() {
   return (
     <div className= "sources">
       <p>
-        <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
+        <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank" rel="noopener noreferrer">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
       </p>
       <p>
-        <a href="https://www.nationalgeographic.org/encyclopedia/non-renewable-energy/#:~:text=Non-renewable" target="_blank">National Geographic Society. (2013, February 14). non-renewable energy. Retrieved from energy comes from sources that will run out,main element in fossil fuels."</a>
+        <a href="https://www.nationalgeographic.org/encyclopedia/non-renewable-energy/#:~:text=Non-renewable" target="_blank" rel="noopener noreferrer">National Geographic Society. (2013, February 14). non-renewable energy. Retrieved from energy comes from sources that will run out,main element in fossil fuels."</a>
       </p>
       <p>
-        <a href="https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis" target="_blank"> Shinn, Lora. "Renewable Energy:  The Clean Facts." <i>NRDC,</i> 2 Oct. 2019.</a>
+        <a href="https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis" target="_blank" rel="noopener noreferrer"> Shinn, Lora. "Renewable Energy:  The Clean Facts." <i>NRDC,</i> 2 Oct. 2019.</a>
       </p>
       <p>
-        <a href="https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural" target="_blank">U.S. Energy Information Administration - EIA - Independent Statistics and Analysis. (n.d.). Retrieved from https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural gas is a fossil,four hydrogen atoms (CH4)."</a>
+        <a href="https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural" target="_blank" rel="noopener noreferrer">U.S. Energy Information Administration - EIA - Independent Statistics and Analysis. (n.d.). Retrieved from https://www.eia.gov/energyexplained/natural-gas/#:~:text=Natural gas is a fossil,four hydrogen atoms (CH4)."</a>
       </p>
       <p>
-        <a href="https://resource-solutions.org/why-renewable-energy" target="_blank">Why Renewable Energy. (2018, April 13). Retrieved from https://resource-solutions.org/why-renewable-energy.</a>
+        <a href="https://resource-solutions.org/why-renewable-energy" target="_blank" rel="noopener noreferrer">Why Renewable Energy. (2018, April 13). Retrieved from https://resource-solutions.org/why-renewable-energy.</a>
       </p>
 
     </div>
