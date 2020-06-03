@@ -1,9 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import ReactMap from "react-usa-map";
 import { Col } from 'react-bootstrap';
 import ChartContext from '../../Context/ChartContext';
 import API from "../../util/API";
-import InitialStates from "./InitialStates";
 
 
 const USAMap = () => {

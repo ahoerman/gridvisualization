@@ -1,3 +1,5 @@
+import InitialStates from "../components/USAMap/InitialStates";
+
 export const USAMapReducer = (state, action) => {
     switch (action.type) {
         case "ADD_CHOSEN_STATE": 
@@ -28,6 +30,11 @@ export const USAMapReducer = (state, action) => {
                 ...state,
                 mapColors: action.mapColors
                 
+            };
+        case "RESET":
+            return {
+                ...state,
+                mapColors: InitialStates(),
             }
         default: return state
     }
