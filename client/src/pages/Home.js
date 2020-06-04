@@ -16,8 +16,8 @@ import ScrollUpButton from "react-scroll-up-button";
   const { width} = useWindowSize();
   return (
     <div className="App">
-      <div class="container-fluid">
         <NavBarTop />
+      <div class="container-fluid">
         <Header/>
       </div>
       <div class="container-lg">
