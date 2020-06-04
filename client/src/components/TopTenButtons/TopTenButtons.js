@@ -59,6 +59,9 @@ const receiveConsumers = (type) => {
       })
     }
 
+  function recieveTotalUS() {
+    console.log("total for US")
+}
   
 
   const buttons = [
@@ -70,8 +73,7 @@ const receiveConsumers = (type) => {
     { name: 'Petroleum', icon: faOilCan, apiName: 'Petroleum' },
     { name: 'Coal', icon: faSnowplow, apiName: 'Coal' },
     { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' },
-    { name: 'Reset States', icon: faTrashRestoreAlt, apiName: 'Reset'},
-    { name: 'Total for United States', icon: faTrashRestoreAlt, apiName: 'US'},
+    { name: 'Reset States', icon: faTrashRestoreAlt, apiName: 'Reset'}
   ];
 
   return (
@@ -80,6 +82,7 @@ const receiveConsumers = (type) => {
           {buttons.map(btn => (
               <Button variant="success" class="btn btn-success" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
+          <Button variant="primary" class="btn btn-success" key="US" onClick={() => recieveTotalUS("US")}>Total for US</Button>
       </div>
     </div>
 
