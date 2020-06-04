@@ -1,20 +1,21 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-import DropdownButton from 'react-bootstrap/DropdownButton'
-import Dropdown from 'react-bootstrap/Dropdown'
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
+import API from "../util/API";
 
 
 function PowerPlantStateChooser() {
 
   const stateForPlant = event => {
-    const value = event;
-    console.log(value)
+    API.getPlantInfo(event)
+    .then(({ data }) => {
+      console.log(data);
+    })
+    .catch(err => console.log(err));
   };
 
     return (
-    <Container fluid>
-      <Container>
         <DropdownButton 
         as = {ButtonGroup}
         variant="success"
@@ -72,8 +73,6 @@ function PowerPlantStateChooser() {
           <Dropdown.Item as="button" eventKey="WV" className="buttonA" onSelect={stateForPlant}>West Virgina</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="WY" className="buttonA" onSelect={stateForPlant}>Wyoming</Dropdown.Item>
       </DropdownButton>
-        </Container>
-    </Container>
     );
   }
   
