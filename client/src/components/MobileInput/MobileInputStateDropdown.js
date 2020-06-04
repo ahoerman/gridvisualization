@@ -66,7 +66,7 @@ function MobileInputStateDropdown() {
           <Dropdown.Item as="button" eventKey="KS" className="buttonA" onSelect={handleStateClick2}>Kansas</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="KY" className="buttonA" onSelect={handleStateClick2}>Kentucky</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="LA" className="buttonA" onSelect={handleStateClick2}>Louisiana</Dropdown.Item>        
-          <Dropdown.Item as="button" eventKey="1MA" className="buttonA" onSelect={handleStateClick2}>Massachussetts</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="MA" className="buttonA" onSelect={handleStateClick2}>Massachussetts</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="MD" className="buttonA" onSelect={handleStateClick2}>Maryland</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="ME" className="buttonA" onSelect={handleStateClick2}>Maine</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="MI" className="buttonA" onSelect={handleStateClick2}>Michigan</Dropdown.Item>        

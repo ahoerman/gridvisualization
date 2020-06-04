@@ -16,6 +16,8 @@ const handleStateClick = event => {
       .catch(err => console.log(err));
   };
 
+// import Dropdown from "react-bootstrap/Dropdown";
+import PowerPlantStateChooser from "./PowerPlantStateChooser"
 
 function PowerPlants() {
   return (
@@ -29,7 +31,9 @@ function PowerPlants() {
         Select a state from the dropdown below to see a list of power plants in the area.
       </p>
 
-        <Dropdown>
+
+        <PowerPlantStateChooser/>>
+        {/* <Dropdown>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             Select A State
           </Dropdown.Toggle>
@@ -39,7 +43,7 @@ function PowerPlants() {
             <Dropdown.Item href="#/action-2">Maine</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Vermont</Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown> */}
 
       </div>
 
