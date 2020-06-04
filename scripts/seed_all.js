@@ -153,7 +153,8 @@ const seedMe = async () => {
   for (const row of co2Data) {
     // console.table(row);
     await db.Co2Emissions.create({
-      StateId: stateInfo[row.State],
+      // StateId: stateInfo[element["STATE"].slice(0,2)],
+      StateId: stateInfo[row.State.slice(0,2)],
       EnergySourceId: nrgSrcObj[row["Energy Source"]],
       amount: parseInt(row["CO2 (Metric Tons)"])
     });
