@@ -5,6 +5,17 @@ import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
+import Dropdown from "react-bootstrap/Dropdown";
+import API from "../util/API";
+
+const handleStateClick = event => {
+  API.getPlantInfo(event)
+      .then(({ data }) => {
+        console.log(data);
+      })
+      .catch(err => console.log(err));
+  };
+
 // import Dropdown from "react-bootstrap/Dropdown";
 import PowerPlantStateChooser from "./PowerPlantStateChooser"
 
@@ -28,7 +39,7 @@ function PowerPlants() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">New Hampshire</Dropdown.Item>
+            <Dropdown.Item eventKey="NH" onSelect={handleStateClick}>New Hampshire</Dropdown.Item>
             <Dropdown.Item href="#/action-2">Maine</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Vermont</Dropdown.Item>
           </Dropdown.Menu>

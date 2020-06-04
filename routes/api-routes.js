@@ -5,14 +5,29 @@ const controller = require("../controllers/controller");
 
 router.get("/state", async (req, res) => {
   controller.getStateData(req.query.state)
-    .then((fullJoinedResult) => {
-        return res.json(fullJoinedResult);
+    .then((result) => {
+        console.log(result);
+        return res.json(result);
     })
     .catch((err) => {
         console.log(`error: ${err}`);
         res.status(422).end()
     });
 });
+
+router.get("/plant", async (req, res) => {
+  controller.getPlantData(req.query.state)
+    .then((result) => {
+        console.log(result);
+        return res.json(result);
+    })
+    .catch((err) => {
+        console.log(`error: ${err}`);
+        res.status(422).end()
+    });
+});
+
+
 
   router.get("/consumption/:energyType", async (req, res) => {
     // retrieve type

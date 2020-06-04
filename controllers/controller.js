@@ -90,6 +90,53 @@ const controller = {
     });
   },
 
+  //takes state abbrev, returns corresponding plant data as formatted object
+  getPlantData: function (stateAbbrev) {
+    return db.State.findOne({
+      where: {
+        abbrev: stateAbbrev,
+      },
+    }).then((dbState) => {
+      return db.Plant.findAll({
+        where: {
+          StateId: dbState["id"]
+        },
+        attributes: [
+          "plantName",
+          "latitude",
+          "longitude",
+          "primaryFuel",
+          "fuelCategory",
+          "annualGeneration",
+          "annualCO2",
+          "annualCO2perMWH"
+        ]
+      }).then((plantResult) => {        
+        // const plantInfo = [];
+
+        // for (const { plantName, latitude, longitude, primaryFuel, } of plantResult) {
+        //   console.log(JSON.stringify(row));
+        //   plantInfo.push({
+        //     plantName: plantName,
+        //     latitude: row.,
+        //     longitude: ,
+        //     primaryFuel
+        //   });
+        // }
+
+        const generatedResult = {
+          stateName: dbState["fullName"],
+          plants: plantResult
+        }
+        
+        console.table(generatedResult);
+
+        return Promise.resolve(generatedResult);
+
+      }); 
+    });
+  },
+
 
 };
 

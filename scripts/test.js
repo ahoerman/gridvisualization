@@ -6,8 +6,17 @@ const db = require("../models");
 //       console.log(`things: ${things}`);
 // });
 
+// db.sequelize.sync({ force: false }).then(function() {
+//   controller.getStateData("MA")
+//     .then((things) => { 
+//       console.log(`things:`);
+//       console.table(things);
+//       return Promise.resolve();
+//     }).then(() => db.sequelize.close());
+// });
+
 db.sequelize.sync({ force: false }).then(function() {
-  controller.getStateData("MA")
+  controller.getPlantData("NH")
     .then((things) => { 
       console.log(`things:`);
       console.table(things);

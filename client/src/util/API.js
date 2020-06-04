@@ -8,5 +8,9 @@ export default {
   },
   getTopConsumers(type) {
     return axios.get("/api/consumption/" + type);
+  },
+  getPlantInfo: function(query) {
+    return axios.get("api/plant", { params: {
+      state: query}});
   }
 };
