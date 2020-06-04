@@ -9,12 +9,14 @@ import ChartContextProvider from "../components/contextProviders/ChartContextPro
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
+import NavBarTop from "../../src/components/Header/NavBarTop"
 
   function Home() {
   const { width} = useWindowSize();
   return (
     <div className="App">
-      <div class="row mx-auto">
+      <div class="container-fluid">
+        <NavBarTop />
         <Header/>
       </div>
       <div class="container-lg">

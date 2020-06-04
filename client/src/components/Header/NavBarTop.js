@@ -9,16 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function NavBarTop() {
   return (
     <div class="container-fuid navBarTop">
-    <div class="row">
-        <div class="col">
+    <div class="row m-3 p-3">
             <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" class="headerLogo background-color: #FFFFFF; " />
-        </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <h2 >Electric Grid Visualization <FontAwesomeIcon icon={faBolt} /></h2>
-        </div> 
-    </div> 
     </div> 
   );
 }
