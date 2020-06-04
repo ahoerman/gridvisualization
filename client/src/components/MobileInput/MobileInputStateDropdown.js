@@ -47,7 +47,8 @@ function MobileInputStateDropdown() {
         size="lg"
         className="ButtonDropdown" 
         title="Click on a State or two to see the data">
-        <Dropdown.Item as="button" eventKey="AK" className="buttonA" onSelect={handleStateClick2}>Alaska</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="US" className="buttonA" onSelect={handleStateClick2}>Total for US</Dropdown.Item>
+          <Dropdown.Item as="button" eventKey="AK" className="buttonA" onSelect={handleStateClick2}>Alaska</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="AL" className="buttonA" onSelect={handleStateClick2}>Alabama</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="AR" className="buttonA" onSelect={handleStateClick2}>Arkansas</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="AZ" className="buttonA" onSelect={handleStateClick2}>Arizona</Dropdown.Item>        
