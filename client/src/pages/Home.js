@@ -10,6 +10,7 @@ import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
 import NavBarTop from "../../src/components/Header/NavBarTop"
+import ScrollUpButton from "react-scroll-up-button";
 
   function Home() {
   const { width} = useWindowSize();
@@ -20,6 +21,9 @@ import NavBarTop from "../../src/components/Header/NavBarTop"
         <Header/>
       </div>
       <div class="container-lg">
+      <ScrollUpButton />
+      <Header/>
+      <Container fluid>
         <ChartContextProvider>
         <>
         { width > 750 ? 
@@ -43,8 +47,9 @@ import NavBarTop from "../../src/components/Header/NavBarTop"
         </ChartContainer>
         </>
         </ChartContextProvider>
-      </div>
+      </Container>
       <Footer />
+    </div>
     </div>
   );
 }

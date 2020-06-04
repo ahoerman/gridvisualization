@@ -14,13 +14,13 @@ import hydro from './hydro.jpg';
 import nuclear from './nuclear.jpg';
 import natural from './naturalgas.jpg';
 import petroleum from './petroleum.jpg';
-
-
+import ScrollUpButton from "react-scroll-up-button";
 
 function renderRenewable() {
   return (
     
     <div className="renergy">
+      <ScrollUpButton />
     <h1>Renewable Energy</h1>
     <br></br>
     <p>
@@ -87,6 +87,7 @@ function renderRenewable() {
 function renderNonrenewable() {
   return (
     <div className="nenergy">
+    <ScrollUpButton />
     <h1>Non-Renewable Energy</h1>
     <br></br>
     <p>
@@ -139,6 +140,7 @@ function renderNonrenewable() {
 function renderSources() {
   return (
     <div className= "sources">
+      <ScrollUpButton />
       <p>
         <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank" rel="noopener noreferrer">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
       </p>
@@ -163,6 +165,7 @@ function FAQ() {
   return (
     
     <div className="faq">
+      <ScrollUpButton />
       <NavBarTop />
       <h1>FAQ</h1>
       <br></br>

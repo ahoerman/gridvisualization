@@ -1,10 +1,12 @@
 import React from "react";
 import NavBarTop from "../components/Header/NavBarTop";
+import ScrollUpButton from "react-scroll-up-button";
 
 function PowerPlants() {
   return (
     <div>
       <NavBarTop />
+      <ScrollUpButton />
       <h1>Power Plants Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
