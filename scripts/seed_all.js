@@ -111,6 +111,8 @@ fs.readFile(__dirname + fileLocation + year + "_generator_test.tsv", "utf8", (er
     //we don't want to get retired plants
     return (!(row["GENSTAT"] === "RE"));
   });
+
+  // console.table(generatorData);
 });
 
 const seedMe = async () => {
@@ -194,8 +196,7 @@ const seedMe = async () => {
     });
   };
 
-
-
+  //fill generation table, use id from plantInfo
 };
 
 db.sequelize.sync({ 

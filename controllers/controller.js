@@ -110,39 +110,23 @@ const controller = {
           "annualGeneration",
           "annualCO2",
           "annualCO2perMWH"
-        ],
-        include: [
-          { //state model
-            model: db.State,
-            required: true,
-            attributes: [
-              "fullName" 
-            ]
-          }
         ]
-      }).then((fullJoinedResult) => {
-        // console.log(JSON.stringify(fullJoinedResult));
-        
+      }).then((plantResult) => {        
         // const plantInfo = [];
 
-        // for (const row of fullJoinedResult) {
+        // for (const { plantName, latitude, longitude, primaryFuel, } of plantResult) {
         //   console.log(JSON.stringify(row));
-
         //   plantInfo.push({
-        //     plantName:,
-        //     latitude: ,
+        //     plantName: plantName,
+        //     latitude: row.,
         //     longitude: ,
         //     primaryFuel
-        //     stateAbbrev: fullJoinedResult[0]["State"]["abbrev"],
-        //     population: fullJoinedResult[0]["State"]["population"],
-        //     generation: generationData,
-        //     co2emission: co2emissionData
         //   });
         // }
 
         const generatedResult = {
-          stateName: fullJoinedResult[0]["State"]["fullName"],
-          plants: fullJoinedResult
+          stateName: dbState["fullName"],
+          plants: plantResult
         }
         
         console.table(generatedResult);
