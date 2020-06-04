@@ -15,12 +15,13 @@ import nuclear from './nuclear.jpg';
 import natural from './naturalgas.jpg';
 import petroleum from './petroleum.jpg';
 import ScrollUpButton from "react-scroll-up-button";
+import Container from "react-bootstrap/Container";
+import Footer from "../../components/Footer/Footer";
 
 function renderRenewable() {
   return (
     
-    <div className="renergy">
-      <ScrollUpButton />
+    <div className="renergy energyTab">
     <h1>Renewable Energy</h1>
     <br></br>
     <p>
@@ -86,7 +87,7 @@ function renderRenewable() {
 }
 function renderNonrenewable() {
   return (
-    <div className="nenergy">
+    <div className="nenergy energyTab">
     <ScrollUpButton />
     <h1>Non-Renewable Energy</h1>
     <br></br>
@@ -139,7 +140,7 @@ function renderNonrenewable() {
 }
 function renderSources() {
   return (
-    <div className= "sources">
+    <div className= "sources energyTab">
       <ScrollUpButton />
       <p>
         <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank" rel="noopener noreferrer">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
@@ -161,17 +162,21 @@ function renderSources() {
   )
 }
 function FAQ() {
-  const [key, setKey] = useState('home');
+  const [key, setKey] = useState('renewable');
   return (
     
+    <>
+    <NavBarTop />
+    <Container>
     <div className="faq">
       <ScrollUpButton />
-      <NavBarTop />
-      <h1>FAQ</h1>
+      <h1 className="faqTitle">Frequently Asked Questions</h1>
       <br></br>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
         <ReactPlayer
         url="https://www.youtube.com/watch?v=PLBK1ux5b7U" alt="Renewable v. Non-Renewable" 
         />
+      </div>
       <br></br>
       <p>
         When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable (energy source that can be replenished) or non-renewable (an energy source that can't be easily replenished).
@@ -204,7 +209,10 @@ function FAQ() {
           {key ==="sources" && renderSources()}
         </Row>
       </>
-        </div>
+      </div>
+      </Container>
+      <Footer />
+      </>
   )
 };
 
