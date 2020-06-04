@@ -1,0 +1,150 @@
+eGRID2018 Generator file sequence number	Data Year	Plant state abbreviation	Plant name	DOE/EIA ORIS plant or facility code	Generator ID	Generator status	Generator prime mover type	Generator primary fuel	Generation data source	Generator year on-line	Generator planned or actual retirement year
+SEQGEN18	YEAR	PSTATABB	PNAME	ORISPL	GENID	GENSTAT	PRMVR	FUELG1	GENERSRC	GENYRONL	GENYRRET
+17438	2018	NH	Amoskeag	2354	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1924	
+17439	2018	NH	Amoskeag	2354	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1922	
+17440	2018	NH	Amoskeag	2354	3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1922	
+17441	2018	NH	Antrim Wind	59953	AWND1	U	WT	WND		2019	
+17442	2018	NH	Ayers Island	2355	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1925	
+17443	2018	NH	Ayers Island	2355	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1925	
+17444	2018	NH	Ayers Island	2355	3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1925	
+17445	2018	NH	Berlin Gorham	54639	CAS1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1914	
+17446	2018	NH	Berlin Gorham	54639	CAS2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1916	
+17447	2018	NH	Berlin Gorham	54639	CAS3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1918	
+17448	2018	NH	Berlin Gorham	54639	GOR1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17449	2018	NH	Berlin Gorham	54639	GOR2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17450	2018	NH	Berlin Gorham	54639	GOR3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17451	2018	NH	Berlin Gorham	54639	GOR4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17452	2018	NH	Berlin Gorham	54639	RS1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17453	2018	NH	Berlin Gorham	54639	RS3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1920	
+17454	2018	NH	Berlin Gorham	54639	SH2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1916	
+17455	2018	NH	Berlin Gorham	54639	SHL1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1916	
+17456	2018	NH	Berlin Gorham	54639	SHL3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1929	
+17457	2018	NH	Berlin Gorham	54639	SM1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1980	
+17458	2018	NH	Berlin Gorham	54639	SM2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1980	
+17459	2018	NH	Berlin Gorham	54639	SM3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1980	
+17460	2018	NH	Berlin Gorham	54639	SM4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1980	
+17461	2018	NH	Berlin Gorham	54639	XP1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1921	
+17462	2018	NH	Berlin Gorham	54639	XP2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1921	
+17463	2018	NH	Berlin Gorham	54639	XP3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1921	
+17464	2018	NH	Berlin Gorham	54639	XP4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1921	
+17465	2018	NH	Berlin Gorham	54639	XP5	OP	HY	WAT	Distributed from 923 Generation And Fuel	1924	
+17466	2018	NH	Bridgewater Power LP	10290	GEN1	OP	ST	WDS	EIA-923 Generator File	1987	
+17467	2018	NH	Burgess BioPower	58054	ST01	OP	ST	WDS	EIA-923 Generator File	2013	
+17468	2018	NH	China Mill Hydro	50103	GEN 1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1981	
+17469	2018	NH	Clement Dam Hydro LLC	10276	0049	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17470	2018	NH	Comerford	2349	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1930	
+17471	2018	NH	Comerford	2349	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1930	
+17472	2018	NH	Comerford	2349	GEN3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1930	
+17473	2018	NH	Comerford	2349	GEN4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1930	
+17474	2018	NH	Crotched Mountain Rehabilitation Center	54515	GEN1	SB	IC	DFO	Distributed from 923 Generation And Fuel	1990	
+17475	2018	NH	Crotched Mountain Rehabilitation Center	54515	GEN2	SB	IC	DFO	Distributed from 923 Generation And Fuel	1990	
+17476	2018	NH	Crotched Mountain Rehabilitation Center	54515	GEN3	SB	IC	DFO	Distributed from 923 Generation And Fuel	1990	
+17477	2018	NH	Dartmouth College Heating Plant	54409	GEN1	OP	ST	RFO	EIA-923 Generator File	1970	
+17478	2018	NH	Dartmouth College Heating Plant	54409	GEN2	OP	ST	RFO	EIA-923 Generator File	1970	
+17479	2018	NH	Dartmouth College Heating Plant	54409	GEN3	OP	ST	RFO	EIA-923 Generator File	1992	
+17480	2018	NH	DG Whitefield LLC	10839	GEN1	OP	ST	WDS	EIA-923 Generator File	1988	
+17481	2018	NH	Dodge Falls Associates	10526	1UNI	OP	HY	WAT	Distributed from 923 Generation And Fuel	1990	
+17482	2018	NH	Dunbarton Energy Partners LP	55779	MA1	RE	IC	LFG		1988	2012
+17483	2018	NH	Dunbarton Energy Partners LP	55779	MA2	RE	IC	LFG		1988	2012
+17484	2018	NH	Eastman Falls	2356	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1937	
+17485	2018	NH	Eastman Falls	2356	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1983	
+17486	2018	NH	EHC West Hopkinton	54384	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17487	2018	NH	Errol Hydroelectric Project	10570	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17488	2018	NH	Essential Power Newington LLC	55661	GT-1	OP	CT	NG	EIA-923 Generator File	2002	
+17489	2018	NH	Essential Power Newington LLC	55661	GT-2	OP	CT	NG	EIA-923 Generator File	2002	
+17490	2018	NH	Essential Power Newington LLC	55661	ST	OP	CA	NG	EIA-923 Generator File	2002	
+17491	2018	NH	Garvins Falls	2357	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1981	
+17492	2018	NH	Garvins Falls	2357	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1981	
+17493	2018	NH	Garvins Falls	2357	3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1925	
+17494	2018	NH	Garvins Falls	2357	4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1925	
+17495	2018	NH	General Electric Great Falls Upper Hydro	10059	1575	OS	HY	WAT		1984	2021
+17496	2018	NH	General Electric Great Falls Upper Hydro	10059	500	OS	HY	WAT		1988	2021
+17497	2018	NH	Gorham	2358	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1917	
+17498	2018	NH	Gorham	2358	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1917	
+17499	2018	NH	Gorham	2358	3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1923	
+17500	2018	NH	Gorham	2358	4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1923	
+17501	2018	NH	Granite Reliable Power	58004	1	OP	WT	WND	Distributed from 923 Generation And Fuel	2012	
+17502	2018	NH	Granite Ridge	55170	CT11	OP	CT	NG	EIA-923 Generator File	2003	
+17503	2018	NH	Granite Ridge	55170	CT12	OP	CT	NG	EIA-923 Generator File	2003	
+17504	2018	NH	Granite Ridge	55170	STG	OP	CA	NG	EIA-923 Generator File	2003	
+17505	2018	NH	Gregg Falls	50384	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17506	2018	NH	Gregg Falls	50384	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17507	2018	NH	Groton Wind LLC	58141	1	OP	WT	WND	Distributed from 923 Generation And Fuel	2012	
+17508	2018	NH	Hampton Facility	10108	GEN8	OP	GT	NG	Distributed from 923 Generation And Fuel	2000	
+17509	2018	NH	Hampton Facility	10108	GEN1	RE	IC	DFO		1978	2017
+17510	2018	NH	Hampton Facility	10108	GEN2	RE	IC	DFO		1978	2017
+17511	2018	NH	Hampton Facility	10108	GEN3	RE	IC	DFO		1980	2017
+17512	2018	NH	Hampton Facility	10108	GEN4	RE	IC	DFO		1981	2017
+17513	2018	NH	Hampton Facility	10108	GEN5	RE	IC	DFO		1984	2017
+17514	2018	NH	Hampton Facility	10108	GEN6	RE	IC	DFO		1990	2016
+17515	2018	NH	Hillsborough Hosiery	10036	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1989	
+17516	2018	NH	Hillsborough Hosiery	10036	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1989	
+17517	2018	NH	Hooksett	2359	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1927	
+17518	2018	NH	Indeck Energy-Alexandria	58595	GEN1	OP	ST	WDS	EIA-923 Generator File	2008	
+17519	2018	NH	Jackman	2360	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1926	
+17520	2018	NH	Jericho Power	59070	WT 1	OP	WT	WND	Distributed from 923 Generation And Fuel	2016	
+17521	2018	NH	Lempster Wind LLC	56399	1	OP	WT	WND	Distributed from 923 Generation And Fuel	2008	
+17522	2018	NH	Lochmere Hydroelectric Plant	54572	UNT1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17523	2018	NH	Lochmere Hydroelectric Plant	54572	UNT2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17524	2018	NH	Lochmere Hydroelectric Plant	54572	UNT3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17525	2018	NH	Lochmere Hydroelectric Plant	54572	UNT4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17526	2018	NH	Lost Nation	2362	GT1	OP	GT	DFO	Distributed from 923 Generation And Fuel	1969	
+17527	2018	NH	Lower Village Water Power Project	50285	0001	OP	HY	WAT	Distributed from 923 Generation And Fuel	1995	
+17528	2018	NH	Lower Village Water Power Project	50285	0002	OP	HY	WAT	Distributed from 923 Generation And Fuel	1995	
+17529	2018	NH	Mascoma Hydro	54471	01	OP	HY	WAT	Distributed from 923 Generation And Fuel	1988	
+17530	2018	NH	Mascoma Hydro	54471	02	OP	HY	WAT	Distributed from 923 Generation And Fuel	1988	
+17531	2018	NH	Mascoma Hydro	54471	03	OP	HY	WAT	Distributed from 923 Generation And Fuel	1988	
+17532	2018	NH	Merrimack	2364	1	OP	ST	BIT	EIA-923 Generator File	1960	
+17533	2018	NH	Merrimack	2364	2	OP	ST	BIT	EIA-923 Generator File	1968	
+17534	2018	NH	Merrimack	2364	GT1	OP	GT	JF	Distributed from 923 Generation And Fuel	1968	
+17535	2018	NH	Merrimack	2364	GT2	OP	GT	JF	Distributed from 923 Generation And Fuel	1969	
+17536	2018	NH	Milton Hydro	10519	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1914	
+17537	2018	NH	Milton Hydro	10519	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1914	
+17538	2018	NH	Milton Hydro	10519	3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1984	
+17539	2018	NH	Milton Hydro	10519	4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1987	
+17540	2018	NH	Mine Falls Generating Station	10183	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17541	2018	NH	Mine Falls Generating Station	10183	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17542	2018	NH	Nashua Plant	55006	UNT2	OP	IC	LFG	Distributed from 923 Generation And Fuel	1996	
+17543	2018	NH	Nashua Plant	55006	UNT3	OP	IC	LFG	Distributed from 923 Generation And Fuel	2016	
+17544	2018	NH	Nashua Plant	55006	UNT1	RE	IC	LFG		1996	2014
+17545	2018	NH	Newfound Hydroelectric	50324	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1983	
+17546	2018	NH	Newfound Hydroelectric	50324	2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1983	
+17547	2018	NH	Newington	8002	1	OP	ST	RFO	EIA-923 Generator File	1974	
+17548	2018	NH	Pembroke Hydro	50312	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17549	2018	NH	Penacook Lower Falls	50353	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1983	
+17550	2018	NH	Penacook Upper Falls Hydro	50414	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17551	2018	NH	Pinetree Power	50208	GEN1	OP	ST	WDS	EIA-923 Generator File	1986	
+17552	2018	NH	Pinetree Power Tamworth	50739	GEN1	OP	ST	WDS	EIA-923 Generator File	1987	
+17553	2018	NH	Plymouth State College Cogeneration	54803	A	SB	IC	DFO	Distributed from 923 Generation And Fuel	1994	
+17554	2018	NH	Plymouth State College Cogeneration	54803	B	SB	IC	DFO	Distributed from 923 Generation And Fuel	2000	
+17555	2018	NH	Pontook Hydro Facility	50741	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17556	2018	NH	Pontook Hydro Facility	50741	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17557	2018	NH	Pontook Hydro Facility	50741	GEN3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17558	2018	NH	Rolfe Canal Hydro	50351	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1987	
+17559	2018	NH	Rollinsford	54418	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1986	
+17560	2018	NH	Rollinsford	54418	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1995	
+17561	2018	NH	S C Moore	2351	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1957	
+17562	2018	NH	S C Moore	2351	GEN2	OP	HY	WAT	Distributed from 923 Generation And Fuel	1957	
+17563	2018	NH	S C Moore	2351	GEN3	OP	HY	WAT	Distributed from 923 Generation And Fuel	1957	
+17564	2018	NH	S C Moore	2351	GEN4	OP	HY	WAT	Distributed from 923 Generation And Fuel	1957	
+17565	2018	NH	Schiller	2367	4	OP	ST	BIT	EIA-923 Generator File	1952	
+17566	2018	NH	Schiller	2367	5	OP	ST	WDS	EIA-923 Generator File	1955	
+17567	2018	NH	Schiller	2367	6	OP	ST	BIT	EIA-923 Generator File	1957	
+17568	2018	NH	Schiller	2367	GT1	OP	GT	JF	Distributed from 923 Generation And Fuel	1970	
+17569	2018	NH	Seabrook	6115	1	OP	ST	NUC	Distributed from 923 Generation And Fuel	1990	
+17570	2018	NH	Smith (NH)	2368	1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1948	
+17571	2018	NH	Somersworth Lower Great Dam	50704	GEN1	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17572	2018	NH	Springfield Power LLC	10838	GEN1	OP	ST	WDS	EIA-923 Generator File	1987	
+17573	2018	NH	Stevens Mills Dam	10109	1G	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17574	2018	NH	Stevens Mills Dam	10109	3G	OP	HY	WAT	Distributed from 923 Generation And Fuel	1985	
+17575	2018	NH	Stevens Mills Dam	10109	2	RE	HY	WAT		1982	1997
+17576	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN1	OP	IC	LFG	Distributed from 923 Generation And Fuel	1992	
+17577	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN2	OP	IC	LFG	Distributed from 923 Generation And Fuel	1992	
+17578	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN3	OP	IC	LFG	Distributed from 923 Generation And Fuel	1992	
+17579	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN4	OP	IC	LFG	Distributed from 923 Generation And Fuel	1993	
+17580	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN5	OP	GT	LFG	Distributed from 923 Generation And Fuel	1997	
+17581	2018	NH	Turnkey Landfill Gas Recovery	54663	GEN6	OP	GT	LFG	Distributed from 923 Generation And Fuel	1997	
+17582	2018	NH	UNH 7.9 MW Plant	58180	1	OP	GT	LFG	Distributed from 923 Generation And Fuel	2006	
+17583	2018	NH	Wheelabrator Claremont Facility	50872	GEN1	RE	ST	MSW		1987	2013
+17584	2018	NH	Wheelabrator Concord Facility	50873	GEN1	OP	ST	MSW	EIA-923 Generator File	1989	
+17585	2018	NH	White Lake	2369	GT1	OP	GT	JF	Distributed from 923 Generation And Fuel	1968	
