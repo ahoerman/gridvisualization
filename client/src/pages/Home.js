@@ -47,8 +47,8 @@ import ScrollUpButton from "react-scroll-up-button";
         </>
         </ChartContextProvider>
       </Container>
-      <Footer />
     </div>
+    <Footer />
     </div>
   );
 }
