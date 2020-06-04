@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import '../App.css';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import TopTenButtons from '../components/TopTenButtons/TopTenButtons';
 import MobileInputStateDropdown from '../components/MobileInput/MobileInputStateDropdown';
 import ChartContextProvider from "../components/contextProviders/ChartContextProvider";
@@ -22,7 +22,6 @@ import ScrollUpButton from "react-scroll-up-button";
       </div>
       <div class="container-lg">
       <ScrollUpButton />
-      <Header/>
       <Container fluid>
         <ChartContextProvider>
         <>

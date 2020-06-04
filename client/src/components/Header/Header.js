@@ -1,8 +1,6 @@
 import React from "react";
 import './header.css';
 
-import AppleseedInitiativeRingTextLogo2 from "./AppleseedInitiativeRingTextLogo2.png"
-
 // get fontawesome imports
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

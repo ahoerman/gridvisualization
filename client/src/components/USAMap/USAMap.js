@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import ReactMap from "react-usa-map";
-import { Col } from 'react-bootstrap';
 import ChartContext from '../../Context/ChartContext';
 import API from "../../util/API";
 

@@ -2,18 +2,15 @@ import { Navbar } from 'react-bootstrap';
 import AppleseedInitiativeRingTextLogo2 from "./AppleseedInitiativeRingTextLogo2.png"
 import React from "react";
 import './header.css';
-// get fontawesome imports
-import { faBolt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function NavBarTop() {
+function NavbarTop() {
   return (
-    <div class="container-fuid navBarTop">
-    <div class="row m-3 p-3">
-            <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" class="headerLogo background-color: #FFFFFF; " />
+    <div className="NavBarDiv">
+      <Navbar expand="lg" bg="dark" variant="dark" className="navbar">
+        <Navbar.Brand href="#home"><img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo" /></Navbar.Brand>
+      </Navbar>
     </div>
-    </div> 
   );
 }
 
-export default NavBarTop;
+export default NavbarTop;
