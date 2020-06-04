@@ -124,3 +124,30 @@ db.sequelize.sync({
 //     }]
 //   }
 // }
+
+// {
+//   stateName = "New Hampshire",
+//   plants = [
+//     {
+//       plantName: string,
+//       latitude: numbers,
+//       longitude: numbers,
+//       primaryFuel: string,
+//       fuelCategory: string,
+//       annualGeneration: number,
+//       annualCO2: number,
+//       annualCO2perMWH: number
+//     },{
+//       plantName: string,
+//       latitude: numbers,
+//       longitude: numbers,
+//       primaryFuel: string,
+//       fuelCategory: string,
+//       annualGeneration: number,
+//       annualCO2: number,
+//       annualCO2perMWH: number
+//     },{
+//       ...and so on
+//     }
+//   ]
+// }
