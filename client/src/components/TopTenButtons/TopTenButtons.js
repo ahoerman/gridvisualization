@@ -60,8 +60,21 @@ const receiveConsumers = (type) => {
     }
 
   function recieveTotalUS() {
-    console.log("total for US")
-}
+
+    // Update the appropriate state
+    const value = "US";
+
+      API.getStateInfo(value)
+        .then(res => {
+          mapDispatch({
+            type: "RESET"
+          }) 
+        setChosenStates({
+          [value]: res.data
+        })
+      })
+        .catch(err => console.log(err));
+    };
   
 
   const buttons = [
@@ -82,7 +95,7 @@ const receiveConsumers = (type) => {
           {buttons.map(btn => (
               <Button variant="success" class="btn btn-success" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
-          <Button variant="primary" class="btn btn-success" key="US" onClick={() => recieveTotalUS("US")}>Total for US</Button>
+          <Button variant="primary" class="btn btn-success" key="US" onClick={() => recieveTotalUS()}>Total for US</Button>
       </div>
     </div>
 
