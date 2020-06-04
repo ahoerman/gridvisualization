@@ -1,19 +1,1 @@
-.ButtonDiv {
-    float: right;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-  }
 
-  .button {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-  }
-
-  .button:hover {
-    color: #FFFF00;
-    opacity: 0.75;
-  }
-
-  .buttonTitle {
-    margin: 2rem;
-  }

@@ -5,9 +5,9 @@ import API from '../../util/API';
 
 import './toptenbuttons.css';
 import Button from 'react-bootstrap/Button'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+// import ButtonGroup from 'react-bootstrap/ButtonGroup'
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
 import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -70,24 +70,18 @@ const receiveConsumers = (type) => {
     { name: 'Petroleum', icon: faOilCan, apiName: 'Petroleum' },
     { name: 'Coal', icon: faSnowplow, apiName: 'Coal' },
     { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' },
-    { name: 'Reset Colors', icon: faTrashRestoreAlt, apiName: 'Reset'},
+    { name: 'Reset States', icon: faTrashRestoreAlt, apiName: 'Reset'},
+    { name: 'Total for United States', icon: faTrashRestoreAlt, apiName: 'US'},
   ];
 
   return (
-    <div className = "ButtonDiv">
-    <Row>
-      <Col>
-        <Row>
-          <h3 className="buttonTitle"> or click to see the top 10 for each power source</h3>
-        </Row> 
-        <ButtonGroup vertical>
-            {buttons.map(btn => (
-              <Button key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)} className="button"><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
-            ))}
-        </ButtonGroup>
-      </Col>
-    </Row>
-</div>
+    <div>
+      <div class="mt-0 mb-0 ">
+          {buttons.map(btn => (
+              <Button variant="success" class="btn btn-success" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
+          ))}
+      </div>
+    </div>
 
   );
 }
