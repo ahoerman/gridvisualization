@@ -5,19 +5,8 @@ import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
-import Dropdown from "react-bootstrap/Dropdown";
-import API from "../util/API";
-
-const handleStateClick = event => {
-  API.getPlantInfo(event)
-      .then(({ data }) => {
-        console.log(data);
-      })
-      .catch(err => console.log(err));
-  };
-
-// import Dropdown from "react-bootstrap/Dropdown";
 import PowerPlantStateChooser from "./PowerPlantStateChooser"
+
 
 function PowerPlants() {
   return (
@@ -30,23 +19,8 @@ function PowerPlants() {
       <p>
         Select a state from the dropdown below to see a list of power plants in the area.
       </p>
-
-
-        <PowerPlantStateChooser/>>
-        {/* <Dropdown>
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Select A State
-          </Dropdown.Toggle>
-
-          <Dropdown.Menu>
-            <Dropdown.Item eventKey="NH" onSelect={handleStateClick}>New Hampshire</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Maine</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Vermont</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown> */}
-
+        <PowerPlantStateChooser/>
       </div>
-
       <Table striped bordered hover size="sm" className="PowerplantTable">
         <thead>
           <tr>
@@ -60,61 +34,6 @@ function PowerPlants() {
         </thead>
         <tbody>
           <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
-          </tr>
-          <tr>
-            <td>filler data</td>
             <td>filler data</td>
             <td>filler data</td>
             <td>filler data</td>
