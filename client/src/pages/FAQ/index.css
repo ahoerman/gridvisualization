@@ -1,9 +1,17 @@
 .faq {
   background-color: #ffffff; 
   color: #000000;
-  padding: 50px;
   font-family: sans-serif;
-  text-align: left;   
+  text-align: center;
+  justify-content: center;
+}
+
+.faqTitle {
+  margin-top: 2rem;
+}
+
+.energyTab {
+  margin-bottom: 2rem;
 }
 
 .renergy {
