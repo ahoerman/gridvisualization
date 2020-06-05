@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NavBarTop from "../components/Header/NavBarTop";
 import Footer from "../components/Footer/Footer";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
-import PowerPlantStateChooser from "./PowerPlantStateChooser"
+import PowerPlantStateChooser from "../components/PowerPlantStateChooser";
+import API from "../util/API";
 
+// annualCO2: 728754
+// annualCO2perMWH: 2652
+// annualGeneration: 549623
+// fuelCategory: "COAL"
+// latitude: 43.1411
+// longitude: -71.4692
+// plantName: "Merrimack"
+// primaryFuel: "BIT"
 
 function PowerPlants() {
+
+  const [ selectedStateData, setSelectedStateData ] = useState([]);
+
+  const stateForPlant = event => {
+    API.getPlantInfo(event)
+    .then(({ data }) => {
+      console.log(data);
+      setSelectedStateData(data.plants);
+    })
+    .catch(err => console.log(err));
+  }
+
   return (
     <div>
       <NavBarTop />
@@ -19,7 +40,7 @@ function PowerPlants() {
       <p>
         Select a state from the dropdown below to see a list of power plants in the area.
       </p>
-        <PowerPlantStateChooser/>
+        <PowerPlantStateChooser stateForPlant={stateForPlant} />
       </div>
       <Table striped bordered hover size="sm" className="PowerplantTable">
         <thead>
@@ -33,14 +54,16 @@ function PowerPlants() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
+          { selectedStateData.map((eachPlant, i) => (
+          <tr key={eachPlant.plantName+i}>
+            <td>{eachPlant.plantName}</td>
+            <td>{eachPlant.primaryFuel}</td>
+            <td>{eachPlant.annualCO2}</td>
             <td>filler data</td>
             <td>filler data</td>
             <td>filler data</td>
           </tr>
+          ))}
         </tbody>
       </Table>
       </Container>
