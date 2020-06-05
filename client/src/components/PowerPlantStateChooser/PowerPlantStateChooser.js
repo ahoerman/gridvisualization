@@ -2,18 +2,21 @@ import React from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
+import "./style.css";
 
 
 function PowerPlantStateChooser( {stateForPlant} ) {
   
 
     return (
+      <>
         <DropdownButton 
         as = {ButtonGroup}
         variant="success"
         size="lg"
         className="ButtonDropdown" 
-        title="Click on a State to see the Power Plants">
+        title="Select State to View Power Plants">
+          <div className="DropdownMenu">
           <Dropdown.Item as="button" eventKey="AK" className="buttonA" onSelect={stateForPlant}>Alaska</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="AL" className="buttonA" onSelect={stateForPlant}>Alabama</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="AR" className="buttonA" onSelect={stateForPlant}>Arkansas</Dropdown.Item>
@@ -64,7 +67,9 @@ function PowerPlantStateChooser( {stateForPlant} ) {
           <Dropdown.Item as="button" eventKey="WI" className="buttonA" onSelect={stateForPlant}>Wisconsin</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="WV" className="buttonA" onSelect={stateForPlant}>West Virgina</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="WY" className="buttonA" onSelect={stateForPlant}>Wyoming</Dropdown.Item>
-      </DropdownButton>
+          </div>
+          </DropdownButton>
+    </>
     );
   }
   
