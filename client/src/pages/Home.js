@@ -9,7 +9,7 @@ import ChartContextProvider from "../components/contextProviders/ChartContextPro
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
-import NavBarTop from "../../src/components/Header/NavBarTop"
+import NavBarTop from "../components/Navigation/NavBarTop"
 import ScrollUpButton from "react-scroll-up-button";
 
   function Home() {
