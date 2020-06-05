@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import NavBarTop from "../components/Header/NavBarTop";
 import Footer from "../components/Footer/Footer";
 import Table from "react-bootstrap/Table";
@@ -7,6 +7,7 @@ import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
 import PowerPlantStateChooser from "../components/PowerPlantStateChooser";
 import API from "../util/API";
+import _ from "lodash";
 
 function PowerPlants() {
 
@@ -33,6 +34,7 @@ function PowerPlants() {
       </p>
         <PowerPlantStateChooser stateForPlant={stateForPlant} />
       </div>
+      {!(_.isEmpty(selectedStateData)) &&
       <Table striped bordered hover size="sm" className="PowerplantTable">
         <thead>
           <tr>
@@ -59,6 +61,7 @@ function PowerPlants() {
           ))}
         </tbody>
       </Table>
+        }   
       </Container>
       <Footer />
     </div>
