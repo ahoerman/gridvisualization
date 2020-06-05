@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavBarTop from "../components/Header/NavBarTop";
+import NavBarTop from '../../src/components/Navigation/NavBarTop';
 import Footer from "../components/Footer/Footer";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
