@@ -65,7 +65,19 @@ export default class StateDoughnutChart extends React.Component {
                             label: 'Energy Sources',
                             backgroundColor: dataColors,
                             hoverBackgroundColor: [
-                              '#FFFFFF'
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3',
+                              '#DEDFE3'
                             ],
                             data: dataNumbers
                           }
