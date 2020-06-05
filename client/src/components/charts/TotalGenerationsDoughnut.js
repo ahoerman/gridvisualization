@@ -4,45 +4,6 @@ import "./chart.css";
 import ChartContext from "../../Context/ChartContext";
 import _ from "lodash";
 
-// const fakeData = {
-//   "NH": {
-//     stateName:  "New Hampshire",
-//     stateAbbrev:  "NH",
-//     population: "1,234,567",
-//     generation: {
-//       coal: 12,
-//       petroleum: 34,
-//       nuclear: 45,
-//       hydro: 76,
-//       solar: 87,
-//       other: 24,
-//     },
-//     co2emission: {
-//       coal: 123,
-//       petroleum: 456,
-//       naturalGas: 789,
-//     }
-//   },
-//   "ME": {
-//     stateName:  "Maine",
-//     stateAbbrev:  "NH",
-//     population: "1,234,567",
-//     generation: {
-//       coal: 66,
-//       petroleum: 34,
-//       nuclear: 12,
-//       hydro: 34,
-//       solar: 46,
-//       other: 24,
-//     },
-//     co2emission: {
-//       coal: 123,
-//       petroleum: 456,
-//       naturalGas: 789,
-//     }
-//   }
-// }
-
 
 export default class StateDoughnutChart extends React.Component {
   getKeyColor(keyName) {
