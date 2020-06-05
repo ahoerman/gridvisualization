@@ -17,7 +17,7 @@ function PowerPlants() {
     API.getPlantInfo(event)
     .then(({ data }) => {
       console.log(data);
-      setSelectedStateData(data.plants);
+      setSelectedStateData(data);
     })
     .catch(err => console.log(err));
   }
@@ -35,6 +35,8 @@ function PowerPlants() {
         <PowerPlantStateChooser stateForPlant={stateForPlant} />
       </div>
       {!(_.isEmpty(selectedStateData)) &&
+      <>
+      <h2>{selectedStateData.stateName}</h2>
       <Table striped bordered hover size="sm" className="PowerplantTable">
         <thead>
           <tr>
@@ -48,7 +50,7 @@ function PowerPlants() {
           </tr>
         </thead>
         <tbody>
-          { selectedStateData.map((eachPlant, i) => (
+          { selectedStateData.plants.map((eachPlant, i) => (
           <tr key={eachPlant.plantName+i}>
             <td>{eachPlant.plantName}</td>
             <td>{eachPlant.fuelCategory}</td>
@@ -61,6 +63,7 @@ function PowerPlants() {
           ))}
         </tbody>
       </Table>
+      </>
         }   
       </Container>
       <Footer />
