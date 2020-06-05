@@ -2,18 +2,10 @@ import React from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
-import API from "../util/API";
 
 
-function PowerPlantStateChooser() {
-
-  const stateForPlant = event => {
-    API.getPlantInfo(event)
-    .then(({ data }) => {
-      console.log(data);
-    })
-    .catch(err => console.log(err));
-  };
+function PowerPlantStateChooser( {stateForPlant} ) {
+  
 
     return (
         <DropdownButton 
