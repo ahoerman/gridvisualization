@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavBarTop from "../components/Header/NavBarTop";
+import NavBarTop from '../../src/components/Navigation/NavBarTop';
 import Footer from "../components/Footer/Footer";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
@@ -58,7 +58,7 @@ function PowerPlants() {
             <td>{eachPlant.annualGeneration}</td>
             <td>{eachPlant.annualCO2}</td>
             <td>{eachPlant.annualCO2perMWH}</td>
-            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" alt="powerplant location">Location</a></td>
+            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" rel="noopener noreferrer" alt="powerplant location">Location</a></td>
           </tr>
           ))}
         </tbody>

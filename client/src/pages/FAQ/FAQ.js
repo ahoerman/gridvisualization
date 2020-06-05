@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavBarTop from '../../components/Header/NavBarTop';
+import NavBarTop from '../../components/Navigation/NavBarTop';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import ReactPlayer from "react-player"
@@ -172,11 +172,11 @@ function FAQ() {
       <ScrollUpButton />
       <h1 className="faqTitle">Frequently Asked Questions</h1>
       <br></br>
-      <div style={{display: 'flex', justifyContent: 'center'}}>
+      {/* <div style={{display: 'flex', justifyContent: 'center'}}>
         <ReactPlayer
         url="https://www.youtube.com/watch?v=PLBK1ux5b7U" alt="Renewable v. Non-Renewable" 
         />
-      </div>
+      </div> */}
       <br></br>
       <p>
         When people use electricity in their homes, the electrical power may come from a mixture of energy sources. Energy sources can be categorized as renewable (energy source that can be replenished) or non-renewable (an energy source that can't be easily replenished).
@@ -190,6 +190,13 @@ function FAQ() {
       <p>
         Caveat:  In order to present as accurate a picture as possible, we based our statistics on the last data year available for the generated energy and population data, which was 2017.
       </p>
+          <div className="video" style={{ display: 'flex', justifyContent: 'center' }}>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=PLBK1ux5b7U" alt="Renewable v. Non-Renewable"
+            />
+
+    </div>
+    <br></br>
       <>
         <Tabs
           id="controlled-tab-example"
