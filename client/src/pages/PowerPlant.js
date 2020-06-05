@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import NavBarTop from "../components/Navigation/NavBarTop";
+import React, { useState } from "react";
+import NavBarTop from "../components/Header/NavBarTop";
 import Footer from "../components/Footer/Footer";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
@@ -7,6 +7,7 @@ import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
 import PowerPlantStateChooser from "../components/PowerPlantStateChooser";
 import API from "../util/API";
+import _ from "lodash";
 
 function PowerPlants() {
 
@@ -16,7 +17,7 @@ function PowerPlants() {
     API.getPlantInfo(event)
     .then(({ data }) => {
       console.log(data);
-      setSelectedStateData(data.plants);
+      setSelectedStateData(data);
     })
     .catch(err => console.log(err));
   }
@@ -33,6 +34,9 @@ function PowerPlants() {
       </p>
         <PowerPlantStateChooser stateForPlant={stateForPlant} />
       </div>
+      {!(_.isEmpty(selectedStateData)) &&
+      <>
+      <h2>{selectedStateData.stateName}</h2>
       <Table striped bordered hover size="sm" className="PowerplantTable">
         <thead>
           <tr>
@@ -42,11 +46,11 @@ function PowerPlants() {
             <th>Annual Generation</th>
             <th>Annual CO2 Emission</th>
             <th>Annual CO2 Emission/mWh</th>
-            <th>Location (latitude,longitude)</th>
+            <th>Click To See Plant Location</th>
           </tr>
         </thead>
         <tbody>
-          { selectedStateData.map((eachPlant, i) => (
+          { selectedStateData.plants.map((eachPlant, i) => (
           <tr key={eachPlant.plantName+i}>
             <td>{eachPlant.plantName}</td>
             <td>{eachPlant.fuelCategory}</td>
@@ -54,11 +58,13 @@ function PowerPlants() {
             <td>{eachPlant.annualGeneration}</td>
             <td>{eachPlant.annualCO2}</td>
             <td>{eachPlant.annualCO2perMWH}</td>
-            <td>{eachPlant.latitude},{eachPlant.longitude}</td>
+            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" rel="noopener noreferrer" alt="powerplant location">Location</a></td>
           </tr>
           ))}
         </tbody>
       </Table>
+      </>
+        }   
       </Container>
       <Footer />
     </div>

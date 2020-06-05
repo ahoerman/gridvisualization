@@ -1,4 +1,4 @@
-.MainDiv {
+/* .MainDiv {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -8,9 +8,9 @@
     font-size: 1rem;
     background-color: #137547 ;
     margin: .15rem;
-}
+} */
 
-.ButtonDropdown {
+/* .ButtonDropdown {
     font-size: 2rem;
     background-color: #137547 ;
     color: #137547;
@@ -19,13 +19,17 @@
 .Headtext2States {
     text-align: center;
     margin: 1rem;
-}
-
-#dropdown-item-button {
-    max-height: 10rem;
-    overflow-y: scroll;
-  }
-
+} */
+/* 
 .statePicks {
     padding: .5rem;
+} */
+
+.buttonClear {
+    margin-top: 1rem;
+}
+
+.DropdownMenu {
+    height: 300px;
+    overflow-y: scroll;
 }

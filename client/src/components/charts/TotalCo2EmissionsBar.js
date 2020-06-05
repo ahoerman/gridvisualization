@@ -50,17 +50,17 @@ export default function () {
     datasets: [
       {
         label: ["Coal"],
-        backgroundColor: '#E03440',
+        backgroundColor: '#DF2935',
         data: []
       },
       {
         label: ["Natural Gas"],
-        backgroundColor: '#47A973',
+        backgroundColor: '#F56416',
         data: []
       },
       {
         label: ["Petroleum"],
-        backgroundColor: '#3288B5',
+        backgroundColor: '#8F0200',
         data: []
       }
     ],

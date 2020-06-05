@@ -9,27 +9,27 @@ export default class StateDoughnutChart extends React.Component {
   getKeyColor(keyName) {
     switch(keyName) {
       case "Coal":
-        return "#E03440";
+        return "#DF2935";
       case "Hydroelectric Conventional":
-        return "#47A973";
+        return "#3066BE";
       case "Natural Gas":
-        return "#3288B5";
+        return "#F56416";
       case "Other":
         return "#FCD471";
       case "Petroleum":
-        return "#6B1162";
+        return "#8F0200";
       case "Other Biomass":
-        return "#003049";
+        return "#3FA254";
       case "Wind":
-        return "#F75C03";
+        return "#109EE5";
       case "Wood and Wood Derived Fuels":
         return "#AF232B";
       case "Nuclear":
-        return "#327E51";
+        return "#6D435A";
       case "Other Gases":
         return "#23638D";
       case "Solar Thermal and Photovoltaic":
-        return "#D1AA5A";
+        return "#70C1B3";
       case "Pumped Storage":
         return "#792359";
       case "Geothermal":

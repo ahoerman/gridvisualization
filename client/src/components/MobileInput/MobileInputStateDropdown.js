@@ -40,13 +40,13 @@ function MobileInputStateDropdown() {
 
     return (
     <Container fluid>
-      <Container>
         <DropdownButton 
         as = {ButtonGroup}
         variant="success"
         size="lg"
         className="ButtonDropdown" 
-        title="Click on a State or two to see the data">
+        title="Click on a State to see the data">
+           <div className="DropdownMenu">
           <Dropdown.Item as="button" eventKey="US" className="buttonA" onSelect={handleStateClick2}>Total for US</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="AK" className="buttonA" onSelect={handleStateClick2}>Alaska</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="AL" className="buttonA" onSelect={handleStateClick2}>Alabama</Dropdown.Item>        
@@ -98,10 +98,10 @@ function MobileInputStateDropdown() {
           <Dropdown.Item as="button" eventKey="WI" className="buttonA" onSelect={handleStateClick2}>Wisconsin</Dropdown.Item>
           <Dropdown.Item as="button" eventKey="WV" className="buttonA" onSelect={handleStateClick2}>West Virgina</Dropdown.Item>        
           <Dropdown.Item as="button" eventKey="WY" className="buttonA" onSelect={handleStateClick2}>Wyoming</Dropdown.Item>
+          </div>
       </DropdownButton>
       <Button 
         variant="success" size="lg" block as="button" key="XX" className="buttonClear" onClick={clearStates}>Clear the Data</Button>
-        </Container>
     </Container>
     );
   }
