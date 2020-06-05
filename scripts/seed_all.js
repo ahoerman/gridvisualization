@@ -81,7 +81,7 @@ fs.readFile(__dirname + fileLocation + year + "_emission_state.tsv", "utf8", (er
 });
 
 //read and parse plant data
-fs.readFile(__dirname + fileLocation + year + "_plant_test.tsv", "utf8", (err, input) => {
+fs.readFile(__dirname + fileLocation + year + "_plant_all.tsv", "utf8", (err, input) => {
   if (err) {
     console.error(err);
     return;
@@ -163,34 +163,18 @@ const seedMe = async () => {
   }
 
   //fill plant table, save id for later
-  for (const { PSTATABB, PNAME, ORISPL, LAT, LON, PLPRMFL, PLFUELCT, PLNGENAN, PLCO2EQA, PLC2ERTA} of plantData) {
-
-    let annGen = parseInt(PLNGENAN);
-    let co2Eq = parseInt(PLCO2EQA);
-    let co2per = parseInt(PLC2ERTA);
-
-    //can't fill db with blanks, switch to 0
-    if (isNaN(annGen)) { 
-      annGen = 0; 
-    }
-    if (isNaN(co2Eq)) { 
-      co2Eq = 0; 
-    }
-    if (isNaN(co2per)) { 
-      co2per = 0; 
-    }
-
+  for (const { PSTATABB, PNAME, ORISPL, LAT, LON, PLPRMFL, PLFUELCT, PLNGENAN, PLCO2EQA, PLC2ERTA} of plantData) {    
     await db.Plant.create({
       plantName: PNAME,
       StateId: stateInfo[PSTATABB],
       orisNum: ORISPL,
-      latitude: LAT,
-      longitude: LON,
+      latitude: LAT ? LAT : 0.0,
+      longitude: LON ? LON : 0,
       primaryFuel: PLPRMFL,
       fuelCategory: PLFUELCT,
-      annualGeneration: annGen,
-      annualCO2: co2Eq,
-      annualCO2perMWH: co2per
+      annualGeneration: PLNGENAN ? PLNGENAN : 0,
+      annualCO2: PLCO2EQA ? PLCO2EQA : 0,
+      annualCO2perMWH: PLC2ERTA ? PLC2ERTA : 0
     }).then(({ orisNum, id }) => {
       plantInfo[orisNum] = id;
     });

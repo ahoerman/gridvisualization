@@ -8,15 +8,6 @@ import ScrollUpButton from "react-scroll-up-button";
 import PowerPlantStateChooser from "../components/PowerPlantStateChooser";
 import API from "../util/API";
 
-// annualCO2: 728754
-// annualCO2perMWH: 2652
-// annualGeneration: 549623
-// fuelCategory: "COAL"
-// latitude: 43.1411
-// longitude: -71.4692
-// plantName: "Merrimack"
-// primaryFuel: "BIT"
-
 function PowerPlants() {
 
   const [ selectedStateData, setSelectedStateData ] = useState([]);
@@ -46,22 +37,24 @@ function PowerPlants() {
         <thead>
           <tr>
             <th>Plant Name</th>
-            <th>Primary Energy Source</th>
             <th>Fuel Category</th>
+            <th>Primary Fuel Source</th>
             <th>Annual Generation</th>
             <th>Annual CO2 Emission</th>
             <th>Annual CO2 Emission/mWh</th>
+            <th>Location (latitude,longitude)</th>
           </tr>
         </thead>
         <tbody>
           { selectedStateData.map((eachPlant, i) => (
           <tr key={eachPlant.plantName+i}>
             <td>{eachPlant.plantName}</td>
+            <td>{eachPlant.fuelCategory}</td>
             <td>{eachPlant.primaryFuel}</td>
+            <td>{eachPlant.annualGeneration}</td>
             <td>{eachPlant.annualCO2}</td>
-            <td>filler data</td>
-            <td>filler data</td>
-            <td>filler data</td>
+            <td>{eachPlant.annualCO2perMWH}</td>
+            <td>{eachPlant.latitude},{eachPlant.longitude}</td>
           </tr>
           ))}
         </tbody>

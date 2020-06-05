@@ -17,12 +17,10 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
     latitude: {
-      type: DataTypes.FLOAT,
-      allowNull: false
+      type: DataTypes.DOUBLE,
     },
     longitude: {
-      type: DataTypes.FLOAT,
-      allowNull: false
+      type: DataTypes.DOUBLE,
     },
     primaryFuel: {
       type: DataTypes.STRING,
