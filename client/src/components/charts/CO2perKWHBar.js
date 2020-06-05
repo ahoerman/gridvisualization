@@ -22,7 +22,7 @@ export default function () {
       },
       {
         label: ["Petroleum"],
-        backgroundColor: '#AA5042',
+        backgroundColor: '#8F0200',
         data: []
       }
     ],

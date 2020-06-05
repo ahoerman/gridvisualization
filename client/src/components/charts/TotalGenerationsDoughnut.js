@@ -17,7 +17,7 @@ export default class StateDoughnutChart extends React.Component {
       case "Other":
         return "#FCD471";
       case "Petroleum":
-        return "#AA5042";
+        return "#8F0200";
       case "Other Biomass":
         return "#3FA254";
       case "Wind":
