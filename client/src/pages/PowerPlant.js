@@ -42,7 +42,7 @@ function PowerPlants() {
             <th>Annual Generation</th>
             <th>Annual CO2 Emission</th>
             <th>Annual CO2 Emission/mWh</th>
-            <th>Location (latitude,longitude)</th>
+            <th>Click To See Plant Location</th>
           </tr>
         </thead>
         <tbody>
@@ -54,7 +54,7 @@ function PowerPlants() {
             <td>{eachPlant.annualGeneration}</td>
             <td>{eachPlant.annualCO2}</td>
             <td>{eachPlant.annualCO2perMWH}</td>
-            <td>{eachPlant.latitude},{eachPlant.longitude}</td>
+            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" alt="powerplant location">Location</a></td>
           </tr>
           ))}
         </tbody>
