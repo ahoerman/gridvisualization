@@ -8,7 +8,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs ml-auto">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home

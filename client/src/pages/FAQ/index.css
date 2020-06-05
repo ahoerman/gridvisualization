@@ -2,6 +2,13 @@
   background-color: #ffffff; 
   color: #000000;
   font-family: sans-serif;
+  text-align: left;
+  justify-content: center;
+}
+.video {
+  background-color: #ffffff; 
+  color: #000000;
+  font-family: sans-serif;
   text-align: center;
   justify-content: center;
 }
