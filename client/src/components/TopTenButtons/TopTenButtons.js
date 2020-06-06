@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 // import ButtonGroup from 'react-bootstrap/ButtonGroup'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
-import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt } from "@fortawesome/free-solid-svg-icons";
+import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt, faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
@@ -93,9 +93,9 @@ const receiveConsumers = (type) => {
     <div>
       <div class="mt-0 mb-0 ">
           {buttons.map(btn => (
-              <Button variant="success" class="btn btn-success" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
+              <Button variant="success" class="btn btn-success" className="topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
-          <Button variant="primary" class="btn btn-success" key="US" onClick={() => recieveTotalUS()}>Total for US</Button>
+          <Button variant="primary" class="btn btn-success" className="topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
       </div>
     </div>
 

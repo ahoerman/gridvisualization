@@ -10,7 +10,7 @@ function FooterObj() {
     <div className = "footer FooterDiv">
       <div>
       <p className="footercontent">
-        <a href="https://www.appleseedinit.org/" target="_blank" rel="noopener noreferrer">Appleseed Initiative</a>
+        <a href="https://www.appleseedinitiative.org/" target="_blank" rel="noopener noreferrer">Appleseed Initiative </a>
         
           <a href="https://www.facebook.com/Appleseed-Initiative-101798068060276" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faFacebookF } /> </a>
         

@@ -3,15 +3,16 @@
       color: #006837;
   }
 
-p {
+p.HeaderParagraph {
   font-size: 1.2rem;
   color: #006837;
+  margin-bottom: 20px;
 }
-
-
 
 .gridTitle {
   background-color: #FFFFFF;
-    color: #006837;
+  color: #006837;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
