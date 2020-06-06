@@ -9,7 +9,7 @@ export const USAMapReducer = (state, action) => {
                 ...state.mapColors, 
                     [action.stateKey]: {
                 ...state.mapColors[action.stateKey], 
-                fill:  "#FFFF00", 
+                fill:  "#f2cb30", 
                 clicked: true,
             } }
         };
