@@ -42,7 +42,7 @@ const receiveConsumers = (type) => {
             //setting the yellow color for each State
             newMapColors[eachState.data.stateAbbrev] = {
               ...newMapColors[eachState.data.stateAbbrev],
-              fill: "#FFFF00" ,
+              fill: "#f2cb30" ,
               clicked: true
             }
           })
