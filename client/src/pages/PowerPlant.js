@@ -43,9 +43,9 @@ function PowerPlants() {
             <th>Plant Name</th>
             <th>Fuel Category</th>
             <th>Primary Fuel Source</th>
-            <th>Annual Generation</th>
-            <th>Annual CO2 Emission</th>
-            <th>Annual CO2 Emission/mWh</th>
+            <th>Annual Net Generation (mWh)</th>
+            <th>Annual CO2 Emission (tons)</th>
+            <th>Annual CO2 Emission/mWh (lbs/mWh)</th>
             <th>Click To See Plant Location</th>
           </tr>
         </thead>
