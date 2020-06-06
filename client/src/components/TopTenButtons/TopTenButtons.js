@@ -17,13 +17,7 @@ function TopTenButtons() {
   useEffect(() => { console.log(chosenStates) }, [chosenStates]);
 
 const receiveConsumers = (type) => {
-  if (type === "Reset") {
-    setChosenStates({});
-    mapDispatch({
-      type: "RESET"
-    })   
-    return
-  }
+
   API.getTopConsumers(type).then(res => {
 
       let topTenCurrent = res.data;
@@ -77,6 +71,15 @@ const receiveConsumers = (type) => {
     };
   
 
+    function resetStates() {
+      console.log("reset States")
+      setChosenStates({});
+      mapDispatch({
+      type: "RESET"
+    })   
+    return
+    }
+
   const buttons = [
     { name: 'Wind', icon: faWind, apiName: 'Wind' },
     { name: 'Solar', icon: faSun, apiName: 'Solar Thermal and Photovoltaic' },
@@ -85,8 +88,7 @@ const receiveConsumers = (type) => {
     { name: 'Natural Gas', icon: faBurn, apiName: 'Natural Gas' },
     { name: 'Petroleum', icon: faOilCan, apiName: 'Petroleum' },
     { name: 'Coal', icon: faSnowplow, apiName: 'Coal' },
-    { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' },
-    { name: 'Reset States', icon: faTrashRestoreAlt, apiName: 'Reset'}
+    { name: 'Other Biomass', icon: faLeaf, apiName: 'Other Biomass' }
   ];
 
   return (
@@ -96,6 +98,7 @@ const receiveConsumers = (type) => {
               <Button variant="success" class="btn btn-success" className="topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
           <Button variant="primary" class="btn btn-success" className="topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
+          <Button variant="secondary" class="btn btn-secondary" className="topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faChartPie} /> Reset the States</Button>
       </div>
     </div>
 
