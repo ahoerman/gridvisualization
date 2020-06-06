@@ -65,12 +65,12 @@ export default function () {
           options={{
             title: {
               display: true,
-              text: `Total CO2 Emissions Per Total mWh`,
+              text: `CO2 Emissions Per Total mWh`,
               fontSize: 24
             },
             scales: {
               yAxes: [{
-                stacked: true,
+                // stacked: true,
                 ticks: {
                   beginAtZero: true
                 },
@@ -80,7 +80,7 @@ export default function () {
                 }
               }],
               xAxes: [{
-                stacked: true,
+                // stacked: true,
                 ticks: {
                   beginAtZero: true
                 }

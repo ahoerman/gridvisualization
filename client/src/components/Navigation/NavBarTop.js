@@ -7,7 +7,7 @@ import NavTabs from './NavTabs';
 function NavbarTop() {
   return (
     <div className="NavBarDiv">
-      <Navbar expand="lg" bg="dark" variant="dark" className="navbar">
+      <Navbar expand="lg" variant="dark" className="navbar">
         <Navbar.Brand href="#home">
           <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo" />
         </Navbar.Brand>
