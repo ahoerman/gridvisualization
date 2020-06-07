@@ -7,9 +7,9 @@ import NavTabs from './NavTabs';
 function NavbarTop() {
   return (
     <div className="NavBarDiv">
-      <Navbar expand="lg" variant="dark" className="navbar">
+      <Navbar expand="lg" variant="dark" className="navbar navbar-custom">
         <Navbar.Brand href="#home">
-          <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo" />
+          <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo img-fluid" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
