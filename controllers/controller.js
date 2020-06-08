@@ -2,10 +2,6 @@
 
 const db = require("../models");
 
-const resolveToJSON = (sqlzeArr) => {
-  return Promise.resolve(sqlzeArr.map(foo=> foo.toJSON()));
-};
-
 const controller = {
 
   //takes state abbrev, returns corresponding state data as formatted object
@@ -84,7 +80,6 @@ const controller = {
           //console.table(generatedResult);
  
           return Promise.resolve(generatedResult);
-          // return generatedResult;
         });
       }); 
     });
@@ -112,18 +107,6 @@ const controller = {
           "annualCO2perMWH"
         ]
       }).then((plantResult) => {        
-        // const plantInfo = [];
-
-        // for (const { plantName, latitude, longitude, primaryFuel, } of plantResult) {
-        //   console.log(JSON.stringify(row));
-        //   plantInfo.push({
-        //     plantName: plantName,
-        //     latitude: row.,
-        //     longitude: ,
-        //     primaryFuel
-        //   });
-        // }
-
         const generatedResult = {
           stateName: dbState["fullName"],
           plants: plantResult
