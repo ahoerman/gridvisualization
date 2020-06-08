@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import NavBarTop from '../../src/components/Navigation/NavBarTop';
-import Footer from "../components/Footer/Footer";
-import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import "./PowerPlant.css";
 import ScrollUpButton from "react-scroll-up-button";
 import PowerPlantStateChooser from "../components/PowerPlantStateChooser";
+import PowerPlantTable from "../components/PowerPlantTable";
 import API from "../util/API";
 import _ from "lodash";
 
@@ -16,7 +14,7 @@ function PowerPlants() {
   const stateForPlant = event => {
     API.getPlantInfo(event)
     .then(({ data }) => {
-      console.log(data);
+      //console.log(data);
       setSelectedStateData(data);
     })
     .catch(err => console.log(err));
@@ -24,49 +22,22 @@ function PowerPlants() {
 
   return (
     <div>
-      <NavBarTop />
       <Container>
-      <ScrollUpButton />
-      <div className="PowerplantTitle">
-      <h1>Power Plants Page</h1>
-      <p>
-        Select a state from the dropdown below to see a list of power plants in the area.
-      </p>
-        <PowerPlantStateChooser stateForPlant={stateForPlant} />
-      </div>
-      {!(_.isEmpty(selectedStateData)) &&
-      <>
-      <h2>{selectedStateData.stateName}</h2>
-      <Table striped bordered hover size="sm" className="PowerplantTable">
-        <thead>
-          <tr>
-            <th>Plant Name</th>
-            <th>Fuel Category</th>
-            <th>Primary Fuel Source</th>
-            <th>Annual Net Generation (mWh)</th>
-            <th>Annual CO2 Emission (tons)</th>
-            <th>Annual CO2 Emission/mWh (lbs/mWh)</th>
-            <th>Click To See Plant Location</th>
-          </tr>
-        </thead>
-        <tbody>
-          { selectedStateData.plants.map((eachPlant, i) => (
-          <tr key={eachPlant.plantName+i}>
-            <td>{eachPlant.plantName}</td>
-            <td>{eachPlant.fuelCategory}</td>
-            <td>{eachPlant.primaryFuel}</td>
-            <td>{eachPlant.annualGeneration}</td>
-            <td>{eachPlant.annualCO2}</td>
-            <td>{eachPlant.annualCO2perMWH}</td>
-            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" rel="noopener noreferrer" alt="powerplant location">Location</a></td>
-          </tr>
-          ))}
-        </tbody>
-      </Table>
-      </>
+        <ScrollUpButton />
+
+        <div className="PowerplantTitle">
+          <h1>Power Plants Page</h1>
+          <p>
+            Select a state from the dropdown to see a list of power plants in that state.
+          </p>
+            <PowerPlantStateChooser stateForPlant={stateForPlant} />
+        </div>
+        
+        {
+          !(_.isEmpty(selectedStateData)) &&
+          <PowerPlantTable {...selectedStateData} />
         }   
       </Container>
-      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ const controller = require("../controllers/controller");
 router.get("/state", async (req, res) => {
   controller.getStateData(req.query.state)
     .then((result) => {
-        console.log(result);
+        // console.log(result);
         return res.json(result);
     })
     .catch((err) => {
