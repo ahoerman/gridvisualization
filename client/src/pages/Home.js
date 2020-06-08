@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
 import '../App.css';
 import { Container, Row } from 'react-bootstrap';
 import TopTenButtons from '../components/TopTenButtons/TopTenButtons';
@@ -9,14 +8,12 @@ import ChartContextProvider from "../components/contextProviders/ChartContextPro
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
-import NavBarTop from "../components/Navigation/NavBarTop"
 import ScrollUpButton from "react-scroll-up-button";
 
   function Home() {
   const { width} = useWindowSize();
   return (
     <div className="App">
-        <NavBarTop />
       <div class="container-fluid">
         <Header/>
       </div>
@@ -48,7 +45,6 @@ import ScrollUpButton from "react-scroll-up-button";
         </ChartContextProvider>
       </Container>
     </div>
-    <Footer />
     </div>
   );
 }

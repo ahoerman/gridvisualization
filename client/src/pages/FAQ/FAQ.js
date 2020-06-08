@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavBarTop from '../../components/Navigation/NavBarTop';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import ReactPlayer from "react-player"
@@ -16,7 +15,6 @@ import natural from './naturalgas.jpg';
 import petroleum from './petroleum.jpg';
 import ScrollUpButton from "react-scroll-up-button";
 import Container from "react-bootstrap/Container";
-import Footer from "../../components/Footer/Footer";
 
 function renderRenewable() {
   return (
@@ -166,7 +164,6 @@ function FAQ() {
   return (
     
     <>
-    <NavBarTop />
     <Container>
     <div className="faq">
       <ScrollUpButton />
@@ -218,7 +215,6 @@ function FAQ() {
       </>
       </div>
       </Container>
-      <Footer />
       </>
   )
 };
