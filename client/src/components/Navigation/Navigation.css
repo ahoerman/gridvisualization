@@ -1,3 +1,23 @@
 .navbar {
   background-color: rgb(208, 211, 223);
+  color: #006837;
+}
+
+.nav-link {
+  color: #006837;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-custom {
+  background-color: rgb(208, 211, 223);
+  color: #006837;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #006837;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
