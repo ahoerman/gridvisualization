@@ -4,45 +4,6 @@ import "./chart.css";
 import ChartContext from "../../Context/ChartContext";
 import _ from "lodash";
 
-// const fakeData = {
-//   "NH": {
-//     stateName: "New Hampshire",
-//     stateAbbrev: "NH",
-//     population: "1,234,567",
-//     generation: {
-//       coal: 12,
-//       petroleum: 34,
-//       nuclear: 45,
-//       hydro: 76,
-//       solar: 87,
-//       other: 24,
-//     },
-//     co2emission: {
-//       coal: 123,
-//       petroleum: 456,
-//       naturalGas: 789,
-//     }
-//   },
-//   "ME": {
-//     stateName: "Maine",
-//     stateAbbrev: "ME",
-//     population: "1,234,567",
-//     generation: {
-//       coal: 66,
-//       petroleum: 34,
-//       nuclear: 12,
-//       hydro: 34,
-//       solar: 46,
-//       other: 24,
-//     },
-//     co2emission: {
-//       coal: 50,
-//       petroleum: 70,
-//       naturalGas: 90,
-//     }
-//   }
-// }
-
 export default function () {
   const chartContext = useContext(ChartContext);
   const initialState = () => ({
@@ -75,7 +36,7 @@ export default function () {
       dataObject.datasets[1].data.push(chartContext.chosenStates[eachState].co2emission["Natural Gas"]);
       dataObject.datasets[2].data.push(chartContext.chosenStates[eachState].co2emission.Petroleum);
     });
-    console.log(dataObject);
+    // console.log(dataObject);
     setChartData(dataObject);
   }
 

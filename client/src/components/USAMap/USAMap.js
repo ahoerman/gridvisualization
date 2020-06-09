@@ -7,8 +7,8 @@ import API from "../../util/API";
 const USAMap = () => {
 
   const { setChosenStates, chosenStates, mapState, mapDispatch } = useContext(ChartContext);
-  useEffect(() => { console.log(chosenStates) }, [chosenStates]);
-  useEffect(() => console.log(mapState), [mapState] )
+  useEffect(() => {}, [chosenStates]);
+  useEffect(() => {}, [mapState]);
 
   const handleStateClick = event => {
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
 import '../App.css';
 import { Container, Row } from 'react-bootstrap';
 import TopTenButtons from '../components/TopTenButtons/TopTenButtons';
@@ -9,31 +8,29 @@ import ChartContextProvider from "../components/contextProviders/ChartContextPro
 import USAMap from '../components/USAMap';
 import useWindowSize from "../hooks/useWindowSize";
 import ChartContainer from "../components/ChartContainer";
-import NavBarTop from "../components/Navigation/NavBarTop"
 import ScrollUpButton from "react-scroll-up-button";
 
   function Home() {
   const { width} = useWindowSize();
   return (
     <div className="App">
-        <NavBarTop />
-      <div class="container-fluid">
+      <div className="container-fluid">
         <Header/>
       </div>
-      <div class="container-lg">
+      <div className="container-lg">
       <ScrollUpButton />
       <Container fluid>
         <ChartContextProvider>
         <>
         { width > 750 ? 
-        <div class="container-lg">
-          <div class="row mx-auto">
-            <div class="col-12 col-md-10">
+        <div className="container-lg">
+          <div className="row mx-auto">
+            <div className="col-12 col-md-10">
               <TopTenButtons />
             </div>
           </div>
-          <div class="row mx-auto">
-            <div class="col-12 col-md-10 ">
+          <div className="row mx-auto">
+            <div className="col-12 col-md-10 ">
               <USAMap/>
             </div>
           </div>
@@ -48,7 +45,6 @@ import ScrollUpButton from "react-scroll-up-button";
         </ChartContextProvider>
       </Container>
     </div>
-    <Footer />
     </div>
   );
 }

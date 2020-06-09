@@ -8,20 +8,20 @@ import Button from 'react-bootstrap/Button'
 // import ButtonGroup from 'react-bootstrap/ButtonGroup'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
-import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faTrashRestoreAlt, faChartPie } from "@fortawesome/free-solid-svg-icons";
+import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
 
   const { setChosenStates, chosenStates, mapDispatch } = useContext(ChartContext);
-  useEffect(() => { console.log(chosenStates) }, [chosenStates]);
+  useEffect(() => {}, [chosenStates]);
 
 const receiveConsumers = (type) => {
 
   API.getTopConsumers(type).then(res => {
 
       let topTenCurrent = res.data;
-      console.log(topTenCurrent); 
+      // console.log(topTenCurrent); 
 
     //making an array of the top ten state abbreviations then doing all ten API requests
     const topTenAbbrev = topTenCurrent.map( ( currentStateObj ) => API.getStateInfo(currentStateObj.abbrev))
@@ -40,7 +40,7 @@ const receiveConsumers = (type) => {
               clicked: true
             }
           })
-          console.log(chosenTenStates);
+          // console.log(chosenTenStates);
 
           setChosenStates( chosenTenStates)
 
@@ -72,7 +72,7 @@ const receiveConsumers = (type) => {
   
 
     function resetStates() {
-      console.log("reset States")
+      // console.log("reset States")
       setChosenStates({});
       mapDispatch({
       type: "RESET"
@@ -93,12 +93,12 @@ const receiveConsumers = (type) => {
 
   return (
     <div>
-      <div class="mt-0 mb-0 ">
+      <div className="mt-0 mb-0 ">
           {buttons.map(btn => (
-              <Button variant="success" class="btn btn-success" className="topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
+              <Button variant="success" className="btn btn-success topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
-          <Button variant="primary" class="btn btn-success" className="topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
-          <Button variant="secondary" class="btn btn-secondary" className="topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faChartPie} /> Reset the States</Button>
+          <Button variant="success" className="btn btn-success topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
+          <Button variant="secondary" className="btn btn-secondary topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faChartPie} /> Reset the States</Button>
       </div>
     </div>
 

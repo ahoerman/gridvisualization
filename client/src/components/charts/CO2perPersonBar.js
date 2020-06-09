@@ -36,7 +36,6 @@ export default function () {
       dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) / (chartContext.chosenStates[eachState].population));
       dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) / (chartContext.chosenStates[eachState].population));
     });
-    console.log(dataObject);
     setChartData(dataObject);
   }
 
