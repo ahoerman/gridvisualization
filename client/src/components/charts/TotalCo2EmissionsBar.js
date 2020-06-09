@@ -23,6 +23,16 @@ export default function () {
         label: ["Petroleum"],
         backgroundColor: '#8F0200',
         data: []
+      },
+      {
+        label: ["Other"],
+        backgroundColor: '#FCD471',
+        data: []
+      },
+      {
+        label: ["Geothermal"],
+        backgroundColor: '#00233D',
+        data: []
       }
     ],
   })
@@ -30,11 +40,14 @@ export default function () {
 
   const buildData = () => {
     const dataObject = initialState();
+    // console.log(chartContext.chosenStates);
     Object.keys(chartContext.chosenStates).map(eachState => {
       dataObject.labels.push(eachState);
       dataObject.datasets[0].data.push(chartContext.chosenStates[eachState].co2emission.Coal);
       dataObject.datasets[1].data.push(chartContext.chosenStates[eachState].co2emission["Natural Gas"]);
       dataObject.datasets[2].data.push(chartContext.chosenStates[eachState].co2emission.Petroleum);
+      dataObject.datasets[3].data.push(chartContext.chosenStates[eachState].co2emission.Other);
+      dataObject.datasets[4].data.push(chartContext.chosenStates[eachState].co2emission.Geothermal);
     });
     // console.log(dataObject);
     setChartData(dataObject);
