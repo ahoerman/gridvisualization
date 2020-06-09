@@ -1,8 +1,8 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 
-function SingleTabTable({ plants}) {
-  console.log(plants);
+function SingleTable({ plants }) {
+  // console.log(`plants: ${plants}`);
   return (
     <>
       <Table responsive striped bordered hover size="sm" className="PowerplantTable">
@@ -34,4 +34,4 @@ function SingleTabTable({ plants}) {
     </>
   );
 }
-export default SingleTabTable;
+export default SingleTable;
