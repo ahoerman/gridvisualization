@@ -26,7 +26,7 @@ function SingleTable({ plants }) {
             <td>{eachPlant.annualGeneration}</td>
             <td>{eachPlant.annualCO2}</td>
             <td>{eachPlant.annualCO2perMWH}</td>
-            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" rel="noopener noreferrer" alt="powerplant location">Location</a></td>
+            <td><a href={`https://maps.google.com/?q=${eachPlant.latitude},${eachPlant.longitude}`} target="_blank" rel="noopener noreferrer" alt={`Location of ${eachPlant.plantName}`}>Location</a></td>
           </tr>
         ))}
       </tbody>

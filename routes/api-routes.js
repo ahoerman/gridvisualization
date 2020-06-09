@@ -18,7 +18,7 @@ router.get("/state", async (req, res) => {
 router.get("/plant", async (req, res) => {
   controller.getPlantData(req.query.state)
     .then((result) => {
-        console.log(result);
+        // console.log(result);
         return res.json(result);
     })
     .catch((err) => {

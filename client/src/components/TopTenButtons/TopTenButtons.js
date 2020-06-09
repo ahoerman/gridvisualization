@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 // import ButtonGroup from 'react-bootstrap/ButtonGroup'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
-import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faChartPie } from "@fortawesome/free-solid-svg-icons";
+import { faWind, faSun, faWater, faAtom, faBurn, faSnowplow, faOilCan, faLeaf, faUndoAlt, faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopTenButtons() {
@@ -97,8 +97,8 @@ const receiveConsumers = (type) => {
           {buttons.map(btn => (
               <Button variant="success" className="btn btn-success topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
-          <Button variant="success" className="btn btn-success topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
-          <Button variant="secondary" className="btn btn-secondary topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faChartPie} /> Reset the States</Button>
+          <Button variant="primary" className="btn btn-primary topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
+          <Button variant="secondary" className="btn btn-secondary topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faUndoAlt} /> Reset the States</Button>
       </div>
     </div>
 
