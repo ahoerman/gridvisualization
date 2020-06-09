@@ -9,7 +9,7 @@ function NavbarTop() {
     <div className="NavBarDiv">
       <Navbar expand="lg" variant="dark" className="navbar navbar-custom">
         <Navbar.Brand href="#home">
-          <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo img-fluid" />
+          <a href="/" alt="navbar logo link to homepage"><img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo img-fluid" /></a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
