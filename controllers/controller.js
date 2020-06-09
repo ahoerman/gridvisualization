@@ -112,8 +112,7 @@ const controller = {
           plants: plantResult
         }
         
-        console.table(generatedResult);
-
+        // console.table(generatedResult);
         return Promise.resolve(generatedResult);
 
       }); 
