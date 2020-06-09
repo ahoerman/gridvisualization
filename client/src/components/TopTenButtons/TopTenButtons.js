@@ -97,7 +97,7 @@ const receiveConsumers = (type) => {
           {buttons.map(btn => (
               <Button variant="success" className="btn btn-success topTenButton" key={btn.apiName} onClick={() => receiveConsumers(btn.apiName)}><FontAwesomeIcon icon={btn.icon} /> {btn.name}</Button>
           ))}
-          <Button variant="success" className="btn btn-success topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
+          <Button variant="primary" className="btn btn-primary topTenButton" key="US" onClick={() => recieveTotalUS()}><FontAwesomeIcon icon={faChartPie} /> Total for US</Button>
           <Button variant="secondary" className="btn btn-secondary topTenButton" key="RS" onClick={() => resetStates()}><FontAwesomeIcon icon={faChartPie} /> Reset the States</Button>
       </div>
     </div>
