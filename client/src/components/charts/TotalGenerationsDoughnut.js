@@ -45,7 +45,7 @@ export default class StateDoughnutChart extends React.Component {
           <div className="StateDoughnutChart">
             {!(_.isEmpty(value.chosenStates)) &&
               Object.keys(value.chosenStates).map((eachState, i) => {
-                console.log(eachState, i)
+                // console.log(eachState, i)
                 const dataLabels = Object.keys(value.chosenStates[eachState].generation).sort();
                 const dataNumbers = [];
                 const dataColors = [];
@@ -53,7 +53,7 @@ export default class StateDoughnutChart extends React.Component {
                   dataNumbers.push(value.chosenStates[eachState].generation[key]);
                   dataColors.push(this.getKeyColor(key));
                 });
-                console.log(dataColors);
+                // console.log(dataColors);
                 return (
                   <Doughnut
                     key={value.chosenStates[eachState].stateName}

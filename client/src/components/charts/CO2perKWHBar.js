@@ -38,13 +38,11 @@ export default function () {
       dataLabels.forEach(key => {
         totalGenerationNum += chartContext.chosenStates[eachState].generation[key];
       });
-      console.log(totalGenerationNum);
       dataObject.labels.push(eachState);
       dataObject.datasets[0].data.push((chartContext.chosenStates[eachState].co2emission.Coal) / totalGenerationNum);
       dataObject.datasets[1].data.push((chartContext.chosenStates[eachState].co2emission["Natural Gas"]) / totalGenerationNum);
       dataObject.datasets[2].data.push((chartContext.chosenStates[eachState].co2emission.Petroleum) / totalGenerationNum);
     });
-    console.log(dataObject);
     setChartData(dataObject);
   }
 

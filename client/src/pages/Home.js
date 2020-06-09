@@ -14,23 +14,23 @@ import ScrollUpButton from "react-scroll-up-button";
   const { width} = useWindowSize();
   return (
     <div className="App">
-      <div class="container-fluid">
+      <div className="container-fluid">
         <Header/>
       </div>
-      <div class="container-lg">
+      <div className="container-lg">
       <ScrollUpButton />
       <Container fluid>
         <ChartContextProvider>
         <>
         { width > 750 ? 
-        <div class="container-lg">
-          <div class="row mx-auto">
-            <div class="col-12 col-md-10">
+        <div className="container-lg">
+          <div className="row mx-auto">
+            <div className="col-12 col-md-10">
               <TopTenButtons />
             </div>
           </div>
-          <div class="row mx-auto">
-            <div class="col-12 col-md-10 ">
+          <div className="row mx-auto">
+            <div className="col-12 col-md-10 ">
               <USAMap/>
             </div>
           </div>
