@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button'
 function MobileInputStateDropdown() {
 
   const { setChosenStates, chosenStates } = useContext(ChartContext);
-  useEffect(() => { console.log(chosenStates) }, [chosenStates]);
+  useEffect(() => {}, [chosenStates]);
 
   const clearStates = event => {
     const clearChosenStates = {};
