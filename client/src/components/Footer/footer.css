@@ -1,11 +1,7 @@
 .FooterDiv {
-    background-color: #f2f2f2;
     height: 4rem;
     text-align: center;
     justify-content: center;
+    padding-left: 30px;
+    display: inline-block;
   }
-
-.footercontent {
-  padding-top: 1rem;
-  color: #a0a0a0;
-}
