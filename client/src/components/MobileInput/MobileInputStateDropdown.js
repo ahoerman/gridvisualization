@@ -99,7 +99,7 @@ function MobileInputStateDropdown() {
           </div>
       </DropdownButton>
       <Button 
-        variant="success" size="lg" block as="button" key="XX" className="buttonClear" onClick={clearStates}>Clear the Data</Button>
+        variant="success" size="lg" as="button" key="XX" className="buttonClear" onClick={clearStates}>Clear the Data</Button>
     </Container>
     );
   }
