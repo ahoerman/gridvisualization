@@ -20,7 +20,7 @@ function NavbarTop() {
           <img src={AppleseedInitiativeRingTextLogo2} alt="Appleseed Logo" className="headerLogo img-fluid" />
         </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-hamburger" />
         <Navbar.Collapse id="basic-navbar-nav">
         <NavTabs />
         </Navbar.Collapse>
