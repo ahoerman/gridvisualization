@@ -14,6 +14,10 @@
   color: #006837;
 }
 
+.navbar-hamburger {
+  background-color: #006837 !important;
+}
+
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {

@@ -68,7 +68,7 @@ export default function () {
             },
             scales: {
               yAxes: [{
-                // stacked: true,
+                stacked: true,
                 ticks: {
                   beginAtZero: true
                 },
@@ -78,7 +78,7 @@ export default function () {
                 }
               }],
               xAxes: [{
-                // stacked: true,
+                stacked: true,
                 ticks: {
                   beginAtZero: true
                 }
