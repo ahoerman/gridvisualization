@@ -21,7 +21,7 @@ function Header() {
     </Row> 
       <div className = "row HeaderDiv">    
         <p className="HeaderParagraph">The first step towards a clean power grid is understanding where we are today and where we need to go in the years to come. A list of Power plants per state is available through our Power Plants page. For more information on renewable and non-renewable energy sources, please visit our FAQs.</p>
-        <p className="HeaderParagraph"><strong> Click on the States to generate charts or Click on a Top Ten Button to see the 10 highest producers per capita per source.</strong></p>
+        <p className="HeaderParagraph"><strong> Click one or more states to see how their energy is generated or click on one of the buttons to see the top 10 highest producers per capita of that energy type.</strong></p>
       </div>
     </Container>
     :
