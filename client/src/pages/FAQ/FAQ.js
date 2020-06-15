@@ -163,7 +163,7 @@ function renderSources() {
   )
 }
 function FAQ() {
-  const [key, setKey] = useState('renewable');
+  const [key, setKey] = useState('sources');
   return (
     
     <>
