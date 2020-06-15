@@ -144,6 +144,9 @@ function renderSources() {
         <a href="https://www.youtube.com/watch?v=PLBK1ux5b7U" target="_blank" rel="noopener noreferrer">Difference between Renewable and Nonrenewable Resources. (2019). Retrieved from youtube.com/watch?v=PLBK1ux5b7</a>
       </p>
       <p>
+        <a href="https://www.eia.gov/electricity/annual/" target="_blank" rel="noopener noreferrer">Electric Power Annual With Data for 2018. Retrieved from https://www.eia.gov/electricity/annual/."</a>
+      </p>   
+      <p>
         <a href="https://www.nationalgeographic.org/encyclopedia/non-renewable-energy/#:~:text=Non-renewable" target="_blank" rel="noopener noreferrer">National Geographic Society. (2013, February 14). non-renewable energy. Retrieved from energy comes from sources that will run out,main element in fossil fuels."</a>
       </p>
       <p>
